@@ -11,17 +11,9 @@ alias vim="nvim"
 dcmvcl() {
   current_dir=$(pwd)
   chdir "/home/kaios/dotfiles"
-  sudo "/home/kaios/dotfiles/script.sh"
+  sudo /home/kaios/dotfiles/script.sh
+  chdir $current_dir
 }
-
-# sync_dotfile() {
-  # cwd=$(pwd)
-  # chdir "/home/kaios/dotfiles"
-  # pwd
-  # sudo /home/kaios/dotfiles/script.sh
-  # chdir $cwd
-# }
-
 
 # change dir and list file
 cl() {
