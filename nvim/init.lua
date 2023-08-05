@@ -1,3 +1,4 @@
+-- A
 require "vimg"
 
 --    :help lazy.nvim.txt for more info
@@ -167,33 +168,33 @@ require('lazy').setup({
     end,
   },
 
-  {
-    'akinsho/bufferline.nvim',
-    version = "*",
-    dependencies = 'nvim-tree/nvim-web-devicons',
-    config = function()
-      require('bufferline').setup {
-        options = {
-          -- style_preset = require('bufferline').style_preset.minimal,
-          diagnostics = "nvim_lsp",
-          offsets = {
-            {
-              filetype = "neo-tree",
-              text = "File Explorer",
-              text_align = "center",
-              separator = true,
-            }
-          },
-          hover = {
-            reveal = { 'close' }
-          },
-          -- separator_style = "slant" | "slope" | "thick" | "thin" | { 'any', 'any' },
-          separator_style = "think",
-        },
-
-      }
-    end,
-  },
+  -- {
+  --   'akinsho/bufferline.nvim',
+  --   version = "*",
+  --   dependencies = 'nvim-tree/nvim-web-devicons',
+  --   config = function()
+  --     require('bufferline').setup {
+  --       options = {
+  --         -- style_preset = require('bufferline').style_preset.minimal,
+  --         diagnostics = "nvim_lsp",
+  --         offsets = {
+  --           {
+  --             filetype = "neo-tree",
+  --             text = "File Explorer",
+  --             text_align = "center",
+  --             separator = true,
+  --           }
+  --         },
+  --         hover = {
+  --           reveal = { 'close' }
+  --         },
+  --         -- separator_style = "slant" | "slope" | "thick" | "thin" | { 'any', 'any' },
+  --         separator_style = "think",
+  --       },
+  --
+  --     }
+  --   end,
+  -- },
 
   {
     "NvChad/nvterm",
@@ -637,9 +638,10 @@ vim.keymap.set('n', '<leader>nl', '<cmd>Neotree left toggle %:p:h:h<cr>', { sile
 vim.keymap.set('n', '<leader>nr', '<cmd>Neotree right toggle %:p:h:h<cr>', { silent = true, desc = 'Toggle neo tree' })
 vim.keymap.set('n', '<leader>n', '<cmd>Neotree float toggle %:p:h:h<cr>', { silent = true, desc = 'Toggle neo tree' })
 -- mapping
-vim.keymap.set('n', '<tab>', '<cmd>BufferLineCycleNext<cr>', { desc = 'Buffline Next' })
-vim.keymap.set('n', '<S-tab>', '<cmd>BufferLineCyclePrev<cr>', { desc = 'Buffline Prev' })
-vim.keymap.set('n', '<leader>x', '<cmd>BufferLinePickClose<cr>', { desc = 'Buffline Close' })
+-- vim.keymap.set('n', '<tab>', '<cmd>BufferLineCycleNext<cr>', { desc = 'Buffline Next' })
+-- vim.keymap.set('n', '<S-tab>', '<cmd>BufferLineCyclePrev<cr>', { desc = 'Buffline Prev' })
+-- vim.keymap.set('n', '<leader>x', '<cmd>BufferLinePickClose<cr>', { desc = 'Buffline Close' })
+
 vim.keymap.set('n', 'x', '"_x')
 
 -- Increment/decrement
@@ -662,3 +664,7 @@ vim.keymap.set('n', '<C-l>', '<cmd> TmuxNavigateRight<CR>', { desc = 'tmux navig
 vim.keymap.set('n', '<C-k>', '<cmd> TmuxNavigateUp<CR>', { desc = 'tmux navigate up' })
 vim.keymap.set('n', '<C-j>', '<cmd> TmuxNavigateDown<CR>', { desc = 'tmux navigate down' })
 vim.keymap.set('n', ';', ':')
+
+-- sync arch clipboard
+vim.keymap.set('n', 'y', '"+y')
+--vim.keymap.set('n', 'p', '"+p')

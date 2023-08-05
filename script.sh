@@ -1,0 +1,41 @@
+#! /bin/bash
+
+source_files=(
+	"/home/kaios/.zshrc"
+	"/home/kaios/.config/alacritty/"
+	"/home/kaios/.config/nvim/"
+	"/home/kaios/.config/tmux/"
+	"/home/kaios/.config/i3/"
+	"/home/kaios/.config/polybar/"
+	"/home/kaios/.config/picom/"
+	"/home/kaios/.config/rofi/"
+	"/home/kaios/.config/neofetch/"
+	"/home/kaios/.config/dunst/"
+	)
+des="/home/kaios/dotfiles"
+
+
+function copy() {
+	for dir in ${source_files[@]}; do 
+		cp -rp $dir $des
+	done
+}
+
+copy
+
+read -p "Commit message: " desc
+	case $desc in
+		n | N | No | no | "") 
+			echo "You should up git"
+			;;
+		*) 
+			current_dir=$(pwd)
+			cd /home/kaios/dotfiles
+			git add .
+			git commit -m "$desc"
+			git push origin maser
+			echo "cd $current_dir"
+			;;
+	esac
+
+

@@ -1,10 +1,11 @@
 -- default
+
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.opt.termguicolors = true
 -- staline setting
 vim.opt.laststatus = 2
-vim.opt.showtabline = 2
+vim.opt.showtabline = 0
 -- nvim  tree setting
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1

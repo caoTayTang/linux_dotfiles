@@ -1,9 +1,20 @@
+#HI
 #NOTE: Set aliases
 alias cd="z"
 alias zz="z "
 alias ll="exa -lah --icons"
 alias cls="clear"
 alias ls="exa"
+alias vi="nvim"
+alias vim="nvim"
+
+sync_dotfile() {
+  cwd=$(pwd)
+  chdir "/home/kaios/dotfiles"
+  pwd
+  # sudo /home/kaios/dotfiles/script.sh
+  # chdir $cwd
+}
 # change dir and list file
 # cd() {
 #   z "$1"
@@ -22,7 +33,6 @@ run() {
   fi
 
   ls "$1" | entr -c sh -c "g++ -o ${1:r} $1 && ./${1:r}"
-  echo # Print a newline after the execution
 }
 
 #NOTE: ENV declaration
@@ -83,8 +93,6 @@ plugins=(
 
 # NOTE: Launch at start
 
-#launch ibus-deamon if it not lauch
-pidof ibus-daemon > /dev/null || ibus-daemon -drx
 
 #run ohmyzsh config
 source $ZSH/oh-my-zsh.sh

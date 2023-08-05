@@ -68,3 +68,21 @@ live_config_reload: true
 key_bindings:
   - { key: Return,   mods: Control|Shift, action: SpawnNewInstance }
 
+
+# mouse:
+#   hints:
+#     mods: Control
+#     #
+#     #https:google.com
+#     # Default:
+#     #   - (macOS) open
+#     #   - (Linux) xdg-open
+#     #   - (Windows) explorer
+hints:
+  enabled:
+    - regex: "(mailto:|gemini:|gopher:|https:|http:|news:|file:|git:|ssh:|ftp:)[^\u0000-\u001F\u007F-\u009F<>\" {-}\\^⟨⟩`]+"
+      command: xdg-open
+      post_processing: true
+      mouse:
+        enabled: true
+        mods: Control|Shift
