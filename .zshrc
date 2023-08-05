@@ -8,18 +8,22 @@ alias ls="exa"
 alias vi="nvim"
 alias vim="nvim"
 
-sync_dotfile() {
-  cwd=$(pwd)
+dcmvcl() {
+  current_dir=$(pwd)
   chdir "/home/kaios/dotfiles"
-  pwd
+  sudo "/home/kaios/dotfiles/script.sh"
+}
+
+# sync_dotfile() {
+  # cwd=$(pwd)
+  # chdir "/home/kaios/dotfiles"
+  # pwd
   # sudo /home/kaios/dotfiles/script.sh
   # chdir $cwd
-}
-# change dir and list file
-# cd() {
-#   z "$1"
 # }
 
+
+# change dir and list file
 cl() {
   local target_dir="${1:-.}"
   chdir "$target_dir" && exa -lah --icons;

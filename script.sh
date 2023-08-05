@@ -16,7 +16,7 @@ des="/home/kaios/dotfiles"
 
 
 function copy() {
-	for dir in ${source_files[@]}; do 
+	for dir in "${source_files[@]}"; do 
 		cp -rp $dir $des
 	done
 }
@@ -29,12 +29,9 @@ read -p "Commit message: " desc
 			echo "You should up git"
 			;;
 		*) 
-			current_dir=$(pwd)
-			cd /home/kaios/dotfiles
 			git add .
 			git commit -m "$desc"
-			git push origin maser
-			echo "cd $current_dir"
+			git push origin master
 			;;
 	esac
 
