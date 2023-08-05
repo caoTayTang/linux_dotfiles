@@ -12,7 +12,7 @@ dcmvcl() {
   current_dir=$(pwd)
   chdir "/home/kaios/dotfiles"
   sudo /home/kaios/dotfiles/script.sh
-  chdir $current_dir
+  # chdir $current_dir
 }
 
 # change dir and list file
