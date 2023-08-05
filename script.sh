@@ -17,7 +17,7 @@ des="/home/kaios/dotfiles"
 
 function copy() {
 	for dir in "${source_files[@]}"; do 
-		cp -rp $dir $des
+		sudo cp -rp $dir $des
 	done
 }
 
@@ -31,7 +31,6 @@ read -p "Commit message: " desc
 		*) 
 			git add .
 			git commit -m "$desc"
-			git push origin main
 			;;
 	esac
 

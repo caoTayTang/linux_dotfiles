@@ -8,11 +8,11 @@ alias ls="exa"
 alias vi="nvim"
 alias vim="nvim"
 
-dcmvcl() {
+sync_dot_files() {
   current_dir=$(pwd)
   chdir "/home/kaios/dotfiles"
-  sudo /home/kaios/dotfiles/script.sh
-  # chdir $current_dir
+  /home/kaios/dotfiles/script.sh
+  chdir $current_dir
 }
 
 # change dir and list file
