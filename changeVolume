@@ -1,0 +1,35 @@
+#!/bin/bash
+# changeVolume
+
+# Arbitrary but unique message tag
+msgTag="myvolume"
+
+
+volume="$(amixer get Master | tail -1 | awk '{print $4}' | sed 's/[^0-9]*//g')"
+mute="$(amixer get Master | tail -1 | awk '{print $6}' | sed 's/[^a-z]*//g')"
+
+temp="$@"
+# Change the volume using alsa(might differ if you use pulseaudio)
+if [[ "$temp" == "mute_toggle" ]]; then
+    echo "$mute"
+    if [[ "$mute" == "off" ]]; then
+        temp="unmute"
+    else
+        temp="mute"
+    fi
+fi
+    
+amixer sset Master "$temp" > /dev/null
+
+# Query amixer for the current volume and whether or not the speaker is muted
+if [[ $volume == 0 || "$temp" == "mute" ]]; then
+    # Show the sound muted notification
+    dunstify -a "changeVolume" -u low -i audio-volume-muted -h string:x-dunst-stack-tag:$msgTag "Volume muted" 
+else
+    # Show the volume notification
+    dunstify -a "changeVolume" -u low -i audio-volume-high -h string:x-dunst-stack-tag:$msgTag \
+        -h int:value:"$volume" "Volume: $((volume*100/65536))%"
+fi
+
+# Play the volume changed sound
+canberra-gtk-play -i audio-volume-change -d "changeVolume"

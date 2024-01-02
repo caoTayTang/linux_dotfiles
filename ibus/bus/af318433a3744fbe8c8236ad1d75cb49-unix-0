@@ -3,5 +3,5 @@
 # ibus session bus with the below address.
 # If the IBUS_ADDRESS environment variable is set, it will
 # be used rather than this file.
-IBUS_ADDRESS=unix:path=/home/kaios/.cache/ibus/dbus-6F9VcRcW,guid=963eacee3285684e7499c15665935571
-IBUS_DAEMON_PID=608
+IBUS_ADDRESS=unix:path=/home/kaios/.cache/ibus/dbus-9kpS4OCd,guid=a51cbc0104718ff94d4234fb659377ce
+IBUS_DAEMON_PID=590

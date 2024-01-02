@@ -1,8 +1,3 @@
-2024/01/02-00:11:30.975 4 Reusing MANIFEST /home/kaios/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2024/01/02-00:11:30.977 4 Recovering log #794
-2024/01/02-00:11:30.979 4 Level-0 table #798: started
-2024/01/02-00:11:30.985 4 Level-0 table #798: 39193 bytes OK
-2024/01/02-00:11:30.994 4 Delete type=0 #794
-2024/01/02-00:19:13.201 4 Level-0 table #801: started
-2024/01/02-00:19:13.210 4 Level-0 table #801: 38698 bytes OK
-2024/01/02-00:19:13.215 4 Delete type=0 #799
+2024/01/02-09:44:15.063 4 Reusing MANIFEST /home/kaios/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2024/01/02-09:44:15.067 4 Recovering log #840
+2024/01/02-09:44:15.069 4 Reusing old log /home/kaios/.config/google-chrome/Default/Local Storage/leveldb/000840.log 

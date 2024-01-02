@@ -1,3 +1,3 @@
-2024/01/02-07:14:47.546 4e8 Reusing MANIFEST /home/kaios/.config/google-chrome/Default/IndexedDB/chrome-extension_oeopbcgkkoapgobdbedcemjljbihmemj_0.indexeddb.leveldb/MANIFEST-000001
-2024/01/02-07:14:47.546 4e8 Recovering log #31
-2024/01/02-07:14:47.630 4e8 Reusing old log /home/kaios/.config/google-chrome/Default/IndexedDB/chrome-extension_oeopbcgkkoapgobdbedcemjljbihmemj_0.indexeddb.leveldb/000031.log 
+2024/01/02-10:15:31.818 1ce49 Reusing MANIFEST /home/kaios/.config/google-chrome/Default/IndexedDB/chrome-extension_oeopbcgkkoapgobdbedcemjljbihmemj_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/02-10:15:31.819 1ce49 Recovering log #35
+2024/01/02-10:15:31.835 1ce49 Reusing old log /home/kaios/.config/google-chrome/Default/IndexedDB/chrome-extension_oeopbcgkkoapgobdbedcemjljbihmemj_0.indexeddb.leveldb/000035.log 

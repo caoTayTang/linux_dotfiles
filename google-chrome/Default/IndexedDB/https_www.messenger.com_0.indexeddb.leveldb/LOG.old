@@ -1,3 +1,3 @@
-2024/01/01-23:48:56.108 51765 Reusing MANIFEST /home/kaios/.config/google-chrome/Default/IndexedDB/https_www.messenger.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/01/01-23:48:56.109 51765 Recovering log #4
-2024/01/01-23:48:56.143 51765 Reusing old log /home/kaios/.config/google-chrome/Default/IndexedDB/https_www.messenger.com_0.indexeddb.leveldb/000004.log 
+2024/01/02-09:05:47.565 541 Reusing MANIFEST /home/kaios/.config/google-chrome/Default/IndexedDB/https_www.messenger.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/02-09:05:47.565 541 Recovering log #7
+2024/01/02-09:05:47.572 541 Reusing old log /home/kaios/.config/google-chrome/Default/IndexedDB/https_www.messenger.com_0.indexeddb.leveldb/000007.log 

@@ -1,5 +1,3 @@
-2024/01/02-07:31:41.929 4e8 Reusing MANIFEST /home/kaios/.config/google-chrome/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/01/02-07:31:41.929 4e8 Recovering log #109
-2024/01/02-07:31:41.943 4e8 Reusing old log /home/kaios/.config/google-chrome/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/000109.log 
-2024/01/02-07:31:41.944 4e8 Delete type=2 #110
-2024/01/02-07:31:41.944 4e8 Delete type=2 #107
+2024/01/02-09:09:29.274 541 Reusing MANIFEST /home/kaios/.config/google-chrome/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/02-09:09:29.274 541 Recovering log #113
+2024/01/02-09:09:29.298 541 Reusing old log /home/kaios/.config/google-chrome/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/000113.log 
