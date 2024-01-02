@@ -1,6 +1,0 @@
-2024/01/01-19:38:43.372 698 Creating DB /home/kaios/.config/google-chrome/Default/WebStorage/32/IndexedDB/indexeddb.leveldb since it was missing.
-2024/01/01-19:38:43.379 698 Reusing MANIFEST /home/kaios/.config/google-chrome/Default/WebStorage/32/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2024/01/01-19:38:46.882 697 Level-0 table #5: started
-2024/01/01-19:38:46.887 697 Level-0 table #5: 8405 bytes OK
-2024/01/01-19:38:46.890 697 Delete type=0 #3
-2024/01/01-19:38:46.891 697 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

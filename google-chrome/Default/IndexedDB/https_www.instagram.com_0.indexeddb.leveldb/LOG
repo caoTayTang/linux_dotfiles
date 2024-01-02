@@ -1,7 +1,0 @@
-2024/01/01-21:01:53.654 3a4 Reusing MANIFEST /home/kaios/.config/google-chrome/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/01/01-21:01:53.655 3a4 Recovering log #3
-2024/01/01-21:01:53.672 3a4 Reusing old log /home/kaios/.config/google-chrome/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000003.log 
-2024/01/01-21:16:40.910 3a5 Level-0 table #5: started
-2024/01/01-21:16:40.917 3a5 Level-0 table #5: 202924 bytes OK
-2024/01/01-21:16:40.921 3a5 Delete type=0 #3
-2024/01/01-21:16:40.921 3a5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
