@@ -1,0 +1,596 @@
+{
+   "appDesc": {
+      "message": "Stay focused in a pleasant way."
+   },
+   "appName": {
+      "message": "Forest: stay focused, be present"
+   },
+   "china_server": {
+      "message": "China Server"
+   },
+   "click_here": {
+      "message": "here"
+   },
+   "dialog_login_migration_transfer_content": {
+      "message": "Your data is being migrated to another server, during which you are unable to login temporarily. Please try again later."
+   },
+   "dialog_login_migration_transfer_title": {
+      "message": "Unable to login. Please try again later."
+   },
+   "extension_about_forest_context": {
+      "message": "Aside from the browser extension, Forest is also an app that helps you put down your phone and increase productivity; with an adorable tree growing by your side, you'll be amazed by how easy it is to complete your tasks! Join 30 million users and enjoy more amazing app features with Forest!"
+   },
+   "extension_about_forest_title": {
+      "message": "About Forest"
+   },
+   "extension_blacklist_mode": {
+      "message": "Blocklist mode"
+   },
+   "extension_blacklist_mode_hover": {
+      "message": "Blocklist mode enabled\n(Tap to switch to Allowlist mode)"
+   },
+   "extension_cannot_edit": {
+      "message": "Cannot edit the settings of block/allow list mode during the planting session"
+   },
+   "extension_whitelist_mode": {
+      "message": "Allowlist mode"
+   },
+   "extension_whitelist_mode_hover": {
+      "message": "Allowlist mode enabled\n(Tap to switch to Blocklist mode)"
+   },
+   "faq_headline_1": {
+      "message": "1. Tutorials"
+   },
+   "faq_headline_1_content_1": {
+      "message": "Move your mouse onto the default tree or time and click on the arrows to go through between different types of trees or lengths of timer."
+   },
+   "faq_headline_1_content_10": {
+      "message": "New plants may not be released on the extension at the same time they do on the app, but they'll be up here soon, so make sure to keep your extension up-to-date!\nTo get a new plant to show up once it becomes available on the browser, please manually sync your data in the Settings page or re-log in to your account. Thank you for your patience!"
+   },
+   "faq_headline_1_content_11": {
+      "message": "Absolutely! It's free to download and use. However, only those who have the paid version of the app are able to log in, sync their data over to the app from the extensions and view their detailed statistics. Join us now on your smartphone!"
+   },
+   "faq_headline_1_content_2": {
+      "message": "You can assign a tag to your tree and jot down some notes for the session once it's over:\n1. Click the pencil icon on the success screen to select a tag and add a note.\n2. Go over to your planting history on the browser, then click on the record you'd like to get edited, and change the tag and write a note in the pop-up description window.\nDon't forget to sync manually to save and see the changes on your mobile app!"
+   },
+   "faq_headline_1_content_3": {
+      "message": "The 'Give up' button only appears when you try to access a blocked website. If you'd like to stop a tree, enter a blocked site and you'll have the option to give up.\nIt's not currently possible to cancel a session within the first 10 seconds like you can do on the app. Sorry!"
+   },
+   "faq_headline_1_content_4": {
+      "message": "Click the gear icon at the upper-left of the main planting screen, and you'll be taken to your Forest profile. From there, you can view your forest and planting history, as well as switch between different days with the arrows located on both sides of the forest land and at the bottom of the profile page."
+   },
+   "faq_headline_1_content_5": {
+      "message": "Only trees from the extension display in your browser planting history. Those from the app aren't visible here.\nYou can, however, sync your records from the extension over to the app and see all your progress and statistics in the app."
+   },
+   "faq_headline_1_content_6": {
+      "message": "Click the 'Sync' button in the Settings page to transfer your planting history from the extension over to other devices."
+   },
+   "faq_headline_1_content_7": {
+      "message": "It's not currently possible to sync ongoing sessions to different devices. You have to manually set up a tree on those devices if you'd like to plant trees on all of them at the same time. Trees also don't merge into each other once finished, as they're separate records despite the same planting time. Sorry for any inconvenience caused."
+   },
+   "faq_headline_1_content_8": {
+      "message": "That's normal behaviour. Our team are looking into ways to sync progress made on multiple devices at the same time without counting the overlapping time multiple times. Thank you for your understanding."
+   },
+   "faq_headline_1_content_9": {
+      "message": "When you plant trees on multiple devices at the same time under the same account, only one of them contributes to coin rewards and counts towards the leaderboard. You'll thus only receive coins from that one tree. Excessive coins will be removed upon a successful sync. Sorry for any inconvenience caused."
+   },
+   "faq_headline_1_title_1": {
+      "message": "Switch tree types & adjust the timer"
+   },
+   "faq_headline_1_title_10": {
+      "message": "New plants not available on the extension"
+   },
+   "faq_headline_1_title_11": {
+      "message": "Is the extension free?"
+   },
+   "faq_headline_1_title_2": {
+      "message": "Add tags and notes"
+   },
+   "faq_headline_1_title_3": {
+      "message": "Give up a tree"
+   },
+   "faq_headline_1_title_4": {
+      "message": "View planting history"
+   },
+   "faq_headline_1_title_5": {
+      "message": "Trees from the app missing on the extension"
+   },
+   "faq_headline_1_title_6": {
+      "message": "Sync planting history to different devices"
+   },
+   "faq_headline_1_title_7": {
+      "message": "Sync ongoing sessions on different devices"
+   },
+   "faq_headline_1_title_8": {
+      "message": "Overlapping time on the app after trees finish growing simultaneously on different devices"
+   },
+   "faq_headline_1_title_9": {
+      "message": "Coins lost after syncing simultaneous trees planted on different devices"
+   },
+   "faq_headline_2": {
+      "message": "2. Allowlist & Blocklist"
+   },
+   "faq_headline_2_content_1": {
+      "message": "Click the gear icon on the top-left corner of the main planting screen, and there should be two different modes in the 'Settings' section to choose from: blocklist and allowlist.\n- Add distracting websites to your blocklist, such as social media, and you'll be restricted from those sites.\n- Add necessary websites, such as work-related sites, to your allowlist, and you'll be able to use them while planting trees."
+   },
+   "faq_headline_2_content_2": {
+      "message": "Before a tree starts, click the 'Blocklist' or 'Allowlist' button on the top-centre of the main planting screen to switch between the modes. The setting can't be changed during planting sessions."
+   },
+   "faq_headline_2_content_3": {
+      "message": "It's not currently an option to do so. Sorry!"
+   },
+   "faq_headline_2_title_1": {
+      "message": "Set up blocklist and allowlist"
+   },
+   "faq_headline_2_title_2": {
+      "message": "Switch between blocklist and allowlist modes"
+   },
+   "faq_headline_2_title_3": {
+      "message": "Sync blocklist and allowlist on different devices or browsers"
+   },
+   "faq_headline_3": {
+      "message": "3. Accounts"
+   },
+   "faq_headline_3_content_1": {
+      "message": "Please create an account in the Settings page of the app if you haven't already. This can't be done the extension yet.\nOnce your Forest account is set up, please open the extension → click the gear icon at the upper-left of the main planting screen → hit 'Log in' in the Settings page → input your account email and password, and you'll able to log in as well as sync your progress from the extension to the app."
+   },
+   "faq_headline_3_content_2": {
+      "message": "Error code: 0 occurs because your connectivity has got blocked. Please check if the following settings are correctly configured:\n1. Is the 'Site access' option set to 'On all sites'? Either of the other choices would cause error code: 0.\n2. If you have any ad blockers installed, please turn them off so that they don't stop you from logging in.﻿\n3. If you have any antivirus software installed, please switch off 'Browser security' or whitelist Forest. (Rest assured that Forest doesn't have a virus, but it might still be blocked by some antivirus software. If this happens, please let us know. We'll try to figure it out!)\nIf you've double checked all of the above possibilities and yet the error remains, please contact us via the feedback system in the app."
+   },
+   "faq_headline_3_title_1": {
+      "message": "Log in and sync data"
+   },
+   "faq_headline_3_title_2": {
+      "message": "Error code: 0 happens when logging in on Chrome"
+   },
+   "faq_headline_4": {
+      "message": "4. Browsers"
+   },
+   "faq_headline_4_content_1": {
+      "message": "Please follow the steps below and switch on the extension:\n1. Open Chrome.\n2. At the top-right, click 'More' (the three dots) > 'More tools' > 'Extensions'.\n3. Turn on the Forest extension with the blue toggle.\nForest's icon will show up on the right of the address bar. Click it to open the extension window, and you can start a tree right away!"
+   },
+   "faq_headline_4_content_2": {
+      "message": "Forest extensions are specifically designed for Chrome and Firefox. Some issues may occur if they're installed on other browsers, which would be normal behaviour. ﻿We'll consider adding support for more browsers in the future. Thank you for your support!"
+   },
+   "faq_headline_4_content_3": {
+      "message": "Forest doesn't currently have a Safari extension but a Chrome extension and a Firefox add-on, both of which are free of charge. Give them a go!"
+   },
+   "faq_headline_4_title_1": {
+      "message": "Can't find the Chrome extension after installation"
+   },
+   "faq_headline_4_title_2": {
+      "message": "Chrome/Firefox extensions don't work properly on other browsers"
+   },
+   "faq_headline_4_title_3": {
+      "message": "Safari extension"
+   },
+   "faq_headline_5": {
+      "message": "5. Notifications"
+   },
+   "faq_headline_5_content_1": {
+      "message": "Please refer to the following articles and ensure that Chrome/Firefox notification sound is enabled in your operating system.\nWindows __LINK_1__\nMac __LINK_2__"
+   },
+   "faq_headline_5_content_2": {
+      "message": "Please follow the instructions below if no notification banner appears when your session is over:\n1. Allow Forest to send notifications in your browser settings\n    1. Open Chrome.\n    2. At the upper-right, click 'More' (the three vertical dots) → 'More tools' → 'Extensions'.\n    3. Find Forest and hit 'Details'.\n    4. Under 'Permissions', make sure it says 'Display notifications'.\n2. Enable browser notification in your operating system\n    - Windows:\n        1. Select the 'Start' button at the bottom-left of your screen and then click 'Settings'.\n        2. Go to 'System' → 'Notifications & actions'.\n        3. Scroll down to 'Get notifications from these senders'.\n        4. Click 'Google Chrome' or 'Firefox' and select the notification alert style.\n    - Mac:\n        1. Choose Apple menu (the apple icon on the upper-left of your screen).\n        2. Click 'System preferences' → 'Notifications'.\n        3. Select 'Google Chrome' or 'Firefox' on the left.\n        4. Change the notification alert style and other settings on the right."
+   },
+   "faq_headline_5_content_3": {
+      "message": "The issue is caused by macOS. We're really sorry but we do not have any control over Apple's operating system, so there's nothing we could do about this. Your understanding would be greatly appreciated."
+   },
+   "faq_headline_5_title_1": {
+      "message": "No notification sound when trees are finished"
+   },
+   "faq_headline_5_title_2": {
+      "message": "No notification banner when trees are finished"
+   },
+   "faq_headline_5_title_3": {
+      "message": "No notification but a red dot when trees are finished on Chrome on Mac"
+   },
+   "faq_headline_6": {
+      "message": "6. Permissions"
+   },
+   "faq_headline_6_content_1": {
+      "message": "The permission allows the Forest extension to work on all websites and deny your access to blocked ones. It must stay enabled at login attempts and during planting sessions. You may otherwise find yourself able to open blocked sites if we have no permission to keep you away from them."
+   },
+   "faq_headline_6_content_2": {
+      "message": "The reasons why the permissions 'Access browser tabs' and 'Access your data for all web sites' are required are as below:\n- The Forest add-on has to be able to read the URLs of your tabs in order to compare them with your blocklist/allowlist and proceed to block the websites of your choice.\n- The Forest add-on needs the permissions to interact with websites in order to inject the page-blocker to your blocked/allowed sites.\n- We do not and cannot read your passwords. As explained above, the permissions are required only for Forest to inject the add-on to the websites you browse so as to deny your access to blocked ones."
+   },
+   "faq_headline_6_title_1": {
+      "message": "On all sites"
+   },
+   "faq_headline_6_title_2": {
+      "message": "Firefox permissions"
+   },
+   "faq_link_cn": {
+      "message": "中国版点我"
+   },
+   "faq_link_gp": {
+      "message": "Google Play 版点我"
+   },
+   "faq_link_here": {
+      "message": "here"
+   },
+   "global_server": {
+      "message": "Global Server"
+   },
+   "learn_more": {
+      "message": "Learn More"
+   },
+   "login_choose_server": {
+      "message": "Please select the server according to your account's location"
+   },
+   "login_error_message_server": {
+      "message": "Invalid user account or password. Please check if the server you chose is correct"
+   },
+   "main_add_blacklist_tooltip": {
+      "message": "Add current website to Blocklist"
+   },
+   "main_add_whitelist_tooltip": {
+      "message": "Add current website to Allowlist"
+   },
+   "main_edit_popup_btn": {
+      "message": "Save"
+   },
+   "main_edit_popup_cancel": {
+      "message": "Cancel"
+   },
+   "main_edit_tooltip": {
+      "message": "Note"
+   },
+   "main_grown_popup_guest_do_not_show_again": {
+      "message": "Never show again"
+   },
+   "main_grown_popup_guest_info_link": {
+      "message": "mobile app"
+   },
+   "main_grown_popup_guest_info_post": {
+      "message": "to earn"
+   },
+   "main_grown_popup_guest_info_pre": {
+      "message": "Register a Forest account with our"
+   },
+   "main_grown_popup_user_reward_pre": {
+      "message": "You've got"
+   },
+   "main_message_growing_text_0": {
+      "message": "Leave me alone!"
+   },
+   "main_message_growing_text_1": {
+      "message": "Stop surfing the web!"
+   },
+   "main_message_growing_text_10": {
+      "message": "Keep up the good work!"
+   },
+   "main_message_growing_text_11": {
+      "message": "You can do it!"
+   },
+   "main_message_growing_text_12": {
+      "message": "Don't give up!"
+   },
+   "main_message_growing_text_2": {
+      "message": "Go back to your work!"
+   },
+   "main_message_growing_text_3": {
+      "message": "Don't look at me!"
+   },
+   "main_message_growing_text_4": {
+      "message": "Stay focused!"
+   },
+   "main_message_growing_text_5": {
+      "message": "Hang in there!"
+   },
+   "main_message_growing_text_6": {
+      "message": "Don't be distracted!"
+   },
+   "main_message_growing_text_7": {
+      "message": "Plant a tree and get your things done."
+   },
+   "main_message_growing_text_8": {
+      "message": "What you plant now, you will harvest later."
+   },
+   "main_message_growing_text_9": {
+      "message": "You are almost there!"
+   },
+   "main_plant_board_text": {
+      "message": "Start"
+   },
+   "main_planting_note_chrome": {
+      "message": "Planted in my chrome"
+   },
+   "main_planting_note_firefox": {
+      "message": "Planted in my firefox"
+   },
+   "main_planting_note_safari": {
+      "message": "Planted in my safari"
+   },
+   "main_settings_tooltip": {
+      "message": "Settings"
+   },
+   "main_share_on_failed": {
+      "message": "Plant a tree and stay focused with Forest! #forestapp"
+   },
+   "main_share_on_success": {
+      "message": "Plant a tree and stay focused with Forest! #forestapp"
+   },
+   "main_top_description_failed": {
+      "message": "Oops! You can do better next time"
+   },
+   "main_top_description_grown": {
+      "message": "Congrats!"
+   },
+   "main_top_description_locked": {
+      "message": "Unlock this tree in our mobile app."
+   },
+   "main_top_description_ready": {
+      "message": "Click the tree to start planting!"
+   },
+   "main_top_description_reload": {
+      "message": "Please right click the panel to reload."
+   },
+   "next_time": {
+      "message": "Next Time"
+   },
+   "notification_text_on_fail": {
+      "message": "killed your tree."
+   },
+   "notification_text_on_giveup": {
+      "message": "You killed your tree."
+   },
+   "notification_text_on_success": {
+      "message": "You have grown a healthy tree."
+   },
+   "notification_text_upload_failed": {
+      "message": "Your tree cannot be uploaded to the server. Please try again later!"
+   },
+   "notification_title_on_fail": {
+      "message": "Oops!"
+   },
+   "notification_title_on_giveup": {
+      "message": "Oops!"
+   },
+   "notification_title_on_success": {
+      "message": "Congratulations!"
+   },
+   "notification_title_upload_failed": {
+      "message": "Upload failed."
+   },
+   "ok_btn": {
+      "message": "Got it"
+   },
+   "overlay_giveup": {
+      "message": "Give Up"
+   },
+   "overlay_popup_cancel": {
+      "message": "No"
+   },
+   "overlay_popup_confirm": {
+      "message": "Yes"
+   },
+   "overlay_popup_message": {
+      "message": "This will kill your cute, little tree."
+   },
+   "overlay_popup_title": {
+      "message": "Are You Sure to Give Up?"
+   },
+   "overlay_tree_is_dead": {
+      "message": "Your tree is dead."
+   },
+   "overlay_tree_still_growing": {
+      "message": "Your tree is still growing..."
+   },
+   "plant_tag_0": {
+      "message": "Unset"
+   },
+   "plant_tag_1": {
+      "message": "Work"
+   },
+   "plant_tag_2": {
+      "message": "Study"
+   },
+   "plant_tag_3": {
+      "message": "Social"
+   },
+   "plant_tag_4": {
+      "message": "Rest"
+   },
+   "plant_tag_5": {
+      "message": "Entertainment"
+   },
+   "plant_tag_6": {
+      "message": "Other"
+   },
+   "plant_tag_7": {
+      "message": "Sport"
+   },
+   "settings_allowlist_can": {
+      "message": "can only"
+   },
+   "settings_blacklist_description": {
+      "message": "You cannot visit the following websites during a planting session"
+   },
+   "settings_blacklist_title": {
+      "message": "Blocklist"
+   },
+   "settings_blocklist_allowlist_description": {
+      "message": "During a planting session, you [%s] visit the following websites"
+   },
+   "settings_blocklist_cannot": {
+      "message": "cannot"
+   },
+   "settings_edit_btn": {
+      "message": "Save"
+   },
+   "settings_edit_cancel": {
+      "message": "Cancel"
+   },
+   "settings_hover_coin": {
+      "message": "Coins"
+   },
+   "settings_hover_healthy_tree": {
+      "message": "Healthy Trees"
+   },
+   "settings_hover_success_rate": {
+      "message": "Success Rate"
+   },
+   "settings_login_btn": {
+      "message": "Log in"
+   },
+   "settings_login_cancel": {
+      "message": "Cancel"
+   },
+   "settings_login_description": {
+      "message": "Log in to sync and view your forest on your phone."
+   },
+   "settings_login_email": {
+      "message": "Email"
+   },
+   "settings_login_failed": {
+      "message": "Log in Failed. The email or password you entered is incorrect..."
+   },
+   "settings_login_failed_error_code": {
+      "message": "Log in Failed. Error code: "
+   },
+   "settings_login_password": {
+      "message": "Password"
+   },
+   "settings_login_portal": {
+      "message": "Log in"
+   },
+   "settings_login_title": {
+      "message": "Log in your Forest account"
+   },
+   "settings_mode_switch": {
+      "message": "You can switch between Blocklist/Allowlist mode on the planting page"
+   },
+   "settings_my_forest": {
+      "message": "Forest"
+   },
+   "settings_my_history": {
+      "message": "My Planting Record"
+   },
+   "settings_newblackbox_placeholder": {
+      "message": "Please enter the URL of the website here"
+   },
+   "settings_no_account1": {
+      "message": "Don't have an account yet? Please sign up in our"
+   },
+   "settings_no_account2": {
+      "message": "app (in-app purchase required)."
+   },
+   "settings_no_account_androidapp": {
+      "message": "Android"
+   },
+   "settings_no_account_iosapp": {
+      "message": "iOS"
+   },
+   "settings_no_account_or": {
+      "message": "or"
+   },
+   "settings_no_sync_btn": {
+      "message": "Log in to Sync"
+   },
+   "settings_only_browser": {
+      "message": "(Only the trees planted in this browser are listed here)"
+   },
+   "settings_os_android": {
+      "message": "Android"
+   },
+   "settings_os_iphone": {
+      "message": "iPhone"
+   },
+   "settings_os_windows": {
+      "message": "Windows Phone"
+   },
+   "settings_other_apps_description": {
+      "message": "Grab Forest app and view your history forest, statistics and more!"
+   },
+   "settings_other_apps_title": {
+      "message": "More ways to use Forest"
+   },
+   "settings_sidebar_aboutforest": {
+      "message": "About Forest"
+   },
+   "settings_sidebar_allowlist": {
+      "message": "Ｍy Allowlist"
+   },
+   "settings_sidebar_blocklist": {
+      "message": "Ｍy Blocklist"
+   },
+   "settings_sidebar_faq": {
+      "message": "FAQ"
+   },
+   "settings_sidebar_history": {
+      "message": "Planting Record"
+   },
+   "settings_status_0": {
+      "message": "Sync failed, please check your network connection."
+   },
+   "settings_status_200": {
+      "message": "Sync succeeded."
+   },
+   "settings_status_403": {
+      "message": "Your session has expired. Please log in again."
+   },
+   "settings_status_fail": {
+      "message": "Sync failed."
+   },
+   "settings_status_waitforsync": {
+      "message": "Pending..."
+   },
+   "settings_sync_app_btn": {
+      "message": "Sync with Forest App"
+   },
+   "settings_sync_btn": {
+      "message": "Click to Sync"
+   },
+   "settings_sync_completed": {
+      "message": "Sync Completed"
+   },
+   "settings_sync_tree_species_manually": {
+      "message": "sync"
+   },
+   "settings_syncing_tree_species_manually": {
+      "message": "Syncing"
+   },
+   "settings_synclist_limit": {
+      "message": "These are your 100 most recently planted trees. Please use the phone app to see your full planting history."
+   },
+   "settings_synclist_no_tree": {
+      "message": "You haven't planted any trees yet."
+   },
+   "settings_tab_logout": {
+      "message": "Log out"
+   },
+   "settings_tab_settings": {
+      "message": "Settings"
+   },
+   "settings_tab_synclist": {
+      "message": "History"
+   },
+   "settings_title": {
+      "message": "Forest: stay focused, be present"
+   },
+   "settings_toast_error": {
+      "message": "Unable to parse this URL. Please enter again."
+   },
+   "settings_toast_existed": {
+      "message": "The entered URL is already in the list."
+   },
+   "settings_toast_migrtion": {
+      "message": "Your data is being migrated to another server. Some features are not available at the moment, but you can still plant trees as usual."
+   },
+   "settings_today": {
+      "message": "Today"
+   },
+   "settings_user_name_placeholder": {
+      "message": "My Forest account"
+   },
+   "settings_whitelist_description": {
+      "message": "You can only visit the following websites during a planting session"
+   },
+   "settings_whitelist_title": {
+      "message": "Allowlist"
+   },
+   "settings_yesterday": {
+      "message": "Yesterday"
+   }
+}

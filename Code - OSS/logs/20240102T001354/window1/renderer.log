@@ -1,0 +1,4 @@
+2024-01-02 00:13:56.565 [info] Started local extension host with pid 11090.
+2024-01-02 00:13:56.715 [info] Started initializing default profile extensions in extensions installation folder. file:///home/kaios/.vscode-oss/extensions
+2024-01-02 00:13:57.217 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/kaios/.vscode-oss/extensions
+2024-01-02 00:14:00.269 [info] [perf] Render performance baseline is 215ms

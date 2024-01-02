@@ -1,0 +1,596 @@
+{
+   "appDesc": {
+      "message": "保持專心也可以這麼容易"
+   },
+   "appName": {
+      "message": "Forest：保持專注，用心生活"
+   },
+   "china_server": {
+      "message": "中國伺服器"
+   },
+   "click_here": {
+      "message": "請點我"
+   },
+   "dialog_login_migration_transfer_content": {
+      "message": "由於您的帳號資料正在轉移當中，因此暫時無法登入，請稍候再嘗試。"
+   },
+   "dialog_login_migration_transfer_title": {
+      "message": "無法登入，請稍後再試"
+   },
+   "extension_about_forest_context": {
+      "message": "除了電腦版的擴充功能外，Forest 更是一個能夠幫助你放下手機、提高效率的專注 app；伴隨著畫面中生長的小樹，你將發現全心投入到手邊的工作是如此地簡單！現在就加入 Forest app 三千萬使用者的行列，享受手機版本更豐富的功能吧！"
+   },
+   "extension_about_forest_title": {
+      "message": "關於 Forest"
+   },
+   "extension_blacklist_mode": {
+      "message": "封鎖名單模式"
+   },
+   "extension_blacklist_mode_hover": {
+      "message": "目前為封鎖名單模式\n（點擊切換為允許名單模式）"
+   },
+   "extension_cannot_edit": {
+      "message": "種樹期間無法編輯封鎖/允許名單模式的設定"
+   },
+   "extension_whitelist_mode": {
+      "message": "允許名單模式"
+   },
+   "extension_whitelist_mode_hover": {
+      "message": "目前為允許名單模式\n（點擊切換為封鎖名單模式）"
+   },
+   "faq_headline_1": {
+      "message": "一、使用教學"
+   },
+   "faq_headline_1_content_1": {
+      "message": "將滑鼠移至默認樹種或時間上，點擊左右兩邊的箭頭即可切換樹種、改變種植時長。"
+   },
+   "faq_headline_1_content_10": {
+      "message": "擴充功能未必與 app 同時上架新樹種，請將擴充功能保持在最新版本，即可在新樹種釋出時立即種植。\n待新樹種上架，請前往設定頁面手動同步或重新登入帳號，就會出現新樹囉！"
+   },
+   "faq_headline_1_content_11": {
+      "message": "是的！Forest 擴充功能是完全免費下載、使用的，不過擁有付費版 app 的使用者才能登入帳號，並將擴充功能的資料同步至手機，檢視完整專注分析。現在就動動手指，在 app 上也加入我們吧！"
+   },
+   "faq_headline_1_content_2": {
+      "message": "種植結束後可以為樹種添加標籤與附註：\n1. 在種植成功的畫面點擊鉛筆圖示即可選擇標籤、填寫附註。\n2. 在設定頁面的歷史紀錄點擊欲編輯的小樹，並在跳窗中變更標籤與寫下附註。\n別忘了手動同步，才能將修改內容傳送到 app 呦！"
+   },
+   "faq_headline_1_content_3": {
+      "message": "「放棄」按鈕僅會在開啟封鎖網站時出現。若想停止種植，進入任一封鎖網站即可放棄。\n目前擴充功能無法像 app 一樣在種植前 10 秒內取消，敬請見諒。"
+   },
+   "faq_headline_1_content_4": {
+      "message": "在種植主畫面點擊左上角的齒輪圖示進入個人檔案，即可查看森林與種植紀錄。按下森林兩邊或檔案最下方的箭頭就可以切換不同日期囉！"
+   },
+   "faq_headline_1_content_5": {
+      "message": "擴充功能的種植紀錄僅會顯示此擴充功能上種植的樹，在 app 種的樹並不會出現，不過只要把擴充功能中種的樹同步到 app，即可在 app 上檢視完整紀錄與分析數據！"
+   },
+   "faq_headline_1_content_6": {
+      "message": "在設定頁面點擊「同步」按鈕，即可將擴充功能的種植紀錄同步到其他裝置。"
+   },
+   "faq_headline_1_content_7": {
+      "message": "目前無法將正在成長的小樹自動同步到其他裝置。若要在多台裝置上同時種樹，需在各裝置手動開始種植，且紀錄不會合併。造成不便，還請見諒。"
+   },
+   "faq_headline_1_content_8": {
+      "message": "這是正常的呦！我們正在研究多裝置種植時不會重複計算時間的方式，謝謝您的體諒。"
+   },
+   "faq_headline_1_content_9": {
+      "message": "若在多台裝置登入同一個 Forest 帳號並同時種樹，結束後只會得到其中一棵樹的金幣，也只有該棵樹會計入排行榜。多的金幣會在同步成功後自動移除，敬請見諒。"
+   },
+   "faq_headline_1_title_1": {
+      "message": "選擇樹種與調整種植時長"
+   },
+   "faq_headline_1_title_10": {
+      "message": "擴充功能沒有顯示最新樹種"
+   },
+   "faq_headline_1_title_11": {
+      "message": "擴充功能是免費的嗎？"
+   },
+   "faq_headline_1_title_2": {
+      "message": "選擇標籤與填寫附註"
+   },
+   "faq_headline_1_title_3": {
+      "message": "放棄種植"
+   },
+   "faq_headline_1_title_4": {
+      "message": "檢視種植紀錄"
+   },
+   "faq_headline_1_title_5": {
+      "message": "手機種的樹沒有顯示在擴充功能上"
+   },
+   "faq_headline_1_title_6": {
+      "message": "將擴充功能的資料同步到其他裝置"
+   },
+   "faq_headline_1_title_7": {
+      "message": "多裝置同步種樹"
+   },
+   "faq_headline_1_title_8": {
+      "message": "多裝置同時種植，app 上重複計算時間"
+   },
+   "faq_headline_1_title_9": {
+      "message": "擴充功能與手機同步後，金幣自動減少"
+   },
+   "faq_headline_2": {
+      "message": "二、允許名單與封鎖名單"
+   },
+   "faq_headline_2_content_1": {
+      "message": "在種植主畫面點擊左上角的齒輪圖示，開啟設定頁面後會看到二種模式：封鎖名單、允許名單。\n- 將社群網站等容易讓人分心的網站加入「封鎖名單」，插件就會阻止你瀏覽這些網站。\n- 將工作相關等需要使用的網站加入「允許名單」，即可在種植期間使用這些網站。"
+   },
+   "faq_headline_2_content_2": {
+      "message": "種樹前，在種植主畫面點擊「允許名單」或「封鎖名單」即可快速切換名單模式，種植期間無法改變模式。"
+   },
+   "faq_headline_2_content_3": {
+      "message": "目前無法同步自訂的網站列表，還請見諒。"
+   },
+   "faq_headline_2_title_1": {
+      "message": "設定允許名單與封鎖名單"
+   },
+   "faq_headline_2_title_2": {
+      "message": "切換允許名單與封鎖名單"
+   },
+   "faq_headline_2_title_3": {
+      "message": "跨裝置或跨瀏覽器同步允許名單與封鎖名單"
+   },
+   "faq_headline_3": {
+      "message": "三、帳號"
+   },
+   "faq_headline_3_content_1": {
+      "message": "目前擴充功能沒有註冊功能，請到手機 app 的設定頁面完成註冊程序。\n成功建立帳號後，請開啟擴充功能的種植視窗 → 點擊左上角的齒輪圖示進入設定頁面 → 點「登入」→ 輸入帳號與密碼，即可在擴充功能上登入並將種植紀錄同步到 app。"
+   },
+   "faq_headline_3_content_2": {
+      "message": "Error code: 0 代表連線被阻擋，請參考以下教學進行設定：\n1. 「網站存取權」請選擇「在所有網站上」，其他選項都會導致登入發生錯誤。\n2. 若電腦有安裝廣告攔截程式（ad blocker），請暫時關閉該程式，避免其阻擋登入。\n3. 若電腦有安裝防毒軟體，請到軟體內關閉「安全瀏覽器」（browser security）或將 Forest 擴充功能新增至白名單。（放心，Forest 擴充功能完全無毒，但有些防毒軟體可能誤判，若發生誤判請通知我們，以利進一步調查。）\n若確認以上都設定正確，但 error code: 0 仍未解決，請透過 app 的內部回饋系統聯絡我們。"
+   },
+   "faq_headline_3_title_1": {
+      "message": "登入帳號與同步資料"
+   },
+   "faq_headline_3_title_2": {
+      "message": "登入 Chrome 插件發生 error code: 0"
+   },
+   "faq_headline_4": {
+      "message": "四、瀏覽器"
+   },
+   "faq_headline_4_content_1": {
+      "message": "啟用插件的步驟如下：\n1. 開啟 Chrome 瀏覽器。\n2. 點擊右上角的「更多」（三個點點）→「更多工具」→「擴充功能」。\n3. 點擊藍色開關，開啟 Forest 擴充功能。\n啟用擴充功能後，瀏覽器的網址欄右方會出現 Forest 圖示，點擊即可打開擴充功能、開始種樹。"
+   },
+   "faq_headline_4_content_2": {
+      "message": "Forest 的插件是專為 Chrome 及 Firefox 所設計的，其他瀏覽器未必相容，轉移瀏覽器後部分功能無法使用為正常現象。我們會考慮支援更多瀏覽器，謝謝您的支持！"
+   },
+   "faq_headline_4_content_3": {
+      "message": "Forest 目前並未提供 Safari 擴充功能，但我們有 Chrome 和 Firefox 擴充功能供免費使用呦！"
+   },
+   "faq_headline_4_title_1": {
+      "message": "在 Chrome 下載後找不到擴充功能"
+   },
+   "faq_headline_4_title_2": {
+      "message": "將 Chrome/Firefox 擴充功能轉移到其他瀏覽器後無法正常使用"
+   },
+   "faq_headline_4_title_3": {
+      "message": "Safari 擴充功能"
+   },
+   "faq_headline_5": {
+      "message": "五、通知"
+   },
+   "faq_headline_5_content_1": {
+      "message": "請檢查 Windows 或 Mac 設定，確保作業系統對 Chrome 或 Firefox 瀏覽器通知啟用音效。\n相關教學請參考以下連結：\nWindows __LINK_1__\nMac __LINK_2__"
+   },
+   "faq_headline_5_content_2": {
+      "message": "若種植結束時沒有顯示橫幅通知，請參考下列設定：\n1. 確認瀏覽器允許 Forest 傳送通知 \n瀏覽器右上角的「設定」（三個點點）→「更多工具」→「擴充功能」→ Forest 的「詳細資訊」→「權限」→ 此處應列出「顯示通知」\n2. 確認作業系統允許瀏覽器傳送通知\n- Windows：電腦設定 →「系統」→「通知與動作」→「取得來自這些發送來源的通知」→ 點擊「Google Chrome」或「Firefox」→ 選擇通知種類\n- Mac：螢幕左上角的「蘋果」選單 →「系統偏好設定⋯」 →「通知」 → 在左側選擇「Google Chrome」或「Firefox」 → 在右側更改通知樣式和其他設定"
+   },
+   "faq_headline_5_content_3": {
+      "message": "此問題出自 macOS，很遺憾我們並無權控制 Apple 作業系統的運作，因此無法進行處理，還請見諒。"
+   },
+   "faq_headline_5_title_1": {
+      "message": "種植結束沒有通知音效"
+   },
+   "faq_headline_5_title_2": {
+      "message": "種植結束沒有橫幅通知"
+   },
+   "faq_headline_5_title_3": {
+      "message": "在 Mac 上使用 Chrome 擴充功能，種植結束只出現小紅點通知"
+   },
+   "faq_headline_6": {
+      "message": "六、權限"
+   },
+   "faq_headline_6_content_1": {
+      "message": "此權限允許 Forest 擴充功能在所有網站上發揮阻擋頁面的功能，若沒有此權限，則無法阻擋您指定封鎖的網頁，故登入及種植期間需全程保持開啟。"
+   },
+   "faq_headline_6_content_2": {
+      "message": "「存取瀏覽器分頁」及「存取您所有網站中的資料」權限的說明如下：\n- Forest 擴充功能存取的只有每個分頁的網頁連結（URL），並對比你設定的封鎖名單／允許名單，確認是否需要阻擋該頁面。\n- Forest 擴充功能需要與頁面互動的權限，方能將阻擋畫面覆蓋在封鎖名單／允許名單指定的網頁。\n- 我們不會、也沒辦法讀取讀取你的密碼。如前述，Forest 擴充功能只會讀取連結並插入阻擋畫面。"
+   },
+   "faq_headline_6_title_1": {
+      "message": "網站存取權"
+   },
+   "faq_headline_6_title_2": {
+      "message": "FireFox 權限"
+   },
+   "faq_link_cn": {
+      "message": "中国版点我"
+   },
+   "faq_link_gp": {
+      "message": "Google Play 版点我"
+   },
+   "faq_link_here": {
+      "message": "請點我"
+   },
+   "global_server": {
+      "message": "全球伺服器"
+   },
+   "learn_more": {
+      "message": "了解詳情"
+   },
+   "login_choose_server": {
+      "message": "請選擇您的帳號所在的伺服器"
+   },
+   "login_error_message_server": {
+      "message": "錯誤的使用者帳號或密碼，請確認您選擇的伺服器是否正確"
+   },
+   "main_add_blacklist_tooltip": {
+      "message": "將目前的網頁加入封鎖名單"
+   },
+   "main_add_whitelist_tooltip": {
+      "message": "將目前的網頁加入允許名單"
+   },
+   "main_edit_popup_btn": {
+      "message": "儲存"
+   },
+   "main_edit_popup_cancel": {
+      "message": "取消"
+   },
+   "main_edit_tooltip": {
+      "message": "註記"
+   },
+   "main_grown_popup_guest_do_not_show_again": {
+      "message": "不要再顯示這個"
+   },
+   "main_grown_popup_guest_info_link": {
+      "message": "手機 app 中"
+   },
+   "main_grown_popup_guest_info_post": {
+      "message": "註冊，賺取額外的"
+   },
+   "main_grown_popup_guest_info_pre": {
+      "message": "在 Forest "
+   },
+   "main_grown_popup_user_reward_pre": {
+      "message": "你得到了"
+   },
+   "main_message_growing_text_0": {
+      "message": "現在就開始工作吧！"
+   },
+   "main_message_growing_text_1": {
+      "message": "不要再逛網頁了！"
+   },
+   "main_message_growing_text_10": {
+      "message": "就在眼前，撐下去！"
+   },
+   "main_message_growing_text_11": {
+      "message": "繼續保持，繼續努力"
+   },
+   "main_message_growing_text_12": {
+      "message": "別放棄啊！"
+   },
+   "main_message_growing_text_2": {
+      "message": "趕快去做事"
+   },
+   "main_message_growing_text_3": {
+      "message": "不要一直看我，人家會害羞"
+   },
+   "main_message_growing_text_4": {
+      "message": "專注！專注！"
+   },
+   "main_message_growing_text_5": {
+      "message": "加油，您做得到的！"
+   },
+   "main_message_growing_text_6": {
+      "message": "趕快做事，認真生活。"
+   },
+   "main_message_growing_text_7": {
+      "message": "一分一秒，皆是您專注的時光。"
+   },
+   "main_message_growing_text_8": {
+      "message": "種一棵樹，心無旁騖。"
+   },
+   "main_message_growing_text_9": {
+      "message": "加油，時間快到了！"
+   },
+   "main_plant_board_text": {
+      "message": "開始"
+   },
+   "main_planting_note_chrome": {
+      "message": "在 Chrome 中種的樹"
+   },
+   "main_planting_note_firefox": {
+      "message": "在 Firefox 中種的樹"
+   },
+   "main_planting_note_safari": {
+      "message": "在 Safari 中種的樹"
+   },
+   "main_settings_tooltip": {
+      "message": "設定"
+   },
+   "main_share_on_failed": {
+      "message": "和我一起在 Forest 種棵樹，不再分心逛網站！ #forestapp"
+   },
+   "main_share_on_success": {
+      "message": "和我一起在 Forest 種棵樹，不再分心逛網站！ #forestapp"
+   },
+   "main_top_description_failed": {
+      "message": "失敗了，下一次再努力！"
+   },
+   "main_top_description_grown": {
+      "message": "成功啦！"
+   },
+   "main_top_description_locked": {
+      "message": "你可以在手機 app 中解鎖新樹種"
+   },
+   "main_top_description_ready": {
+      "message": "點擊樹木圖片開始種植"
+   },
+   "main_top_description_reload": {
+      "message": "請在面板點擊右鍵以重新整理。"
+   },
+   "next_time": {
+      "message": "下次再說"
+   },
+   "notification_text_on_fail": {
+      "message": "害你失敗了。"
+   },
+   "notification_text_on_giveup": {
+      "message": "你親手殺死了你的小樹"
+   },
+   "notification_text_on_success": {
+      "message": "你成功種植了一棵健康的樹。"
+   },
+   "notification_text_upload_failed": {
+      "message": "你的樹在上傳的過程中發生了錯誤。"
+   },
+   "notification_title_on_fail": {
+      "message": "失敗..."
+   },
+   "notification_title_on_giveup": {
+      "message": "失敗..."
+   },
+   "notification_title_on_success": {
+      "message": "成功啦！"
+   },
+   "notification_title_upload_failed": {
+      "message": "上傳失敗"
+   },
+   "ok_btn": {
+      "message": "好"
+   },
+   "overlay_giveup": {
+      "message": "放棄"
+   },
+   "overlay_popup_cancel": {
+      "message": "取消"
+   },
+   "overlay_popup_confirm": {
+      "message": "確定"
+   },
+   "overlay_popup_message": {
+      "message": "您充滿活力、綠意盎然的樹將會枯萎"
+   },
+   "overlay_popup_title": {
+      "message": "您確定要放棄嗎？"
+   },
+   "overlay_tree_is_dead": {
+      "message": "您的樹死了"
+   },
+   "overlay_tree_still_growing": {
+      "message": "您的樹正在生長中..."
+   },
+   "plant_tag_0": {
+      "message": "未設定"
+   },
+   "plant_tag_1": {
+      "message": "工作"
+   },
+   "plant_tag_2": {
+      "message": "學習"
+   },
+   "plant_tag_3": {
+      "message": "社交"
+   },
+   "plant_tag_4": {
+      "message": "休息"
+   },
+   "plant_tag_5": {
+      "message": "娛樂"
+   },
+   "plant_tag_6": {
+      "message": "其他"
+   },
+   "plant_tag_7": {
+      "message": "運動"
+   },
+   "settings_allowlist_can": {
+      "message": "僅能"
+   },
+   "settings_blacklist_description": {
+      "message": "種植期間，不能造訪以下網站"
+   },
+   "settings_blacklist_title": {
+      "message": "封鎖名單"
+   },
+   "settings_blocklist_allowlist_description": {
+      "message": "種植期間，[%s]造訪以下網站"
+   },
+   "settings_blocklist_cannot": {
+      "message": "不能"
+   },
+   "settings_edit_btn": {
+      "message": "儲存"
+   },
+   "settings_edit_cancel": {
+      "message": "取消"
+   },
+   "settings_hover_coin": {
+      "message": "金幣數量"
+   },
+   "settings_hover_healthy_tree": {
+      "message": "專注成功的樹"
+   },
+   "settings_hover_success_rate": {
+      "message": "專注成功率"
+   },
+   "settings_login_btn": {
+      "message": "登入"
+   },
+   "settings_login_cancel": {
+      "message": "取消"
+   },
+   "settings_login_description": {
+      "message": "登入以同步瀏覽器種的樹至手機 app "
+   },
+   "settings_login_email": {
+      "message": "電子信箱"
+   },
+   "settings_login_failed": {
+      "message": "登入失敗。您輸入的信箱或密碼錯誤"
+   },
+   "settings_login_failed_error_code": {
+      "message": "登入失敗。錯誤號碼："
+   },
+   "settings_login_password": {
+      "message": "密碼"
+   },
+   "settings_login_portal": {
+      "message": "登入"
+   },
+   "settings_login_title": {
+      "message": "登入您的 Forest 帳號"
+   },
+   "settings_mode_switch": {
+      "message": "你可以在種樹頁面切換封鎖/允許名單模式"
+   },
+   "settings_my_forest": {
+      "message": "森林"
+   },
+   "settings_my_history": {
+      "message": "我的種植紀錄"
+   },
+   "settings_newblackbox_placeholder": {
+      "message": "在這裡輸入網址"
+   },
+   "settings_no_account1": {
+      "message": "還沒有帳號嗎？你可以在 Forest 手機 app 中註冊："
+   },
+   "settings_no_account2": {
+      "message": "（需要內付費解鎖完整版）"
+   },
+   "settings_no_account_androidapp": {
+      "message": "Android"
+   },
+   "settings_no_account_iosapp": {
+      "message": "iOS"
+   },
+   "settings_no_account_or": {
+      "message": "、"
+   },
+   "settings_no_sync_btn": {
+      "message": "登入以同步"
+   },
+   "settings_only_browser": {
+      "message": "（只有此瀏覽器的種樹紀錄會出現在這裡。）"
+   },
+   "settings_os_android": {
+      "message": "Android"
+   },
+   "settings_os_iphone": {
+      "message": "iPhone"
+   },
+   "settings_os_windows": {
+      "message": "Windows Phone"
+   },
+   "settings_other_apps_description": {
+      "message": "下載 Forest app 以瀏覽歷史紀錄、統計資訊、大森林以及更多的功能！"
+   },
+   "settings_other_apps_title": {
+      "message": "在更多地方使用 Forest"
+   },
+   "settings_sidebar_aboutforest": {
+      "message": "關於 Forest"
+   },
+   "settings_sidebar_allowlist": {
+      "message": "管理允許名單"
+   },
+   "settings_sidebar_blocklist": {
+      "message": "管理封鎖名單"
+   },
+   "settings_sidebar_faq": {
+      "message": "常見問題"
+   },
+   "settings_sidebar_history": {
+      "message": "種植紀錄"
+   },
+   "settings_status_0": {
+      "message": "傳輸錯誤，請檢查您的網路"
+   },
+   "settings_status_200": {
+      "message": "同步成功"
+   },
+   "settings_status_403": {
+      "message": "驗證錯誤，請重新登入"
+   },
+   "settings_status_fail": {
+      "message": "同步失敗"
+   },
+   "settings_status_waitforsync": {
+      "message": "待同步"
+   },
+   "settings_sync_app_btn": {
+      "message": "與 Forest app 同步"
+   },
+   "settings_sync_btn": {
+      "message": "ㄧ鍵同步"
+   },
+   "settings_sync_completed": {
+      "message": "同步完成"
+   },
+   "settings_sync_tree_species_manually": {
+      "message": "同步"
+   },
+   "settings_syncing_tree_species_manually": {
+      "message": "正在同步"
+   },
+   "settings_synclist_limit": {
+      "message": "\b這裡只會顯示最近 100 棵樹的種植紀錄，更多紀錄請前往手機 app 中查看。"
+   },
+   "settings_synclist_no_tree": {
+      "message": "你還沒有任何種樹紀錄。"
+   },
+   "settings_tab_logout": {
+      "message": "登出"
+   },
+   "settings_tab_settings": {
+      "message": "設定"
+   },
+   "settings_tab_synclist": {
+      "message": "紀錄"
+   },
+   "settings_title": {
+      "message": "Forest：保持專注，用心生活"
+   },
+   "settings_toast_error": {
+      "message": "無法解析你所輸入的網址，請重新輸入"
+   },
+   "settings_toast_existed": {
+      "message": "你所輸入的網址已存在於名單中"
+   },
+   "settings_toast_migrtion": {
+      "message": "由於您的帳號資料正在轉移伺服器當中，部分功能無法使用，但仍可正常種樹。"
+   },
+   "settings_today": {
+      "message": "今天"
+   },
+   "settings_user_name_placeholder": {
+      "message": "我的 Forest 帳號"
+   },
+   "settings_whitelist_description": {
+      "message": "種植期間，只能造訪以下網站"
+   },
+   "settings_whitelist_title": {
+      "message": "允許名單"
+   },
+   "settings_yesterday": {
+      "message": "昨天"
+   }
+}

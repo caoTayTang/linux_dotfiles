@@ -1,0 +1,596 @@
+{
+   "appDesc": {
+      "message": "保持专心也可以这么容易"
+   },
+   "appName": {
+      "message": "Forest：保持专注，用心生活"
+   },
+   "china_server": {
+      "message": "中国服务器"
+   },
+   "click_here": {
+      "message": "请点我"
+   },
+   "dialog_login_migration_transfer_content": {
+      "message": "由于您的账号数据正在搬迁当中，因此暂时无法登录，请稍候再尝试。"
+   },
+   "dialog_login_migration_transfer_title": {
+      "message": "无法登录，请稍后再试"
+   },
+   "extension_about_forest_context": {
+      "message": "除了电脑版的扩充功能外，Forest 更是一个能够帮助你放下手机、提高效率的专注 app；伴随着画面中生长的小树，你将发现全心投入到手边的工作是如此地简单！现在就加入 Forest app 三千万用户的行列，享受手机版本更丰富的功能吧！"
+   },
+   "extension_about_forest_title": {
+      "message": "关于 Forest"
+   },
+   "extension_blacklist_mode": {
+      "message": "封锁名单模式"
+   },
+   "extension_blacklist_mode_hover": {
+      "message": "目前为封锁名单模式\n（点击切换为允许名单模式）"
+   },
+   "extension_cannot_edit": {
+      "message": "种树期间无法编辑封锁/允许名单模式的设置"
+   },
+   "extension_whitelist_mode": {
+      "message": "允许名单模式"
+   },
+   "extension_whitelist_mode_hover": {
+      "message": "目前为允许名单模式\n（点击切换为封锁名单模式）"
+   },
+   "faq_headline_1": {
+      "message": "一、使用教学"
+   },
+   "faq_headline_1_content_1": {
+      "message": "将滑鼠移至默认树种或时间上，点击左右两边的箭头即可切换树种、改变种植时长。"
+   },
+   "faq_headline_1_content_10": {
+      "message": "插件未必与軟件同时上架新树种，请将插件保持在最新版本，即可在新树种释出时立即种植。\n待新树种上架，请前往设置界面手动同步或重新登录账户，就会出现新树啦！"
+   },
+   "faq_headline_1_content_11": {
+      "message": "是的！Forest 插件是完全免费安装、使用的，不过拥有付费版軟件的用户才能登录账户，并将插件的数据同步至手机，检视完整专注分析。现在就动动手指，在軟件上也加入我们吧！"
+   },
+   "faq_headline_1_content_2": {
+      "message": "种植结束后可以为树种添加标签与附注：\n1. 在种植成功的画面点击铅笔图示即可选择标签、填写附注。\n2. 在设置界面的历史纪录点击欲编辑的小树，并在跳窗中变更标签与写下附注。\n别忘了手动同步，才能将修改内容传送到软件上哦！"
+   },
+   "faq_headline_1_content_3": {
+      "message": "「放弃」按钮仅会在开启封锁网站时出现。若想停止种植，进入任一封锁网站即可放弃。\n目前插件无法像软件一样在种植前 10 秒内取消，敬请见谅。"
+   },
+   "faq_headline_1_content_4": {
+      "message": "在种植主画面点击左上角的齿轮图示进入个人档案，即可查看森林与种植纪录。按下森林两边或档案最下方的箭头就可以切换不同日期啦！"
+   },
+   "faq_headline_1_content_5": {
+      "message": "插件的种植纪录仅会显示此插件上种植的树，在 软件中种的树并不会出现，不过只要把插件的树同步到软件，即可在软件上检视完整纪录与分析数据！"
+   },
+   "faq_headline_1_content_6": {
+      "message": "在设置界面点击「同步」按钮，即可将插件的种植纪录同步到其他设备。"
+   },
+   "faq_headline_1_content_7": {
+      "message": "目前无法将正在成长的小树自动同步到其他设备。若要在多台设备上同时种树，需在各设备手动开始种植，且纪录不会合并。造成不便，还请见谅。"
+   },
+   "faq_headline_1_content_8": {
+      "message": "这是正常的哦！我们正在研究多设备种植时不会重复计算时间的方式，谢谢您的体谅。"
+   },
+   "faq_headline_1_content_9": {
+      "message": "若在多台设备登入同一个 Forest 账户并同时种树，结束后只会得到其中一棵树的金币，也只有该棵树会计入排行榜。多的金币会在同步成功后自动移除，敬请见谅。"
+   },
+   "faq_headline_1_title_1": {
+      "message": "选择树种与调整种植时长"
+   },
+   "faq_headline_1_title_10": {
+      "message": "插件没有显示最新树种"
+   },
+   "faq_headline_1_title_11": {
+      "message": "插件是免费的吗？"
+   },
+   "faq_headline_1_title_2": {
+      "message": "添加标签与附注"
+   },
+   "faq_headline_1_title_3": {
+      "message": "放棄種植"
+   },
+   "faq_headline_1_title_4": {
+      "message": "检视种植纪录"
+   },
+   "faq_headline_1_title_5": {
+      "message": "手机种的树没有显示在插件上"
+   },
+   "faq_headline_1_title_6": {
+      "message": "将插件的数据同步到其他设备"
+   },
+   "faq_headline_1_title_7": {
+      "message": "多设备同步种树"
+   },
+   "faq_headline_1_title_8": {
+      "message": "多设备同时种植，软件上重复计算时间"
+   },
+   "faq_headline_1_title_9": {
+      "message": "插件与手机同步后，金币会自动减少"
+   },
+   "faq_headline_2": {
+      "message": "二、允许名单与封锁名单"
+   },
+   "faq_headline_2_content_1": {
+      "message": "在种植主画面点击左上角的齿轮图示，开启设置界面后会看到二种模式：封锁名单、允许名单。\n- 将社群网站等容易让人分心的网站加入「封锁名单」，插件就会阻止你浏览这些网站。\n- 将工作相关等需要使用的网站加入「允许名单」，即可在种植期间使用这些网站。"
+   },
+   "faq_headline_2_content_2": {
+      "message": "种树前，在种植主画面点击「允许名单」或「封锁名单」即可快速切换名单模式，种植期间无法改变模式。"
+   },
+   "faq_headline_2_content_3": {
+      "message": "目前无法同步自订的网站列表，还请见谅。"
+   },
+   "faq_headline_2_title_1": {
+      "message": "设置允许名单与封锁名单"
+   },
+   "faq_headline_2_title_2": {
+      "message": "切换允许名单与封锁名单"
+   },
+   "faq_headline_2_title_3": {
+      "message": "跨设备或跨浏览器同步允许名单与封锁名单"
+   },
+   "faq_headline_3": {
+      "message": "三、账户"
+   },
+   "faq_headline_3_content_1": {
+      "message": "目前插件没有注册功能，请到手机軟件的设置界面完成注册程序。\n成功建立账户后，请开启插件的种植视窗 → 点击左上角的齿轮图示进入设置界面 → 点「登录」→ 输入账户邮箱与密码，即可在插件上登录并将种植纪录同步到軟件上。"
+   },
+   "faq_headline_3_content_2": {
+      "message": "Error code: 0 代表连线被阻挡，请参考以下教程进行设置：\n1. 「网站存取权」请选择「在所有网站上」，其他选项都会导致登录发生错误。\n2. 若电脑有安装广告拦截程序（ad blocker），请暂时关闭该程序，避免其阻挡登入。\n3. 若电脑有安装防毒软件，请到软件内关闭「安全浏览器」（browser security）或将 Forest 插件新增至白名单。（放心，Forest 插件完全无毒，但有些防毒软件可能误判，若发生误判请通知我们，以利进一步调查。）\n若确认以上都设置正确，但 error code: 0 仍未解决，请透过軟件內的内部反馈系统联系我们。"
+   },
+   "faq_headline_3_title_1": {
+      "message": "登录账户与同步数据"
+   },
+   "faq_headline_3_title_2": {
+      "message": "登录 Chrome 插件发生 error code: 0"
+   },
+   "faq_headline_4": {
+      "message": "四、浏览器"
+   },
+   "faq_headline_4_content_1": {
+      "message": "启用插件的步骤如下：\n1. 开启 Chrome 浏览器。\n2. 点击右上角的「更多」（三个点点）→「更多工具」→「扩充功能」。\n3. 点击蓝色开关，开启 Forest 插件。\n启用插件后，浏览器的网址栏右方会出现 Forest 图示，点击即可打开插件、开始种树。"
+   },
+   "faq_headline_4_content_2": {
+      "message": "Forest 的插件是专为 Chrome 及 Firefox 所设计的，其他浏览器未必相容，转移浏览器后部分功能无法使用为正常现象。我们会考虑支援更多浏览器，谢谢您的支持！"
+   },
+   "faq_headline_4_content_3": {
+      "message": "Forest 目前并未提供 Safari 插件，但我们有 Chrome 和 Firefox 插件供免费使用哦！"
+   },
+   "faq_headline_4_title_1": {
+      "message": "在 Chrome 安装后找不到插件"
+   },
+   "faq_headline_4_title_2": {
+      "message": "将 Chrome/Firefox 插件转移到其他浏览器后无法正常使用"
+   },
+   "faq_headline_4_title_3": {
+      "message": "Safari 插件"
+   },
+   "faq_headline_5": {
+      "message": "五、通知"
+   },
+   "faq_headline_5_content_1": {
+      "message": "请检查 Windows 或 Mac 设置，确保作业系统对 Chrome 或 Firefox 浏览器通知启用声音。\n相关教程请参考以下链接：\nWindows __LINK_1__\nMac __LINK_2__"
+   },
+   "faq_headline_5_content_2": {
+      "message": "若种植结束时没有显示横幅提醒，请参考下列设置：\n1. 确认浏览器允许 Forest 传送通知\n浏览器右上角的「设置」（三个点点）→「更多工具」→「扩充功能」→ Forest 的「详细资信」→「权限」→ 此处应列出「显示通知」\n2. 确认作业系统允许浏览器传送通知\n- Windows：电脑设置 →「系统」→「通知与动作」→「取得来自这些发送来源的通知」→ 点击「Google Chrome」或「Firefox」→ 选择通知种类\n- Mac：萤幕左上角的「苹果」选单 →「系统偏好设置⋯」 →「通知」 → 在左侧选择「Google Chrome」或「Firefox」 → 在右侧更改通知样式和其他设置"
+   },
+   "faq_headline_5_content_3": {
+      "message": "此问题出自 macOS，很遗憾我们并无权控制 Apple 作业系统的运作，因此无法进行处理，还请见谅。"
+   },
+   "faq_headline_5_title_1": {
+      "message": "种植结束没有提醒声"
+   },
+   "faq_headline_5_title_2": {
+      "message": "种植结束没有横幅提醒"
+   },
+   "faq_headline_5_title_3": {
+      "message": "在 Mac 上使用 Chrome 插件，种植结束只出现小红点通知"
+   },
+   "faq_headline_6": {
+      "message": "六、权限"
+   },
+   "faq_headline_6_content_1": {
+      "message": "此权限允许 Forest 插件在所有网站上发挥阻挡界面的功能，若没有此权限，则无法阻挡您指定封锁的网页，故登录及种植期间需全程保持开启。"
+   },
+   "faq_headline_6_content_2": {
+      "message": "「存取浏览器分页」及「存取您所有网站中的资料」权限的说明如下：\n- Forest 插件存取的只有每个分页的网页链接（URL），并对比你设置的封锁名单／允许名单，确认是否需要阻挡该界面。\n- Forest 插件需要与页面互动的权限，方能将阻挡画面覆盖在封锁名单／允许名单指定的网页。\n- 我们不会、也没办法读取读取你的密码。如前述，Forest 插件只会读取链接并插入阻挡画面。"
+   },
+   "faq_headline_6_title_1": {
+      "message": "网站存取权"
+   },
+   "faq_headline_6_title_2": {
+      "message": "FireFox 权限"
+   },
+   "faq_link_cn": {
+      "message": "中国版点我"
+   },
+   "faq_link_gp": {
+      "message": "Google Play 版点我"
+   },
+   "faq_link_here": {
+      "message": "请点我"
+   },
+   "global_server": {
+      "message": "全球服务器"
+   },
+   "learn_more": {
+      "message": "了解详情"
+   },
+   "login_choose_server": {
+      "message": "请选择您的账号所在的服务器"
+   },
+   "login_error_message_server": {
+      "message": "错误的使用者账号或密码，请确认您选择的服务器是否正确"
+   },
+   "main_add_blacklist_tooltip": {
+      "message": "将目前的网页加入封锁名单"
+   },
+   "main_add_whitelist_tooltip": {
+      "message": "将目前的网页加入白名单"
+   },
+   "main_edit_popup_btn": {
+      "message": "储存"
+   },
+   "main_edit_popup_cancel": {
+      "message": "取消"
+   },
+   "main_edit_tooltip": {
+      "message": "注记"
+   },
+   "main_grown_popup_guest_do_not_show_again": {
+      "message": "不要再显示这个"
+   },
+   "main_grown_popup_guest_info_link": {
+      "message": "手机 app 中"
+   },
+   "main_grown_popup_guest_info_post": {
+      "message": "注册，赚取额外的"
+   },
+   "main_grown_popup_guest_info_pre": {
+      "message": "在 Forest "
+   },
+   "main_grown_popup_user_reward_pre": {
+      "message": "你得到了"
+   },
+   "main_message_growing_text_0": {
+      "message": "现在就开始工作吧！"
+   },
+   "main_message_growing_text_1": {
+      "message": "不要再逛网页了！"
+   },
+   "main_message_growing_text_10": {
+      "message": "就在眼前，撑下去！"
+   },
+   "main_message_growing_text_11": {
+      "message": "继续保持，继续努力"
+   },
+   "main_message_growing_text_12": {
+      "message": "别放弃啊！"
+   },
+   "main_message_growing_text_2": {
+      "message": "赶快去做事"
+   },
+   "main_message_growing_text_3": {
+      "message": "不要一直看我，人家会害羞"
+   },
+   "main_message_growing_text_4": {
+      "message": "专注！专注！"
+   },
+   "main_message_growing_text_5": {
+      "message": "加油，您做得到的！"
+   },
+   "main_message_growing_text_6": {
+      "message": "赶快做事，认真生活。"
+   },
+   "main_message_growing_text_7": {
+      "message": "一分一秒，皆是您专注的时光。"
+   },
+   "main_message_growing_text_8": {
+      "message": "种一棵树，心无旁骛。"
+   },
+   "main_message_growing_text_9": {
+      "message": "加油，时间快到了！"
+   },
+   "main_plant_board_text": {
+      "message": "开始"
+   },
+   "main_planting_note_chrome": {
+      "message": "在 Chrome 中种的树"
+   },
+   "main_planting_note_firefox": {
+      "message": "在 Firefox 中种的树"
+   },
+   "main_planting_note_safari": {
+      "message": "在 Safari 中种的树"
+   },
+   "main_settings_tooltip": {
+      "message": "设定"
+   },
+   "main_share_on_failed": {
+      "message": "和我一起在 Forest 种棵树，不再分心逛网站！ #forestapp"
+   },
+   "main_share_on_success": {
+      "message": "和我一起在 Forest 种棵树，不再分心逛网站！ #forestapp"
+   },
+   "main_top_description_failed": {
+      "message": "失败了，下一次再努力！"
+   },
+   "main_top_description_grown": {
+      "message": "成功啦！"
+   },
+   "main_top_description_locked": {
+      "message": "你可以在手机 app 中解锁新树种"
+   },
+   "main_top_description_ready": {
+      "message": "点击树木图片开始种植"
+   },
+   "main_top_description_reload": {
+      "message": "请在面板点击右键以重新整理。"
+   },
+   "next_time": {
+      "message": "下次再说"
+   },
+   "notification_text_on_fail": {
+      "message": "害你失败了。"
+   },
+   "notification_text_on_giveup": {
+      "message": "你亲手杀死了你的小树"
+   },
+   "notification_text_on_success": {
+      "message": "你成功种植了一棵健康的树。"
+   },
+   "notification_text_upload_failed": {
+      "message": "你的树在上传的过程中发生了错误。"
+   },
+   "notification_title_on_fail": {
+      "message": "失败..."
+   },
+   "notification_title_on_giveup": {
+      "message": "失败..."
+   },
+   "notification_title_on_success": {
+      "message": "成功啦！"
+   },
+   "notification_title_upload_failed": {
+      "message": "上传失败"
+   },
+   "ok_btn": {
+      "message": "好"
+   },
+   "overlay_giveup": {
+      "message": "放弃"
+   },
+   "overlay_popup_cancel": {
+      "message": "取消"
+   },
+   "overlay_popup_confirm": {
+      "message": "确定"
+   },
+   "overlay_popup_message": {
+      "message": "您充满活力、绿意盎然的树将会枯萎"
+   },
+   "overlay_popup_title": {
+      "message": "您确定要放弃吗？"
+   },
+   "overlay_tree_is_dead": {
+      "message": "您的树死了"
+   },
+   "overlay_tree_still_growing": {
+      "message": "您的树正在生长中..."
+   },
+   "plant_tag_0": {
+      "message": "未设定"
+   },
+   "plant_tag_1": {
+      "message": "工作"
+   },
+   "plant_tag_2": {
+      "message": "学习"
+   },
+   "plant_tag_3": {
+      "message": "社交"
+   },
+   "plant_tag_4": {
+      "message": "休息"
+   },
+   "plant_tag_5": {
+      "message": "娱乐"
+   },
+   "plant_tag_6": {
+      "message": "其他"
+   },
+   "plant_tag_7": {
+      "message": "运动"
+   },
+   "settings_allowlist_can": {
+      "message": "仅能"
+   },
+   "settings_blacklist_description": {
+      "message": "种植期间，不能造访以下网站"
+   },
+   "settings_blacklist_title": {
+      "message": "封锁名单"
+   },
+   "settings_blocklist_allowlist_description": {
+      "message": "种植期间，[%s]造访以下网站"
+   },
+   "settings_blocklist_cannot": {
+      "message": "不能"
+   },
+   "settings_edit_btn": {
+      "message": "储存"
+   },
+   "settings_edit_cancel": {
+      "message": "取消"
+   },
+   "settings_hover_coin": {
+      "message": "金币数量"
+   },
+   "settings_hover_healthy_tree": {
+      "message": "专注成功的树"
+   },
+   "settings_hover_success_rate": {
+      "message": "专注成功率"
+   },
+   "settings_login_btn": {
+      "message": "登录"
+   },
+   "settings_login_cancel": {
+      "message": "取消"
+   },
+   "settings_login_description": {
+      "message": "登录以同步浏览器种的树至手机 app "
+   },
+   "settings_login_email": {
+      "message": "邮箱"
+   },
+   "settings_login_failed": {
+      "message": "登录失败。您输入的邮箱或密码错误"
+   },
+   "settings_login_failed_error_code": {
+      "message": "登录失败。错误号码："
+   },
+   "settings_login_password": {
+      "message": "密码"
+   },
+   "settings_login_portal": {
+      "message": "登录"
+   },
+   "settings_login_title": {
+      "message": "登录您的 Forest 账号"
+   },
+   "settings_mode_switch": {
+      "message": "你可以在种树页面切换封锁/允许名单模式"
+   },
+   "settings_my_forest": {
+      "message": "森林"
+   },
+   "settings_my_history": {
+      "message": "我的种植记录"
+   },
+   "settings_newblackbox_placeholder": {
+      "message": "在这里输入网址"
+   },
+   "settings_no_account1": {
+      "message": "还没有账号吗？你可以在 Forest 手机 app 中注册："
+   },
+   "settings_no_account2": {
+      "message": "（需要内付费解锁完整版）"
+   },
+   "settings_no_account_androidapp": {
+      "message": "安卓"
+   },
+   "settings_no_account_iosapp": {
+      "message": "iOS"
+   },
+   "settings_no_account_or": {
+      "message": "、"
+   },
+   "settings_no_sync_btn": {
+      "message": "登录以同步"
+   },
+   "settings_only_browser": {
+      "message": "（只有此浏览器的种树记录会出现在这里。）"
+   },
+   "settings_os_android": {
+      "message": "安卓"
+   },
+   "settings_os_iphone": {
+      "message": "iPhone"
+   },
+   "settings_os_windows": {
+      "message": "Windows Phone"
+   },
+   "settings_other_apps_description": {
+      "message": "下载 Forest app 以浏览历史记录、统计资讯、大森林以及更多的功能！"
+   },
+   "settings_other_apps_title": {
+      "message": "在更多地方使用 Forest"
+   },
+   "settings_sidebar_aboutforest": {
+      "message": "关于 Forest"
+   },
+   "settings_sidebar_allowlist": {
+      "message": "管理允许名单"
+   },
+   "settings_sidebar_blocklist": {
+      "message": "管理封锁名单"
+   },
+   "settings_sidebar_faq": {
+      "message": "常见问题"
+   },
+   "settings_sidebar_history": {
+      "message": "种植记录"
+   },
+   "settings_status_0": {
+      "message": "传输错误，请检查您的网络"
+   },
+   "settings_status_200": {
+      "message": "同步成功"
+   },
+   "settings_status_403": {
+      "message": "验证错误，请重新登录"
+   },
+   "settings_status_fail": {
+      "message": "同步失败"
+   },
+   "settings_status_waitforsync": {
+      "message": "待同步"
+   },
+   "settings_sync_app_btn": {
+      "message": "与 Forest app 同步"
+   },
+   "settings_sync_btn": {
+      "message": "ㄧ键同步"
+   },
+   "settings_sync_completed": {
+      "message": "同步完成"
+   },
+   "settings_sync_tree_species_manually": {
+      "message": "同步"
+   },
+   "settings_syncing_tree_species_manually": {
+      "message": "正在同步"
+   },
+   "settings_synclist_limit": {
+      "message": "\b这里只会显示最近 100 棵树的种植记录，更多记录请前往手机 app 中查看。"
+   },
+   "settings_synclist_no_tree": {
+      "message": "你还没有任何种树记录。"
+   },
+   "settings_tab_logout": {
+      "message": "登出"
+   },
+   "settings_tab_settings": {
+      "message": "设定"
+   },
+   "settings_tab_synclist": {
+      "message": "纪录"
+   },
+   "settings_title": {
+      "message": "Forest：保持专注，用心生活"
+   },
+   "settings_toast_error": {
+      "message": "无法解析你所输入的网址，请重新输入"
+   },
+   "settings_toast_existed": {
+      "message": "你所输入的网址已存在于名单中"
+   },
+   "settings_toast_migrtion": {
+      "message": "由于您的账号数据正在搬迁服务器当中，部分功能无法使用，但仍可正常种树。"
+   },
+   "settings_today": {
+      "message": "今天"
+   },
+   "settings_user_name_placeholder": {
+      "message": "我的 Forest 账号"
+   },
+   "settings_whitelist_description": {
+      "message": "种植期间，只能造访以下网站"
+   },
+   "settings_whitelist_title": {
+      "message": "白名单"
+   },
+   "settings_yesterday": {
+      "message": "昨天"
+   }
+}

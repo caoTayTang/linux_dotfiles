@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Kusimamia wateja au mikataba haki ndani ya Gmail."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Streak CRM kwa Gmail"
+   }
+}

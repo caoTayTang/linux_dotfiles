@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>.cls-1{fill:#666666;}.cls-2{fill:none;stroke:#666666;stroke-miterlimit:10;stroke-width:1.2px;}</style>
+  </defs>
+  <g id="_5" data-name="5">
+    <path class="cls-1" d="M12,5a7,7,0,1,1-6.94,7A7,7,0,0,1,12,5m0-1.2A8.2,8.2,0,1,0,20.15,12,8.18,8.18,0,0,0,12,3.8Z"/>
+    <ellipse class="cls-2" cx="12.02" cy="12" rx="3.98" ry="7"/>
+    <line class="cls-2" x1="12.02" y1="5" x2="12.02" y2="19"/>
+    <line class="cls-2" x1="18.29" y1="8.13" x2="5.61" y2="8.13"/>
+    <line class="cls-2" x1="18.29" y1="15.66" x2="5.61" y2="15.66"/>
+    <line class="cls-2" x1="4.95" y1="12" x2="18.95" y2="12"/>
+  </g>
+</svg>

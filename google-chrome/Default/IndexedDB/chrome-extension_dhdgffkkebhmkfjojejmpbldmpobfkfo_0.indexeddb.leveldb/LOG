@@ -1,0 +1,6 @@
+2024/01/02-07:14:47.643 4e8 Reusing MANIFEST /home/kaios/.config/google-chrome/Default/IndexedDB/chrome-extension_dhdgffkkebhmkfjojejmpbldmpobfkfo_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/02-07:14:47.644 4e8 Recovering log #3
+2024/01/02-07:14:47.736 4e8 Reusing old log /home/kaios/.config/google-chrome/Default/IndexedDB/chrome-extension_dhdgffkkebhmkfjojejmpbldmpobfkfo_0.indexeddb.leveldb/000003.log 
+2024/01/02-07:18:24.923 4e8 Level-0 table #5: started
+2024/01/02-07:18:24.955 4e8 Level-0 table #5: 1195096 bytes OK
+2024/01/02-07:18:24.962 4e8 Delete type=0 #3

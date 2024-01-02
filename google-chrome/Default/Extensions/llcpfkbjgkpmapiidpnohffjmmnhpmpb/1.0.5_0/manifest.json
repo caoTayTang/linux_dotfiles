@@ -1,0 +1,22 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_title": "BetterViewer"
+   },
+   "content_security_policy": "default-src 'self'; connect-src 'self' https://*/*",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA98T0GFRXcjeN63AJipbYrFgPU6dKJLhhzURFd6F2eYN/q7q5tOFx06/1J6mU3h5DOZo8Vx9e+6XGWRGHrHnRS6iuiGN0gHsZ07ByLtHASgOQHA80qvOoCS+D6ZqX0zdpkRy+1mxYmIljEfR5eai6OtBD0wtMCdoZR54wpRogf1PXm4poelNkkKDDum/4YBjh5oNXo2v9tZ/NWUFk28lp/7bhWgWRtWLLbc2+L/4J4JKBGvtIup0xiMKL7/cy/VRfRfQXIEk1Zsjbf66bphOGrJTXyPYCGiU7VRKMhBa6V2Ib3JYGBk7CWhlcToHV86uf/nEH4tBFafrWzP4tnxTEmQIDAQAB",
+   "manifest_version": 2,
+   "name": "BetterViewer",
+   "permissions": [ "webRequest", "webRequestBlocking", "activeTab", "storage", "*://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.5",
+   "web_accessible_resources": [ "pages/*" ]
+}

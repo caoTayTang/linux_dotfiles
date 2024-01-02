@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Gestire i clienti o le offerte di destra all'interno di Gmail."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Streak CRM per Gmail"
+   }
+}

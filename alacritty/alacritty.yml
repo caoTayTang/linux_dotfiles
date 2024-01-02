@@ -1,0 +1,84 @@
+# env:
+#   TERM: xterm-256color
+
+window:
+  dimensions:
+   columns: 90
+   lines: 24
+
+  position:
+   x: 350
+   y: 155
+
+  padding:
+   x: 0
+   y: 0
+
+  # dynamic_title: true
+  dynamic_padding: true
+
+    #decorations: none la zenmode, tat het may cai bar
+  decorations: Full
+
+  opacity: 0.9
+
+  startup_mode: Windowed
+
+  title: Alacritty
+
+  dynamic_title: true
+
+  class:
+    instance: Alacritty
+    general: Alacritty
+
+  resize_increments: true
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+font:
+  size: 17
+  normal:
+    family: JetBrains Mono Nerd Font
+    style: Regular
+  bold:
+    family: JetBrains Mono Nerd Font
+    style: Bold
+  italic:
+    family: JetBrains Mono Nerd Font
+    style: Italic
+  bold_italic:
+    family: JetBrains Mono Nerd Font
+    style: Bold Italic
+selection:
+  save_to_clipboard: false
+
+cursor:
+  style:
+    shape: Block
+
+live_config_reload: true
+
+keyboard.bindings:
+  - { key: Return,   mods: Control|Shift, action: SpawnNewInstance }
+
+
+# mouse:
+#   hints:
+#     mods: Control
+#     #
+#     #https:google.com
+#     # Default:
+#     #   - (macOS) open
+#     #   - (Linux) xdg-open
+#     #   - (Windows) explorer
+hints:
+  enabled:
+    - regex: "(mailto:|gemini:|gopher:|https:|http:|news:|file:|git:|ssh:|ftp:)[^\u0000-\u001F\u007F-\u009F<>\" {-}\\^⟨⟩`]+"
+      command: xdg-open
+      post_processing: true
+      mouse:
+        enabled: true
+        mods: Control|Shift

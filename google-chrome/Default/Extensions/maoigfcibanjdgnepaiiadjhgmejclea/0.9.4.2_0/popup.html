@@ -1,0 +1,323 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        width: 400px;
+        overflow-x: hidden;
+        background-color: #f6f6f6;
+        margin: 16px 8px 8px 8px;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        font-size: 12px;
+      }
+
+      label {
+        user-select: none;
+      }
+
+      #options {
+          position: absolute;
+          top: 0;
+          font-size: 10px;
+          cursor: pointer;
+      }
+      #options::after {
+          margin-left: 2px;
+          color: #777;
+          font-size: 8px;
+          content: "\25bc";
+      }
+
+      #version {
+          position: absolute;
+          font-size: 10px;
+          color: #a5a5a5;
+          top: 0;
+          right: 8px;
+      }
+
+      #full_url {
+          max-width: 100%;
+      }
+
+      input[type=text],
+      #full_url {
+          background-color: #fff;
+          border: 1px solid #cacaca;
+          border-radius: 5px;
+          padding: 5px;
+      }
+
+      input[type=text]:focus:not(.error),
+      #full_url:focus {
+          border-color: #129FEA;
+          outline: none;
+      }
+
+      .value,
+      .container > * {
+          flex: 1 0 auto;
+      }
+
+      #hostname {
+          flex: none;
+          max-width: 50%;
+      }
+
+      .container #hostname {
+          flex: none;
+      }
+
+      .container #hostname {
+          flex: none;
+      }
+
+      #measure,
+      input[type=text],
+      #full_url {
+          font-size: 13px;
+          font-family: Arial;
+      }
+
+      #measure {
+          position: absolute;
+          visibility: hidden;
+          white-space: nowrap;
+      }
+      .container,
+      .param {
+          display: flex;
+          position: relative;
+          margin: 2px 0;
+      }
+      .param input[type=text] {
+          width: 150px;
+      }
+      .param input[type=text]:nth-of-type(1),
+      .container input[type=text]:nth-of-type(1) {
+          border-radius: 5px 0 0 5px;
+      }
+      .param input[type=text]:nth-of-type(2),
+      .container input[type=text]:nth-of-type(2) {
+          border-radius: 0 5px 5px 0;
+          border-left: none;
+      }
+      .param input[type=text]:nth-of-type(2):focus,
+      .container input[type=text]:nth-of-type(2):focus {
+          margin-left: -1px;
+          border-left: 1px solid #129FEA;
+      }
+      .param input:first-child {
+          width: 15%;
+          min-width: 80px;
+      }
+
+      #add_param,
+      .param input[type=button] {
+          width: 22px;
+          height: 22px;
+          flex: none;
+      }
+
+      #add_param,
+      .param input[type=button] {
+          height: 23px;
+          width: 23px;
+      }
+
+      .param input[type=button] {
+          margin: 2px 0 0 4px;
+          font-size: 14px;
+          padding: 0;
+      }
+
+      .container {
+          margin-bottom: 15px;
+      }
+      .container.last {
+          margin: 15px 0 0 0;
+      }
+
+      .two-elem > *:first-child {
+          flex: 1;
+      }
+
+      #err {
+          padding: 2px 0;
+      }
+
+      #log,
+      #err {
+          color: red;
+      }
+
+      body .error {
+          background-color: #ffa9a9;
+          outline: none;
+      }
+
+      .hv,
+      #paramMenu li:hover,
+      .suggestions li:hover {
+          background-color: #0078e7;
+          color: #fff;
+      }
+
+      .suggestions {
+          position: absolute;
+          margin: 0;
+          background-color: white;
+          border: 1px solid #129FEA;
+          display: none;
+          list-style: none;
+          padding: 0;
+          border-radius: 0 0 5px 5px;
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3) !important;
+          overflow-y: auto;
+          overflow-x: hidden;
+      }
+      .suggestions li {
+          padding: 0 5px;
+          cursor: pointer;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          padding-right: 20px;
+      }
+      .suggestions li span {
+          position: absolute;
+          right: 0;
+          margin-top: -2px;
+          color: #cacaca;
+          width: 20px;
+          text-align: center;
+      }
+      .suggestions li span:hover {
+          color: #000;
+          font-weight: bold;
+      }
+
+      .button,
+      input[type=button] {
+          background-color: #0078e7;
+          border-radius: 3px;
+          color: #fff;
+          border: 1px solid;
+          padding: 3px;
+          font: 400 13.3333px Arial;
+      }
+      .button:hover,
+      input[type=button]:hover {
+          background-image: linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+      }
+      .button:active,
+      input[type=button]:active {
+          box-shadow: 0 0 0 1px rgba(0,0,0,.15) inset,0 0 6px rgba(0,0,0,.2) inset;
+      }
+
+      #full_url b {
+          color: rgb(0, 120, 231);
+          font-weight: normal;
+          text-shadow: 1px 1px rgba(0, 120, 231, 0.25);
+      }
+
+      #paramMenu {
+          position: absolute;
+          background-color: #f6f6f6;
+          border: 1px solid #129FEA;
+          padding: 0;
+          list-style: none;
+      }
+      #paramMenu li {
+          padding: 4px 10px;
+      }
+      #paramMenu input[type=button] {
+          font-size: 10px;
+          width: 100%;
+      }
+      #paramMenu label input[type=checkbox] {
+          margin: 0 0 0 4px;
+          vertical-align: sub;
+      }
+      #paramMenu {
+          line-height: 19px;
+      }
+
+      input[name=switch],
+      input[name=switch] + * {
+          display: none;
+      }
+      input[name=switch]:checked + * {
+          display: block !important;
+      }
+
+      #options_menu {
+        border: solid #cacaca;
+        border-width: 1px 0;
+        padding: 5px 0;
+        margin: 10px 0;
+      }
+      #options_menu > ul {
+        background: #f6f6f6;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      #options_menu > ul > li {
+          display: inline-block;
+      }
+      #options_menu label.option {
+          padding: 3px 10px;
+      }
+
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+    <script src="app.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+      <label for="options_menu_check"><div id="options">Page options</div></label>
+      <input type="checkbox" name="switch" id="options_menu_check" />
+      <div id="options_menu">
+          <input type="radio" id="options_list" name="switch" checked />
+          <ul>
+              <li><label for="refresh_check" class="option button">Auto-Refresh</label></li>
+          </ul>
+          <input type="radio" id="refresh_check" name="switch" />
+          <div>
+            <div>Set refresh time in miliseconds for the current tab</div>
+            <input value="30s" placeholder="e.g. 5, 5s, 30m, 1h; 0 disable" /> <input id="set_refresh_interval" type="button" value="Start" /> <label for="options_list" class="button">Cancel</label>
+          </div>
+      </div>
+      <div id="version"></div>
+
+      <div class="container">
+          <div id="full_url" contenteditable="true" spellcheck="false"></div>
+      </div>
+      <div class="container">
+          <span id="measure"></span>
+          <input id="hostname" type="text" spellcheck="false" />
+          <input id="path" type="text" spellcheck="false" />
+      </div>
+      <div id="params">
+      </div>
+      <div class="container two-elem">
+        <span id="err"></span>
+        <input type="button" id="add_param" value="+" />
+      </div>
+      <div class="container last">
+          <input type="button" value="Go" id="go" />
+      </div>
+  </body>
+</html>
+

@@ -1,0 +1,18 @@
+2024/01/02-07:14:46.195 4ed Reusing MANIFEST /home/kaios/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/01/02-07:14:46.207 4ed Recovering log #178
+2024/01/02-07:14:46.210 4ed Reusing old log /home/kaios/.config/google-chrome/Default/Sync Data/LevelDB/000178.log 
+2024/01/02-07:18:04.058 4f2 Level-0 table #182: started
+2024/01/02-07:18:04.067 4f2 Level-0 table #182: 93824 bytes OK
+2024/01/02-07:18:04.072 4f2 Delete type=0 #178
+2024/01/02-07:18:04.073 4f2 Compacting 4@0 + 1@1 files
+2024/01/02-07:18:04.084 4f2 Generated table #183@0: 131 keys, 19951 bytes
+2024/01/02-07:18:04.084 4f2 Compacted 4@0 + 1@1 files => 19951 bytes
+2024/01/02-07:18:04.088 4f2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/02-07:18:04.089 4f2 Delete type=2 #176
+2024/01/02-07:18:04.089 4f2 Delete type=2 #171
+2024/01/02-07:18:04.089 4f2 Delete type=2 #182
+2024/01/02-07:18:04.089 4f2 Delete type=2 #179
+2024/01/02-07:18:04.090 4f2 Delete type=2 #174
+2024/01/02-07:39:31.174 4e9 Level-0 table #185: started
+2024/01/02-07:39:31.182 4e9 Level-0 table #185: 108140 bytes OK
+2024/01/02-07:39:31.186 4e9 Delete type=0 #181

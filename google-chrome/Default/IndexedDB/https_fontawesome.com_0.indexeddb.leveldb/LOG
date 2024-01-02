@@ -1,0 +1,7 @@
+2024/01/01-11:12:08.248 382 Reusing MANIFEST /home/kaios/.config/google-chrome/Default/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/01-11:12:08.248 382 Recovering log #3
+2024/01/01-11:12:08.249 382 Reusing old log /home/kaios/.config/google-chrome/Default/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb/000003.log 
+2024/01/01-11:14:34.507 384 Level-0 table #5: started
+2024/01/01-11:14:34.514 384 Level-0 table #5: 3463 bytes OK
+2024/01/01-11:14:34.524 384 Delete type=0 #3
+2024/01/01-11:14:34.525 384 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

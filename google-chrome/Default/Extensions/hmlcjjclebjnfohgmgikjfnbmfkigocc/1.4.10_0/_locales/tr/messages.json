@@ -1,0 +1,278 @@
+{
+   "about": {
+      "message": "Hakkında"
+   },
+   "accountType": {
+      "message": "Hesap Türü"
+   },
+   "actions": {
+      "message": "Eylemler"
+   },
+   "antiClickjacking": {
+      "message": "Anti-Clickjacking"
+   },
+   "appDescription": {
+      "message": "J2TEAM Security phishing saldırılarına karşı koruma sağlar."
+   },
+   "appName": {
+      "message": "J2TEAM Security"
+   },
+   "blockList": {
+      "message": "Engelleme listesi"
+   },
+   "blockMalwareFileNotify": {
+      "message": "Tehlikeli dosyaların tespit edilmesi nedeniyle indirme işlemi engellendi"
+   },
+   "blockPageHeading": {
+      "message": "İleriye dönük site zararlı programlar içeriyor"
+   },
+   "blockPageP1": {
+      "message": "Saldırganlar"
+   },
+   "blockPageP2": {
+      "message": "yazdığınız sayfada"
+   },
+   "blockPageP3": {
+      "message": "sizi yanıltarak, tarama deneyiminizi bozan programları yüklemenize (örneğin ana sayfanızı değiştirerek veya ziyaret ettiğiniz sitelerde ekstra reklamlar göstererek) çalışabilirler."
+   },
+   "blockPageP4": {
+      "message": "Çünkü"
+   },
+   "blockPageP5": {
+      "message": " kullanıyorsunuz, bu site sizi korumak için engellendi!"
+   },
+   "blockPageTitle": {
+      "message": "Güvenlik hatası"
+   },
+   "block_facebook_pixel": {
+      "message": "Facebook Pixel'ı (izleme betiği) engelle"
+   },
+   "block_seen_chat": {
+      "message": "Sohbetlerde \"görüldü\" özelliğini engelle"
+   },
+   "block_seen_story_facebook": {
+      "message": "Facebook hikayelerinde \"görüldü\" özelliğini engelle"
+   },
+   "block_seen_story_instagram": {
+      "message": "Instagram hikayelerinde \"görüldü\" özelliğini engelle"
+   },
+   "block_typing_chat": {
+      "message": "Sohbetlerde yazıyor özelliğini engelle"
+   },
+   "block_typing_comment": {
+      "message": "Yorumlarda yazıyor özelliğini engelle"
+   },
+   "blockedUrl": {
+      "message": "Engellenen URL: "
+   },
+   "btnSeeOnMyProfile": {
+      "message": "Profilimde Görüntüle"
+   },
+   "clear": {
+      "message": "Temizle"
+   },
+   "context_menu_change_hotkey": {
+      "message": "Kısayolu Değiştir"
+   },
+   "context_menu_change_language": {
+      "message": "Dili Değiştir"
+   },
+   "context_menu_changelog": {
+      "message": "Sürüm değişikliklerini görüntüle"
+   },
+   "context_menu_donate": {
+      "message": "Bağış yap"
+   },
+   "context_menu_faq": {
+      "message": "Sıkça Sorulan Sorular"
+   },
+   "context_menu_help": {
+      "message": "Yardım"
+   },
+   "context_menu_rate_me": {
+      "message": "J2TEAM Security'u Chrome Mağazasında değerlendirin"
+   },
+   "context_menu_report_abuse": {
+      "message": "Kötüye kullanımı bildir..."
+   },
+   "context_menu_report_badware": {
+      "message": "Kötü amaçlı yazılım"
+   },
+   "context_menu_report_phishing": {
+      "message": "Phishing"
+   },
+   "context_menu_report_suggest": {
+      "message": "Bildirin veya önerin"
+   },
+   "context_menu_report_webspam": {
+      "message": "Web spam'i"
+   },
+   "conversations": {
+      "message": "Konuşmalar"
+   },
+   "cryptocurrencyMining": {
+      "message": "Kripto para madenciliği betiğini engelle"
+   },
+   "customBlockList": {
+      "message": "Özel engelleme listesi"
+   },
+   "customBlockListLegend": {
+      "message": "bu listedeki tüm web sitelerini engelleyecektir"
+   },
+   "customCssDarkTheme": {
+      "message": "Karanlık Temalar için Özel CSS"
+   },
+   "darkThemeEditor": {
+      "message": "Karanlık Tema Düzenleyicisi"
+   },
+   "error": {
+      "message": "Hata"
+   },
+   "extraFeatures": {
+      "message": "Ekstra özellikler"
+   },
+   "facebookKount": {
+      "message": "Facebook Kount"
+   },
+   "facebookLoginError": {
+      "message": "Facebook'a giriş yapmadınız"
+   },
+   "facebookSecurityTester": {
+      "message": "Facebook güvenlik testi"
+   },
+   "facebook_messenger_history": {
+      "message": "Facebook Messenger Geçmişi"
+   },
+   "facebook_time_counter": {
+      "message": "Facebook kullanım süresi sayacını göster"
+   },
+   "female": {
+      "message": "Kadın"
+   },
+   "followMe": {
+      "message": "Beni takip et"
+   },
+   "freeTools": {
+      "message": "Ücretsiz Araçlar"
+   },
+   "gender": {
+      "message": "Cinsiyet"
+   },
+   "help": {
+      "message": "Yardım"
+   },
+   "hintClickjacking": {
+      "message": "Tüm web sitelerinde gizli beğenme düğmelerini engeller"
+   },
+   "hint_block_facebook_pixel": {
+      "message": "Facebook pikseli, web sitesi için ölçümleme, optimize etme ve reklam kampanyaları için kitle oluşturma imkanı sağlayan bir JavaScript kodu parçasıdır"
+   },
+   "hint_block_seen_chat": {
+      "message": "Arkadaşlarınız mesajınızı okuduğunuzu bilemeyecek"
+   },
+   "hint_block_typing_chat": {
+      "message": "Arkadaşlarınız mesaj yazarken yazdığınızı göremeyecekler"
+   },
+   "hint_block_typing_comment": {
+      "message": "Arkadaşlarınız bir yorum yazarken yazdığınızı göremeyecekler"
+   },
+   "hint_facebook_time_counter": {
+      "message": "Facebook'ta harcadığınız zamanı gösteren bir saat göster"
+   },
+   "hint_stop_facebook_timeline": {
+      "message": "Haber Kaynağınız yeni içerik yüklemeyi durduracak ve sizi işinize odaklanmanıza yardımcı olacak"
+   },
+   "joinUs": {
+      "message": "Bize Katılın"
+   },
+   "load": {
+      "message": "Yükle"
+   },
+   "loadFromUrl": {
+      "message": "URL'den yükle"
+   },
+   "male": {
+      "message": "Erkek"
+   },
+   "message": {
+      "message": "Mesaj"
+   },
+   "name": {
+      "message": "Ad"
+   },
+   "notificationCryptocurrencyMining": {
+      "message": "Kripto para madenciliği betiği bulundu. İstek engellendi!"
+   },
+   "notificationUpgradeButton": {
+      "message": "Yeni özellikleri görüntüle"
+   },
+   "notificationUpgradeMessage": {
+      "message": "Premium sürümdeki özellikler: Video/Reel indirme, En Çok Etkileşim, Arkadaş Listesi Yedekleme vb."
+   },
+   "notificationUpgradeTitle": {
+      "message": "J2TEAM Security: Daha fazla özellik kullanmak ister misiniz?"
+   },
+   "options": {
+      "message": "Seçenekler"
+   },
+   "premium_dashboard": {
+      "message": "Premium Paneli"
+   },
+   "privacy": {
+      "message": "Facebook Gizlilik"
+   },
+   "rank": {
+      "message": "Sıralama"
+   },
+   "rateMe": {
+      "message": "Lütfen J2TEAM Security uygulamasını Chrome Mağazasında değerlendirin"
+   },
+   "realtime": {
+      "message": "Gerçek zamanlı koruma"
+   },
+   "remove_fbclid": {
+      "message": "Linklerden Facebook Tıklama Tanımlayıcısı (fbclid) parametresini kaldır"
+   },
+   "save": {
+      "message": "Kaydet"
+   },
+   "security": {
+      "message": "Güvenlik"
+   },
+   "settings": {
+      "message": "Ayarlar"
+   },
+   "showUpdateNotification": {
+      "message": "Güncelleme bildirimini göster"
+   },
+   "status": {
+      "message": "Durum"
+   },
+   "stop_facebook_timeline": {
+      "message": "Facebook Zaman Tünelini (Haber Kaynağı) Durdur"
+   },
+   "toggle_block_seen_chat": {
+      "message": "\"Görüldü\" özelliğini aç/kapat"
+   },
+   "toggle_block_typing_chat": {
+      "message": "Yazıyor özelliğini aç/kapat"
+   },
+   "tools": {
+      "message": "Araçlar"
+   },
+   "type": {
+      "message": "Tür"
+   },
+   "updateMessage": {
+      "message": "{appName}, {appVersion} sürümüne güncellendi. Bu sürümdeki değişiklikleri görmek için buraya tıklayın!"
+   },
+   "upgradeToPremium": {
+      "message": "Premium'a yükselt"
+   },
+   "userInfo": {
+      "message": "Kullanıcı Bilgileri"
+   },
+   "website": {
+      "message": "Web sitesi"
+   }
+}

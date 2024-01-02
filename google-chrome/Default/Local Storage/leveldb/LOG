@@ -1,0 +1,42 @@
+2024/01/02-07:14:46.211 4 Reusing MANIFEST /home/kaios/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2024/01/02-07:14:46.214 4 Recovering log #800
+2024/01/02-07:14:46.215 4 Reusing old log /home/kaios/.config/google-chrome/Default/Local Storage/leveldb/000800.log 
+2024/01/02-07:16:08.553 6 Level-0 table #804: started
+2024/01/02-07:16:08.566 6 Level-0 table #804: 26352 bytes OK
+2024/01/02-07:16:08.577 6 Delete type=0 #800
+2024/01/02-07:17:51.711 6 Level-0 table #806: started
+2024/01/02-07:17:51.719 6 Level-0 table #806: 25631 bytes OK
+2024/01/02-07:17:51.724 6 Delete type=0 #803
+2024/01/02-07:17:51.724 6 Compacting 4@0 + 1@1 files
+2024/01/02-07:17:51.757 6 Generated table #807@0: 7719 keys, 1099197 bytes
+2024/01/02-07:17:51.757 6 Compacted 4@0 + 1@1 files => 1099197 bytes
+2024/01/02-07:17:51.760 6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/02-07:17:51.761 6 Delete type=2 #806
+2024/01/02-07:17:51.761 6 Delete type=2 #796
+2024/01/02-07:17:51.761 6 Delete type=2 #804
+2024/01/02-07:17:51.761 6 Delete type=2 #801
+2024/01/02-07:17:51.761 6 Delete type=2 #798
+2024/01/02-07:18:09.484 6 Level-0 table #809: started
+2024/01/02-07:18:09.490 6 Level-0 table #809: 21581 bytes OK
+2024/01/02-07:18:09.494 6 Delete type=0 #805
+2024/01/02-07:20:12.682 4 Level-0 table #811: started
+2024/01/02-07:20:12.689 4 Level-0 table #811: 19175 bytes OK
+2024/01/02-07:20:12.697 4 Delete type=0 #808
+2024/01/02-07:26:14.970 6 Level-0 table #813: started
+2024/01/02-07:26:14.974 6 Level-0 table #813: 19114 bytes OK
+2024/01/02-07:26:14.977 6 Delete type=0 #810
+2024/01/02-07:37:00.982 6 Level-0 table #815: started
+2024/01/02-07:37:00.986 6 Level-0 table #815: 19156 bytes OK
+2024/01/02-07:37:00.990 6 Delete type=0 #812
+2024/01/02-07:37:00.990 6 Compacting 4@0 + 1@1 files
+2024/01/02-07:37:01.020 6 Generated table #816@0: 7764 keys, 1105470 bytes
+2024/01/02-07:37:01.020 6 Compacted 4@0 + 1@1 files => 1105470 bytes
+2024/01/02-07:37:01.022 6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/02-07:37:01.023 6 Delete type=2 #815
+2024/01/02-07:37:01.023 6 Delete type=2 #807
+2024/01/02-07:37:01.023 6 Delete type=2 #809
+2024/01/02-07:37:01.023 6 Delete type=2 #811
+2024/01/02-07:37:01.023 6 Delete type=2 #813
+2024/01/02-07:38:02.913 6 Level-0 table #818: started
+2024/01/02-07:38:02.919 6 Level-0 table #818: 56469 bytes OK
+2024/01/02-07:38:02.924 6 Delete type=0 #814

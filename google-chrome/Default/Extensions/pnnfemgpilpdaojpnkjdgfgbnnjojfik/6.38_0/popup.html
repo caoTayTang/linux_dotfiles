@@ -1,0 +1,128 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Streak - CRM for Gmail</title>
+  <meta name="description" content="">
+  <meta name="author" content="Streak">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    @font-face {
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+    }
+
+    body {
+      background-color: rgb(95, 120, 218);
+      color: rgb(255, 255, 255);
+      font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      margin: 0px;
+      padding: 16px;
+      width: 328px;
+    }
+
+    .header {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      margin: -4px 0 8px -4px;
+    }
+
+    .header-section {
+      display: flex;
+      align-items: center;
+    }
+
+    #cta-close {
+      cursor: pointer;
+    }
+
+    .header-text {
+      font-family: Product Sans;
+      font-size: 20px;
+      font-weight: normal;
+      margin: 0;
+    }
+
+    .header-img {
+      height: 32px;
+      margin-right: 4px;
+      width: 32px;
+    }
+
+    .title {
+      font-family: Product Sans;
+      font-size: 20px;
+      font-weight: 600;
+      margin: 0 0 12px 0;
+    }
+
+    .content {
+      letter-spacing: 0.25px;
+      line-height: 20px;
+      margin-bottom: 24px;
+    }
+
+    .learn-more {
+      color: inherit;
+    }
+
+    .btn-row {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .btn {
+      align-items: center;
+      background-color: rgb(63, 81, 181);
+      border: none;
+      border-radius: 4px;
+      color: inherit;
+      cursor: pointer;
+      display: inline-flex;
+      font-family: Product Sans;
+      font-size: 14px;
+      font-weight: 500;
+      height: 36px;
+      justify-content: center;
+      letter-spacing: .25px;
+      line-height: normal;
+      margin: 0;
+      padding: 0 16px;
+      text-decoration: none;
+    }
+
+    .btn:first-child {
+      margin-right: 4px;
+    }
+
+    .btn-arrow-forward {
+      margin-left: 4px;
+    }
+
+    .btn-text {
+      background-color: transparent;
+    }
+    </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-section">
+      <img class="header-img" src="https://streak.com/images/addon/logo.png">
+      <h1 class=header-text>Streak</h1>
+    </div>
+    <i id="cta-close" class="material-icons">close</i>
+  </header>
+  <h2 class="title">CRM built into Gmail</h2>
+  <p class="content">Streak works entirely in your inbox - because that's where you work.</p>
+  <div class="btn-row">
+    <a a href="https://www.streak.com/whatisstreak" target="_blank" class="btn btn-text">Learn more</a>
+    <button id="cta-main" class="btn">Take me to Gmail <i class="material-icons btn-arrow-forward">arrow_forward</i></button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

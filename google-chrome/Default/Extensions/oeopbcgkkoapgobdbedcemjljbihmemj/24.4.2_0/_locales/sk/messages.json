@@ -1,0 +1,1520 @@
+{
+   "24hourMode": {
+      "message": "24-hodinové zobrazenie času"
+   },
+   "24hourModeTitle": {
+      "message": "Formát času 24 hod. t.j. 18:00"
+   },
+   "DND": {
+      "message": "DND"
+   },
+   "DNDisEnabled": {
+      "message": "Funkcia Nerušiť je povolená"
+   },
+   "EOM": {
+      "message": "EOM"
+   },
+   "EOMToolTip": {
+      "message": "Koniec správy"
+   },
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "NEODSTRAŇUJTE"
+   },
+   "NAME_says": {
+      "message": "$1 hovorí"
+   },
+   "XNewEmails": {
+      "message": "Nové emaily: $1"
+   },
+   "XSnoozedEmails": {
+      "message": "Odložené emaily: $1"
+   },
+   "Xattachments": {
+      "message": "Prílohy: $1"
+   },
+   "Xday": {
+      "message": "deň"
+   },
+   "Xdays": {
+      "message": "$1 dní"
+   },
+   "Xhour": {
+      "message": "$1 hodina"
+   },
+   "Xhours": {
+      "message": "$1 hodín"
+   },
+   "Xminute": {
+      "message": "$1 minúta"
+   },
+   "Xminutes": {
+      "message": "$1 minút"
+   },
+   "Xseconds": {
+      "message": "$1 sekundách"
+   },
+   "Xuser": {
+      "message": "$1 používateľ"
+   },
+   "Xusers": {
+      "message": "$1 používatelia"
+   },
+   "aboutMe": {
+      "message": "O mne"
+   },
+   "accessDetails": {
+      "message": "Podrobnosti o prístupe"
+   },
+   "account": {
+      "message": "Účet"
+   },
+   "accounts": {
+      "message": "Účty"
+   },
+   "accountsAndLabels": {
+      "message": "Účty / Štítky"
+   },
+   "addAccount": {
+      "message": "Pridať účet"
+   },
+   "addAccountsStaySignedIn": {
+      "message": "Pridať účty a zostať prihlásený"
+   },
+   "addEmailAlias": {
+      "message": "Pridanie aliasu na emailovú adresu"
+   },
+   "addSkinsOrThemes": {
+      "message": "Skiny "
+   },
+   "addSpeechEngines": {
+      "message": "Pridať hlas"
+   },
+   "addToGoogleCalendar": {
+      "message": "Pridať do Kalendára Google"
+   },
+   "added": {
+      "message": "Pridané"
+   },
+   "admin": {
+      "message": "Správca"
+   },
+   "alias": {
+      "message": "Alias"
+   },
+   "all": {
+      "message": "Všetky"
+   },
+   "allMail": {
+      "message": "Všetky správy"
+   },
+   "alreadyDonated": {
+      "message": "Už ste prispeli?"
+   },
+   "alsoTryMy": {
+      "message": "Tiež skúsiť môj"
+   },
+   "alwaysDisplayExternalContent": {
+      "message": "Vždy zobrazovať externé obrázky"
+   },
+   "alwaysSpeak": {
+      "message": "Vždy prečítať"
+   },
+   "amount": {
+      "message": "Suma"
+   },
+   "anyAmount": {
+      "message": "Ľubovoľná suma"
+   },
+   "archive": {
+      "message": "Archivovať"
+   },
+   "archiveAll": {
+      "message": "Archivovať všetko"
+   },
+   "archiveAllWarning": {
+      "message": "Týmto archivujete všetky emaily v tomto okne pre tento účet."
+   },
+   "archive_read": {
+      "message": "Archivovaním označiť email ako prečítaný"
+   },
+   "archive_readToolTip": {
+      "message": "Označiť email ako prečítaný po jeho archivácii"
+   },
+   "attachments": {
+      "message": "Prílohy"
+   },
+   "autoAdvanceTo": {
+      "message": "Automaticky prejsť na"
+   },
+   "autoCollapseConversations": {
+      "message": "Automaticky zbaliť konverzácie"
+   },
+   "autoDetectAccounts": {
+      "message": "Táto aplikácia sa predvolene automaticky pokúsi zistiť prihlásené účty."
+   },
+   "autoDetectAccountsStaySignedIn": {
+      "message": "Automatická detekcia prihlásených účtov"
+   },
+   "available": {
+      "message": "K dispozícii"
+   },
+   "back": {
+      "message": "Späť"
+   },
+   "backToInbox": {
+      "message": "Späť do priečinka Doručená pošta"
+   },
+   "backgroundColor": {
+      "message": "Farba pozadia"
+   },
+   "bitcoin": {
+      "message": "Bitcoin"
+   },
+   "blue": {
+      "message": "Modrá"
+   },
+   "bubbly": {
+      "message": "Bubbly"
+   },
+   "button": {
+      "message": "Tlačidlo"
+   },
+   "buttonClickAction": {
+      "message": "Akcia po kliknutí na tlačidlo"
+   },
+   "buttonIcon": {
+      "message": "Ikona tlačidla"
+   },
+   "buttonIconColor": {
+      "message": "Farba ikony tlačidla"
+   },
+   "by": {
+      "message": "od"
+   },
+   "cancel": {
+      "message": "Zrušiť"
+   },
+   "card": {
+      "message": "Karta"
+   },
+   "categories": {
+      "message": "Kategórie"
+   },
+   "changeLabels": {
+      "message": "Zmeniť štítky"
+   },
+   "changeThisDomain": {
+      "message": "Ak chcete zmeniť túto emailovú doménu teraz $1"
+   },
+   "changeThisDomain2": {
+      "message": "odhláste sa a prihláste ako iný používateľ"
+   },
+   "changelog": {
+      "message": "Zoznam zmien"
+   },
+   "checkPrimaryOrMore": {
+      "message": "Vyberte Hlavné alebo viac štítkov"
+   },
+   "chime": {
+      "message": "Chime"
+   },
+   "chooseNoUnreadEmail": {
+      "message": "Vybrať ikonu pre žiadane neprečítané emaily"
+   },
+   "chooseSignedOutIcon": {
+      "message": "Vybrať ikonu pre odhlásený účet"
+   },
+   "chooseUnreadEmail": {
+      "message": "Vybrať ikonu neprečítaného emailu"
+   },
+   "clickToPreviewEmail": {
+      "message": "Kliknutím zobrazíte náhľad správy"
+   },
+   "clickToolbarIconToContinue": {
+      "message": "Ak chcete pokračovať, kliknite na ikonu panela s nástrojmi"
+   },
+   "clickingAnywhereOnNotification": {
+      "message": "Kliknutie na ľubovoľné miesto v upozornení"
+   },
+   "clickingCheckerPlusLogo": {
+      "message": "Kliknutie na logo Checker Plus for Gmail"
+   },
+   "close": {
+      "message": "Zavrieť"
+   },
+   "closeAfterX": {
+      "message": "Zavrieť po"
+   },
+   "closeAfterX_andThen": {
+      "message": "a potom"
+   },
+   "closesPopupWindow": {
+      "message": "Zatvoriť vyskakovacie okno"
+   },
+   "colors": {
+      "message": "Farby"
+   },
+   "comfortable": {
+      "message": "Pohodlná"
+   },
+   "compact": {
+      "message": "Kompaktná"
+   },
+   "compose": {
+      "message": "Napísať novú správu"
+   },
+   "composeLinkTitle": {
+      "message": "Napísať novú správu"
+   },
+   "contacts": {
+      "message": "Kontakty"
+   },
+   "contactsHome": {
+      "message": "H"
+   },
+   "contactsLoaded": {
+      "message": "Kontakty načítané!"
+   },
+   "contactsMobile": {
+      "message": "M"
+   },
+   "contactsOther": {
+      "message": "O"
+   },
+   "contactsWork": {
+      "message": "W"
+   },
+   "continue": {
+      "message": "Pokračovať"
+   },
+   "contribute": {
+      "message": "Prispieť"
+   },
+   "conversationList": {
+      "message": "Zoznam konverzácií"
+   },
+   "conversationView": {
+      "message": "Zobrazenie konverzácie"
+   },
+   "conversationViewToolTip": {
+      "message": "Nastaví, či sú emaily rovnakej témy zoskupené"
+   },
+   "copyEmailAddress": {
+      "message": "Kopírovať emailovú adresu"
+   },
+   "cozy": {
+      "message": "Normálna"
+   },
+   "custom": {
+      "message": "Vlastné"
+   },
+   "customToThisExtension": {
+      "message": "Vlastné klávesové skratky rozšírenia"
+   },
+   "customizeNotifications": {
+      "message": "Prispôsobenie upozornení"
+   },
+   "dark": {
+      "message": "Tmavý"
+   },
+   "dayAgo": {
+      "message": "pred $1 dňom"
+   },
+   "daysAgo": {
+      "message": "pred $1 dňami"
+   },
+   "daysArray": {
+      "message": "Nedeľa, Pondelok, Utorok, Streda, Štvrtok, Piatok, Sobota"
+   },
+   "daysArrayShort": {
+      "message": "ned,pon,uto,str,štv,pia,so"
+   },
+   "default": {
+      "message": "Predvolené"
+   },
+   "delete": {
+      "message": "Odstrániť"
+   },
+   "deleteCustomSounds": {
+      "message": "Odstránenie vlastných zvukov"
+   },
+   "deleteLink": {
+      "message": "Odstrániť"
+   },
+   "deleteLinkTitle": {
+      "message": "Odstrániť správu"
+   },
+   "deletingMarksAsRead": {
+      "message": "Odstránením označiť ako prečítaný"
+   },
+   "deletingMarksAsReadToolTip": {
+      "message": "Označiť email ako prečítaný po jeho odstránení"
+   },
+   "detachedPopupWindow": {
+      "message": "Oddelené vyskakovacie okno"
+   },
+   "developingMore": {
+      "message": "a tvrdo pracujem na vašich nápadoch..."
+   },
+   "developingMoreSuggestions": {
+      "message": "a pracujem na ďalších $1"
+   },
+   "developingMoreSuggestions_suggestions": {
+      "message": "návrhoch"
+   },
+   "differentSounds": {
+      "message": "Zvuky pre rôzne kontá, štítky alebo osoby"
+   },
+   "ding": {
+      "message": "Ding"
+   },
+   "disableAll": {
+      "message": "Zakázať všetko"
+   },
+   "disableTransitions": {
+      "message": "Zakázať prechody"
+   },
+   "disabled": {
+      "message": "Zakázané"
+   },
+   "disabledSkinsUseEnable": {
+      "message": "Vypli ste skiny, použite tlačidlo Povoliť"
+   },
+   "discoverMyApps": {
+      "message": "Objavte moje aplikácie"
+   },
+   "dismiss": {
+      "message": "Zrušiť"
+   },
+   "display": {
+      "message": "Zobrazenie"
+   },
+   "displayAccountReceivingEmail": {
+      "message": "Zobraziť účet prijímajúci emaily"
+   },
+   "displayDensity": {
+      "message": "Hustota zobrazenia"
+   },
+   "displayImagesBelow": {
+      "message": "Zobraziť obrázky nižšie"
+   },
+   "displaySenders_1": {
+      "message": "Zobraziť odosielateľa"
+   },
+   "dndDuringCalendarEvent": {
+      "message": "DND počas udalostí kalendára"
+   },
+   "dndInFullscreenMode": {
+      "message": "DND v režime celej obrazovky"
+   },
+   "doNotDisturb": {
+      "message": "Nerušiť"
+   },
+   "doNotNotifyMeOfUpdates": {
+      "message": "Neupozorňovať ma na aktualizácie"
+   },
+   "doNotShowNotificationIfGmailTabOpen": {
+      "message": "Nezobrazovať upozornenia, ak je otvorená karta s Gmailom"
+   },
+   "donate": {
+      "message": "Darovať"
+   },
+   "donationRequired": {
+      "message": "Požaduje sa príspevok"
+   },
+   "done": {
+      "message": "Hotovo"
+   },
+   "download": {
+      "message": "Stiahnuť"
+   },
+   "duplicateLabelWarning": {
+      "message": "Vyberte iba 1 z hlavných štítkov (Doručená pošta, Hlavné, Dôležité, Všetky správy), inak sa zobrazia duplikáty!"
+   },
+   "duplicateWarning": {
+      "message": "Duplicitné upozornenie"
+   },
+   "email": {
+      "message": "Email:"
+   },
+   "emailAccounts": {
+      "message": "Emailové účty"
+   },
+   "emailFrom_NAME": {
+      "message": "Správa od $1"
+   },
+   "emailPreview": {
+      "message": "Náhľad emailu"
+   },
+   "emailPreviewToolTip": {
+      "message": "Vypnutím voľby sa otvorí email priamo na webovej stránke Gmailu po kliknutí na súhrn emailov"
+   },
+   "email_from": {
+      "message": "odosielateľ"
+   },
+   "email_message": {
+      "message": "správa"
+   },
+   "email_subject": {
+      "message": "predmet"
+   },
+   "enable": {
+      "message": "Povoliť"
+   },
+   "enableVoiceInputToolTip": {
+      "message": "Pridá mikrofón v dolnej časti novej správy alebo poľa odpovedania na webovej stránke Gmailu"
+   },
+   "enabled": {
+      "message": "Povolené"
+   },
+   "enter": {
+      "message": "Enter"
+   },
+   "enterAnAmount": {
+      "message": "Musíte zadať sumu!"
+   },
+   "esc": {
+      "message": "Esc"
+   },
+   "example": {
+      "message": "príklad"
+   },
+   "exceptionsToChooseFrom": {
+      "message": "Výnimky, z ktorých si môžete vybrať"
+   },
+   "extensionUpdated": {
+      "message": "Rozšírenie aktualizované!"
+   },
+   "extensionUpdates": {
+      "message": "Aktualizácie rozšírenia"
+   },
+   "extraFeatures": {
+      "message": "Extra funkcie"
+   },
+   "extraFeaturesMonthlyBlurb": {
+      "message": "Táto funkcia vyžaduje mesačnú platbu akejkoľvek sumy z dôvodu kvóty, ktorú mi ukladá rozhranie Gmail API. Poznámka: Väčšina extra funkcií vyžaduje iba jednu platbu."
+   },
+   "extraFeaturesPopup1": {
+      "message": "Tieto nedostupné možnosti sú extra funkcie, pri ktorých som strávil veľa času."
+   },
+   "extraFeaturesPopup2": {
+      "message": "Ak chcete odomknúť tieto funkcie, prispejte akoukoľvek sumou na podporu mojej práce."
+   },
+   "failureWithPayPalPurchase": {
+      "message": "Zrušená alebo zlyhaná transakcia! Vyskúšať $1 namiesto toho?"
+   },
+   "feedback": {
+      "message": "Spätná väzba"
+   },
+   "finance": {
+      "message": "Financie"
+   },
+   "firstAndLastName": {
+      "message": "meno a priezvisko"
+   },
+   "firstNameOnly": {
+      "message": "iba meno"
+   },
+   "followMe": {
+      "message": "Sledujte ma"
+   },
+   "forever": {
+      "message": "Navždy"
+   },
+   "forums": {
+      "message": "Kliknutie na logo Checker Plus for Gmail"
+   },
+   "forward": {
+      "message": "Dopredu"
+   },
+   "from": {
+      "message": "Od"
+   },
+   "general": {
+      "message": "Všeobecné"
+   },
+   "googleAccountsSignIn": {
+      "message": "Prihláste sa do účtov Google"
+   },
+   "grantAccess": {
+      "message": "Udelenie prístupu"
+   },
+   "grantedTo": {
+      "message": "Povolené pre"
+   },
+   "gray": {
+      "message": "Šedá"
+   },
+   "green": {
+      "message": "Zelená"
+   },
+   "guideForPrimaryCategory": {
+      "message": "Príručka pre Hlavnú kategóriu"
+   },
+   "guideForPrimaryCategoryToolTip": {
+      "message": "Sledovanie špecifických štítkov: Hlavné, Sociálne siete, Aktualizácie, Doručená pošta atď."
+   },
+   "hearEmail": {
+      "message": "Vypočuť si email"
+   },
+   "hearEmailMessage": {
+      "message": "Vypočuť si správu"
+   },
+   "hearEmailSubject": {
+      "message": "Vypočuť si predmet správy"
+   },
+   "hearEmailToolTip": {
+      "message": "Vyberte, ktoré časti emailu si chcete vypočuť… odosielateľ, predmet alebo obsah emailu"
+   },
+   "height": {
+      "message": "Výška"
+   },
+   "help": {
+      "message": "Pomoc"
+   },
+   "hiddenGmailTabsNote": {
+      "message": "Máte skryté Gmail karty, ako sú Aktualizácie alebo Fóra ovplyvňujúce počet emailov."
+   },
+   "hideButton": {
+      "message": "Tlačidlo Skryť"
+   },
+   "hideReadEmails": {
+      "message": "Skryť prečítané emaily"
+   },
+   "hideSentFrom": {
+      "message": "Skryť emailové podpisy zo súhrnu, napr. \"Odoslané z môjho…\""
+   },
+   "hideSentFromToolTip": {
+      "message": "Zaškrtnite, ak chcete skryť emailové podpisy odoslané zo zariadení, ako je \"Odoslané z môjho iPhonu alebo Blackberry\" atď."
+   },
+   "hideUnreadCount": {
+      "message": "Skryť počet neprečítaných emailov"
+   },
+   "hideUnreadCountToolTip": {
+      "message": "Skryje počet neprečítaných správ z ikony rozšírenia"
+   },
+   "hourAgo": {
+      "message": "pred $1 hodinou"
+   },
+   "hours": {
+      "message": "hodín"
+   },
+   "hoursAgo": {
+      "message": "pred $1 hodinami"
+   },
+   "icon": {
+      "message": "Ikona"
+   },
+   "ifNoUnreadMail": {
+      "message": "Ak nie sú žiadne neprečítané emaily"
+   },
+   "ignoreThisAccount": {
+      "message": "Ignorovať tento účet"
+   },
+   "ignored": {
+      "message": "Ignorované"
+   },
+   "imagesAreNotDisplayed": {
+      "message": "Obrázky sa nezobrazujú."
+   },
+   "important": {
+      "message": "Dôležité"
+   },
+   "importantMail": {
+      "message": "Dôležitá pošta"
+   },
+   "in": {
+      "message": "v"
+   },
+   "inbox": {
+      "message": "Doručená pošta"
+   },
+   "inboxFor": {
+      "message": "$1"
+   },
+   "includesExtraFeaturesForX": {
+      "message": "Obsahuje extra funkcie pre $1"
+   },
+   "indefinitely": {
+      "message": "Neurčito"
+   },
+   "keyboardShortcuts": {
+      "message": "Klávesové skratky"
+   },
+   "keys": {
+      "message": "Klávesové skratky"
+   },
+   "label": {
+      "message": "Štítok"
+   },
+   "labelAdded": {
+      "message": "Pridaný štítok"
+   },
+   "labelRemoved": {
+      "message": "Štítok odstránený"
+   },
+   "labels": {
+      "message": "Štítky"
+   },
+   "language": {
+      "message": "Jazyk"
+   },
+   "licenseOnlyValidFor": {
+      "message": "Licencia bude platná len pre používateľov, ktorí sa prihlásia do svojho účtu Google"
+   },
+   "listenToYourEmail": {
+      "message": "Vypočuť si svoj email"
+   },
+   "loadOptions": {
+      "message": "Možnosti načítania"
+   },
+   "loading": {
+      "message": "Načítava sa..."
+   },
+   "loadingSettings": {
+      "message": "Nastavenie načítavania"
+   },
+   "mailtoLinks": {
+      "message": "Otvoriť protokol mailto Gmailom"
+   },
+   "makeButtonOpenGmail": {
+      "message": "Akcia po kliknutí na ikonu"
+   },
+   "makeButtonOpenGmailGuideToolTip": {
+      "message": "Neodporúča sa, pretože nahradí vyskakovacie okno"
+   },
+   "makeThisAMonthlyContribution": {
+      "message": "Prispievať mesačne"
+   },
+   "makeThisAMonthlyContributionTooltip": {
+      "message": "Pomáha udržiavať používateľskú podporu a aktualizácie"
+   },
+   "man": {
+      "message": "Muž"
+   },
+   "markAllAsDone": {
+      "message": "Označiť všetko ako hotovo"
+   },
+   "markAllAsDoneWarning": {
+      "message": "Týmto označíte všetky emaily ako dokončené v tomto okne pre tento účet."
+   },
+   "markAllAsRead": {
+      "message": "Označiť všetko ako prečítané"
+   },
+   "markAllAsReadTitle": {
+      "message": "Označiť všetko ako prečítané"
+   },
+   "markAllAsReadWarning": {
+      "message": "Týmto označíte všetky emaily ako prečítané v tomto okne pre tento účet. Toto tlačidlo môžete skryť v Možnosti > Tlačidlo. Ak ste chceli otvoriť tento účet, stačí kliknúť na názov účtu vľavo."
+   },
+   "markAsReadInNotificationWindow": {
+      "message": "Označiť email ako prečítaný v okne upozornení"
+   },
+   "markDone": {
+      "message": "Označenie dokončené"
+   },
+   "markedAsDone": {
+      "message": "Označené ako hotové"
+   },
+   "markedAsRead": {
+      "message": "Označené ako prečítané"
+   },
+   "maxEmailsToShowPerAccount": {
+      "message": "Max. počet emailov pre zobrazenie na účet"
+   },
+   "me": {
+      "message": "mne"
+   },
+   "message": {
+      "message": "Správa"
+   },
+   "mini": {
+      "message": "Mini"
+   },
+   "minimumAmount": {
+      "message": "Musíte darovať aspoň $1"
+   },
+   "minutesAgo": {
+      "message": "pred $1 minútami"
+   },
+   "monitor": {
+      "message": "Monitor"
+   },
+   "month": {
+      "message": "Mesiac"
+   },
+   "monthly": {
+      "message": "Mesačne"
+   },
+   "monthlyContribution": {
+      "message": "Mesačný príspevok"
+   },
+   "monthlyPaymentBonus": {
+      "message": "Mesačný platobný bonus"
+   },
+   "monthlySubtitle": {
+      "message": "Najlepšie riešenie! Zrušenie kedykoľvek"
+   },
+   "monthsArray": {
+      "message": "Január,Február,Marec,Apríl,Máj,Jún,Júl,August,September,Október,November,December"
+   },
+   "monthsArrayShort": {
+      "message": "jan,feb,mar,apr,máj,jún,júl,aug,sep,okt,nov,dec"
+   },
+   "more": {
+      "message": "viac"
+   },
+   "moreInfo": {
+      "message": "Viac info"
+   },
+   "morning": {
+      "message": "Ráno"
+   },
+   "moveIntoActionCenter": {
+      "message": "Presunúť do centra akcií"
+   },
+   "moveLabel": {
+      "message": "Presunúť do"
+   },
+   "movedToTrash": {
+      "message": "Presunuté do koša"
+   },
+   "multipleUserLicense": {
+      "message": "Multilicencia"
+   },
+   "multipleUserLicenseFor": {
+      "message": "Multilicencia pre $1"
+   },
+   "mustSignInToPay": {
+      "message": "Musíte sa prihlásiť do služby Gmail a počkať, kým sa toto rozšírenie načíta!"
+   },
+   "muteVoiceWhileSleeping": {
+      "message": "Plán, kedy nerušiť"
+   },
+   "native": {
+      "message": "prirodzený"
+   },
+   "networkProblem": {
+      "message": "Problém so sieťou"
+   },
+   "never": {
+      "message": "Nikdy"
+   },
+   "newEmail": {
+      "message": "Nový email"
+   },
+   "newer": {
+      "message": "Novšie"
+   },
+   "next": {
+      "message": "Ďalšia"
+   },
+   "nickname": {
+      "message": "Prezývka"
+   },
+   "night": {
+      "message": "Noc"
+   },
+   "no": {
+      "message": "nie"
+   },
+   "noSubject": {
+      "message": "Žiadny predmet"
+   },
+   "noUnreadText": {
+      "message": "Žiadne nové správy"
+   },
+   "noUpdateNotifications": {
+      "message": "Žiadne upozornenia na aktualizáciu"
+   },
+   "noUpdates": {
+      "message": "Žiadne aktualizácie."
+   },
+   "none": {
+      "message": "Žiadne"
+   },
+   "notSignedIn": {
+      "message": "Nie je prihlásený"
+   },
+   "notWorking": {
+      "message": "Nefunguje?"
+   },
+   "notification": {
+      "message": "Upozornenie"
+   },
+   "notificationButton1": {
+      "message": "1. Tlačidlo upozornenia"
+   },
+   "notificationButton2": {
+      "message": "2. Tlačidlo upozornenia"
+   },
+   "notificationSound": {
+      "message": "Zvukové upozornenia"
+   },
+   "notificationTextToSpeech": {
+      "message": "Hlasové upozornenia"
+   },
+   "notificationTryItOutInstructions": {
+      "message": "Označte aspoň jeden z vašich emailov ako neprečítaný, potom kliknite sem a počkajte, až uvidíte okno oznámenia!"
+   },
+   "notifications": {
+      "message": "Upozornenia"
+   },
+   "notificationsGuideToolTip": {
+      "message": "Zvuky, Hlasy, Upozornenia na pracovnej ploche"
+   },
+   "of": {
+      "message": "z"
+   },
+   "off": {
+      "message": "Vypnuté"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "older": {
+      "message": "Staršie"
+   },
+   "onetime": {
+      "message": "Jednorazovo"
+   },
+   "open": {
+      "message": "Otvoriť"
+   },
+   "openCheckerPlusDetached": {
+      "message": "Otvoriť Checker plus samostatne"
+   },
+   "openComposeInTab": {
+      "message": "Napísať novú správu otvoriť na novej karte"
+   },
+   "openComposeInTabToolTip": {
+      "message": "Napísať novú správu otvorí na karte namiesto vyskakovacieho okna (platí aj pre protokol mailto)"
+   },
+   "openComposeReplyAction": {
+      "message": "Tlačidlá Napísať a Odpovedať"
+   },
+   "openComposeReplyActionInPopupWindow": {
+      "message": "Otvoriť v novom externom okne"
+   },
+   "openComposeReplyActionInTab": {
+      "message": "Otvoriť na karte"
+   },
+   "openEmailDisplayedInNotificationWindow": {
+      "message": "Otvoriť email zobrazený v okne upozornení"
+   },
+   "openGmailInNewTab": {
+      "message": "Otvoriť Gmail na novej karte"
+   },
+   "openGmailPopupWindow": {
+      "message": "Otvoriť Gmail pre mobilné zariadenia"
+   },
+   "openGmailPopupWindowToolTip": {
+      "message": "Plne funkčný Gmail vo vyskakovacom okne, zobrazí všetky štítky, nedá sa prispôsobiť, neodporúča sa pre viac účtov."
+   },
+   "openGmailTab": {
+      "message": "Otvoriť Gmail"
+   },
+   "openGmailTabToolTip": {
+      "message": "Zakáže vyskakovacie okno (neodporúča sa) a otvorí Gmail na karte."
+   },
+   "openHelp": {
+      "message": "Otvoriť Pomocníka"
+   },
+   "openInNewTab": {
+      "message": "Otvoriť na novej karte"
+   },
+   "openInPopup": {
+      "message": "Otvoriť vo vyskakovacom okne"
+   },
+   "openLabel": {
+      "message": "Otvoriť štítok"
+   },
+   "openLabelTooltip": {
+      "message": "Predvolený štítok na otvorenie na karte Gmail"
+   },
+   "openLinkTitle": {
+      "message": "Otvoriť v prehliadači"
+   },
+   "openPopout": {
+      "message": "Otvoriť vyskakovacie okno"
+   },
+   "openPopupPreview": {
+      "message": "Otvoriť Checker Plus"
+   },
+   "openPopupPreviewToolTip": {
+      "message": "Rýchle zobrazenie a vybavenie IBA neprečítaných správ zo štítkov, ktorý sledujete. Vysoko prispôsobiteľné, optimalizované pre viaceré účty."
+   },
+   "openReply": {
+      "message": "Otvoriť (Odpovedať)"
+   },
+   "openThisLabel": {
+      "message": "Otvoriť tento štítok"
+   },
+   "openThisLabelToolTip": {
+      "message": "Určuje, kam bude používateľ presmerovaný po kliknutí na ikonu emailového konta alebo rozšírenia"
+   },
+   "option": {
+      "message": "Možnosť"
+   },
+   "options": {
+      "message": "Možnosti"
+   },
+   "or": {
+      "message": "alebo"
+   },
+   "original": {
+      "message": "Pôvodný"
+   },
+   "otherAmount": {
+      "message": "Iná suma"
+   },
+   "otherPlans": {
+      "message": "Iné plány"
+   },
+   "otherPlansDescription": {
+      "message": "Vzdelávanie, ročne…"
+   },
+   "paragraph": {
+      "message": "odsek"
+   },
+   "pitch": {
+      "message": "Výška hlasu"
+   },
+   "playVideosInsideGmail": {
+      "message": "Prehrávať videá v Gmaili"
+   },
+   "pollingAccounts": {
+      "message": "Kontrola účtov"
+   },
+   "pollingInterval": {
+      "message": "Interval kontroly"
+   },
+   "popout": {
+      "message": "Vyskakovacie okno"
+   },
+   "positionFromLeft": {
+      "message": "Pozícia zľava"
+   },
+   "positionFromTop": {
+      "message": "Pozícia zhora"
+   },
+   "pressCtrlToOpenInBackground": {
+      "message": "Stlačením tlačidla $1 a kliknutím na odkaz ho otvoríte na novej karte na pozadí."
+   },
+   "preview": {
+      "message": "Náhľad"
+   },
+   "previewingMarksAsRead": {
+      "message": "Zobrazením náhľadu označiť ako prečítaný"
+   },
+   "previewingMarksAsReadToolTip": {
+      "message": "Označiť email ako prečítaný po jeho zobrazení vo vyskakovacom okne"
+   },
+   "previous": {
+      "message": "Predchádzajúca"
+   },
+   "primary": {
+      "message": "Hlavné"
+   },
+   "priorityInbox": {
+      "message": "Prioritná pošta"
+   },
+   "profileLoaded": {
+      "message": "Profil načítaný!"
+   },
+   "promotions": {
+      "message": "Promá"
+   },
+   "purchases": {
+      "message": "Nákupy"
+   },
+   "quickComposeEmail": {
+      "message": "Rýchly kontakt"
+   },
+   "rate": {
+      "message": "Rýchlosť"
+   },
+   "read": {
+      "message": "Čítanie"
+   },
+   "readLink": {
+      "message": "Označiť ako prečítané"
+   },
+   "readLinkTitle": {
+      "message": "Označiť ako prečítané"
+   },
+   "realtime": {
+      "message": "V reálnom čase"
+   },
+   "recommended": {
+      "message": "Odporúčané"
+   },
+   "recordSound": {
+      "message": "Nahrať zvuk"
+   },
+   "reducedDonationAd_notification": {
+      "message": "Dobré správy dlhodobý používateľ [Kliknite pre zamietnutie]"
+   },
+   "reducedDonationAd_popup": {
+      "message": "Dobré správy dlhodobý používateľ! Získajte $1 len za 50¢"
+   },
+   "refresh": {
+      "message": "Obnoviť"
+   },
+   "refreshLinkTitle": {
+      "message": "Aktualizovať všetky schránky"
+   },
+   "removeAccount": {
+      "message": "Odstrániť účet"
+   },
+   "removeAccountIcon": {
+      "message": "Ikona pre odstránenie účtu"
+   },
+   "removeShareLinks": {
+      "message": "Skryť zdieľané odkazy"
+   },
+   "removeShareLinksTooltip": {
+      "message": "Odstraňuje odkazy na Facebooku, Twitteri atď."
+   },
+   "repeatNotification": {
+      "message": "Opakovať upozornenie"
+   },
+   "reply": {
+      "message": "Odpoveď"
+   },
+   "replyInGmail": {
+      "message": "Odpovedať v Gmaili"
+   },
+   "replyInPopup": {
+      "message": "Odpoveď vo vyskakovacom okne"
+   },
+   "replyLinkTitle": {
+      "message": "Odpovedať na správu"
+   },
+   "replyOnlyToSender": {
+      "message": "Odpovedať iba odosielateľovi"
+   },
+   "replyToAll": {
+      "message": "Odpovedať všetkým"
+   },
+   "replyingMarksAsRead": {
+      "message": "Odpovedaním označiť email ako prečítaný"
+   },
+   "reportSpam": {
+      "message": "Nahlásiť spam"
+   },
+   "reset": {
+      "message": "Resetovať"
+   },
+   "revertAutoSizing": {
+      "message": "Obnoviť automatickú veľkosť"
+   },
+   "richNotification": {
+      "message": "Rozšírené upozornenia"
+   },
+   "richNotificationToolTip": {
+      "message": "Upozornenia s tlačidlami"
+   },
+   "runInBackground": {
+      "message": "Spustiť na pozadí po zatvorení prehliadača Google Chrome"
+   },
+   "runInBackgroundToolTip": {
+      "message": "Pokračovať v prijímaní upozornení o nových správach, aj keď je prehliadač zavretý! Odporúčame len pre pokročilých používateľov."
+   },
+   "runInBackgroundWarning1": {
+      "message": "Pozorne si prečítajte o $1"
+   },
+   "runInBackgroundWarning1b": {
+      "message": "aplikáciách na pozadí"
+   },
+   "runInBackgroundWarning2": {
+      "message": "Ak ste vypli aplikácie na pozadí v prehliadači Chrome, môžete ich znova povoliť prečítaním $1"
+   },
+   "runInBackgroundWarning2b": {
+      "message": "poslednej klikateľnej sekcii"
+   },
+   "runInBackgroundWarning3": {
+      "message": "Možno budete musieť použiť $1 z prihlasovacej stránky Gmailu"
+   },
+   "runInBackgroundWarning3b": {
+      "message": "zostať prihlásený"
+   },
+   "save": {
+      "message": "Uložiť"
+   },
+   "saveOptions": {
+      "message": "Uložiť možnosti"
+   },
+   "schedule": {
+      "message": "Naplánovať"
+   },
+   "search": {
+      "message": "Hľadať"
+   },
+   "seeUpdates": {
+      "message": "Zobraziť aktualizácie"
+   },
+   "selectEmailAccount": {
+      "message": "Vyberte emailový účet"
+   },
+   "selectQuickActionButtons": {
+      "message": "Zobraziť alebo skryť tlačidlá akcií"
+   },
+   "selectQuickActionButtonsToolTip": {
+      "message": "Poznámka: Tlačidlá v úplnom zobrazení emailu nebudú skryté!"
+   },
+   "send": {
+      "message": "Odoslať"
+   },
+   "sendPageLinkTitle": {
+      "message": "Poslať odkaz na stránku emailom"
+   },
+   "sendVoiceOrVideoEmails": {
+      "message": "Odoslať hlasový alebo video email"
+   },
+   "sending": {
+      "message": "Odosiela sa"
+   },
+   "sent": {
+      "message": "Odoslané"
+   },
+   "setAccountIcon": {
+      "message": "Nastaviť ikonu účtu"
+   },
+   "setPositionAndSize": {
+      "message": "Nastaviť pozíciu a veľkosť nového externého okna"
+   },
+   "share": {
+      "message": "Zdieľať"
+   },
+   "shareIntro": {
+      "message": "Vyskúšajte toto úžasné rozšírenie prehliadača Chrome"
+   },
+   "shortcutKeysHeader": {
+      "message": "Tieto klávesy sa použijú iba pre horné vyskakovacie okno, ktoré bolo aktivované tlačidlom"
+   },
+   "showAllEmails": {
+      "message": "Zobraziť všetky emaily"
+   },
+   "showButtonTooltip": {
+      "message": "Zobraziť popis pri ukázaní na ikonu tlačidla"
+   },
+   "showConsoleMessages": {
+      "message": "Zaznamenať správy v konzole Javascript"
+   },
+   "showConsoleMessagesTitle": {
+      "message": "Určené len pre ladenie a môže trochu spomaliť rozšírenie!"
+   },
+   "showContactPhoto": {
+      "message": "Zobraziť fotografie kontaktov a podrobnosti vo vyskakovacom okne"
+   },
+   "showContactPhotos": {
+      "message": "Zobraziť fotografie kontaktov"
+   },
+   "showContextMenuItem": {
+      "message": "Zobraziť položku kontextovej ponuky po kliknutí pravým tlačidlom myši"
+   },
+   "showDesktopNotifications": {
+      "message": "Zobrazovať upozornenia na pracovnej ploche"
+   },
+   "showDetails": {
+      "message": "Zobraziť podrobnosti"
+   },
+   "showEOM": {
+      "message": "Pridať značku na označenie konca súhrnu emailu [EOM]"
+   },
+   "showEOMToolTip": {
+      "message": "EOM - Koniec správy. Užitočné pri prijímaní veľa krátkych emailov, aby ste nemuseli klikať na náhľad emailu, či obsahuje ďalší text"
+   },
+   "showGrayIconInDND": {
+      "message": "Vždy zobraziť sivú ikonu"
+   },
+   "showHideEmailPreview": {
+      "message": "Zobraziť náhľad emailu"
+   },
+   "showIconAnimation": {
+      "message": "Zobraziť animáciu ikony"
+   },
+   "showIconAnimationToolTip": {
+      "message": "Animovať ikony po prijatí novej pošty"
+   },
+   "showNotificationEmailImagePreview": {
+      "message": "Zobraziť náhľad prvého obrázka v emaile"
+   },
+   "showNotificationsForOlderDateEmails": {
+      "message": "Zobraziť upozornenia pre staršie datované emaily (Užitočné len pre kontá POP3)"
+   },
+   "showNotificationsForOlderDateEmailsToolTip": {
+      "message": "Ak je zaškrtnuté, vyskakovacie upozornenia sa budú zobrazovať len pre vaše najnovšie emaily (odporúčané pre väčšinu), ale niekedy emaily načítané pomocou protokolu POP3 dorazia do priečinka doručenej pošty po najnovších emailoch a budú zoradené uprostred priečinka doručenej pošty z dôvodu ich starších dátumov. Ak zaškrtnete túto voľbu, tieto emaily sa zobrazia aj vo vyskakovacích upozorneniach, ale maximálne do 20 neprečítaných emailov v priečinku doručenej pošty. Poznámka: Ak označíte emaily ako neprečítané, znovu sa zobrazia aj vo vyskakovacích upozorneniach!"
+   },
+   "showNotificationsOnStartup": {
+      "message": "Zobraziť upozornenia pri spustení"
+   },
+   "showSendAndArchiveButton": {
+      "message": "Zobraziť tlačidlo \"Odoslať a archivovať\""
+   },
+   "showSendAndDeleteButton": {
+      "message": "Zobraziť tlačidlo \"Odoslať a odstrániť\""
+   },
+   "showSnoozedNotifications": {
+      "message": "Zobraziť odložené upozornenia"
+   },
+   "showUpdateNotificationsForEvertyhing": {
+      "message": "Zobraziť upozornenia na všetky aktualizácie a opravy chýb"
+   },
+   "showUpdateNotificationsForInterestingUpdates": {
+      "message": "Zobraziť upozornenia len na zaujímavé aktualizácie"
+   },
+   "signIn": {
+      "message": "Prihlásiť sa"
+   },
+   "signInAsUserOfOrg": {
+      "message": "Musíte sa $1 a prihlásiť do Gmailu s emailom vašej organizácie"
+   },
+   "signInAsUserOfOrg2": {
+      "message": "odhlásiť"
+   },
+   "signOutAndIn": {
+      "message": "Odhlásenie / Prihlásenie"
+   },
+   "signature": {
+      "message": "Podpis"
+   },
+   "skin": {
+      "message": "Skin"
+   },
+   "skins": {
+      "message": "Skiny"
+   },
+   "snoozed": {
+      "message": "Odložené"
+   },
+   "social": {
+      "message": "Sociálne siete"
+   },
+   "sound": {
+      "message": "Zvuk"
+   },
+   "spam": {
+      "message": "Spam"
+   },
+   "spokenWordsLimit": {
+      "message": "Obmedziť počet slov"
+   },
+   "standard": {
+      "message": "Štandardné"
+   },
+   "starAndArchive": {
+      "message": "Pridať hviezdičku a archivovať"
+   },
+   "starLinkTitle": {
+      "message": "Pridať hviezdičku"
+   },
+   "starringAppliesInboxLabel": {
+      "message": "Po pridaní hviezdičky označiť štítkom Doručená pošta"
+   },
+   "subject": {
+      "message": "Predmet"
+   },
+   "summary": {
+      "message": "zhrnutie"
+   },
+   "support": {
+      "message": "Podpora"
+   },
+   "switchToAddAccounts": {
+      "message": "Ak chcete používať túto funkciu, musíte prepnúť na metódu Pridať účty."
+   },
+   "switchToCheckerPlus": {
+      "message": "Prepnúť na Checker Plus"
+   },
+   "switchToInbox": {
+      "message": "Prepnúť do priečinka doručenej pošty"
+   },
+   "syncContacts": {
+      "message": "Synchronizovať kontakty"
+   },
+   "syncDND": {
+      "message": "Synchronizovať nastavenia DND so všetkými rozšíreniami Checker Plus"
+   },
+   "syncSignInOrder": {
+      "message": "Synchronizovať poradie"
+   },
+   "syncSignInOrderTooltip": {
+      "message": "Opätovná synchronizácia účtov: Poradie vašich účtov webovej stránky služby Gmail sa môže líšiť od účtov uvedených tu a niekedy otvorenie odkazov v mojom rozšírení otvorí nesprávny priečinok doručenej pošty."
+   },
+   "systemLabels": {
+      "message": "Systémové štítky"
+   },
+   "tab": {
+      "message": "Karta"
+   },
+   "tabToolTip": {
+      "message": "Pridať karty do vyskakovacieho okna Gmail pre mobilné zariadenia"
+   },
+   "testIt": {
+      "message": "Vyskúšať!"
+   },
+   "textNotification": {
+      "message": "Textové upozornenia"
+   },
+   "textNotificationToolTip": {
+      "message": "Jednoduché upozornenia"
+   },
+   "thankYouForYourContribution": {
+      "message": "Funkcie sú teraz odomknuté. Ďakujeme vám za váš príspevok!"
+   },
+   "theme": {
+      "message": "Motív"
+   },
+   "theresAProblem": {
+      "message": "Vyskytol sa problém"
+   },
+   "tip": {
+      "message": "Tip"
+   },
+   "to": {
+      "message": "komu"
+   },
+   "today": {
+      "message": "Dnes"
+   },
+   "tomorrow": {
+      "message": "Zajtra"
+   },
+   "tooManyUnread": {
+      "message": "Naraz môžete pracovať iba s $1 emailami, aby sa zabránilo časovému limitu. Príliš veľa -mailov? Skúste sledovať kategóriu Hlavné alebo iné menovky v možnostiach > / Štítky"
+   },
+   "translateMessage": {
+      "message": "Preložiť správu"
+   },
+   "transparent": {
+      "message": "Transparentné"
+   },
+   "tryAgain": {
+      "message": "Skúste to znova"
+   },
+   "tryAgainLater": {
+      "message": "Skúste to znova neskôr"
+   },
+   "tryCheckerPlusWindowFirst": {
+      "message": "Vyskúšať vyskakovacie okno Checker Plus niekoľko dní, je to efektívnejšie"
+   },
+   "turnOff": {
+      "message": "Vypnúť"
+   },
+   "uncheckInboxLabel": {
+      "message": "Zrušte štítok Doručená pošta"
+   },
+   "undo": {
+      "message": "Vrátiť späť"
+   },
+   "unknownSender": {
+      "message": "Neznámy odosielateľ"
+   },
+   "unlimited": {
+      "message": "Neobmedzené"
+   },
+   "unlockOtherExtensions": {
+      "message": "Odomknite ostatné rozšírenia otvorením stránky na príspevok a použite odkaz vyššie Už som prispel."
+   },
+   "unread": {
+      "message": "Neprečítané"
+   },
+   "unreadLink": {
+      "message": "Neprečítané"
+   },
+   "unreadLinkTitle": {
+      "message": "Označiť ako neprečítané"
+   },
+   "unreadLinkTitleShort": {
+      "message": "Neprečítané"
+   },
+   "unreadMail": {
+      "message": "Neprečítaná pošta"
+   },
+   "unreadMailCountColor": {
+      "message": "Farba počtu neprečítaných emailov"
+   },
+   "update": {
+      "message": "Aktualizácia"
+   },
+   "updates": {
+      "message": "Aktualizácie"
+   },
+   "uploadSound": {
+      "message": "Odoslať zvuk"
+   },
+   "useBasicHTMLView": {
+      "message": "Použiť základné zobrazenie HTML"
+   },
+   "useChromeSignIn": {
+      "message": "Použiť prihlásenie Chromu"
+   },
+   "videoEmail": {
+      "message": "Video email"
+   },
+   "videoMessage": {
+      "message": "Video správa"
+   },
+   "voice": {
+      "message": "Hlas"
+   },
+   "voiceCommands": {
+      "message": "Hlasové povely"
+   },
+   "voiceEmail": {
+      "message": "Hlasový email"
+   },
+   "voiceInput": {
+      "message": "Hlasový vstup"
+   },
+   "voiceInputSuggestions": {
+      "message": "Povoliť návrhy"
+   },
+   "voiceMessage": {
+      "message": "Hlasová správa"
+   },
+   "voiceNotificationOnlyIfIdle": {
+      "message": "Iba ak ste od počítača nejakú dobu"
+   },
+   "voiceTest": {
+      "message": "Testovací hlas"
+   },
+   "volume": {
+      "message": "Hlasitosť"
+   },
+   "welcome": {
+      "message": "Vitajte"
+   },
+   "white": {
+      "message": "Biela"
+   },
+   "wholeEmail": {
+      "message": "celý email"
+   },
+   "widget": {
+      "message": "Widget"
+   },
+   "width": {
+      "message": "Šírka"
+   },
+   "woman": {
+      "message": "Žena"
+   },
+   "yellow": {
+      "message": "Žltá"
+   },
+   "yes": {
+      "message": "áno"
+   },
+   "yesterday": {
+      "message": "včera"
+   },
+   "yourOffline": {
+      "message": "Ste offline"
+   },
+   "zoom": {
+      "message": "Zväčšiť"
+   }
+}

@@ -1,0 +1,1 @@
+(o=>{o.runtime.onInstalled.addListener(t=>{switch(t.reason){case"install":o.tabs.create({url:"https://junookyo.gitbook.io/j2team-cookies/thank-you"});break;case"update":o.tabs.create({url:"https://junookyo.gitbook.io/j2team-cookies/changelog"});break}}),o.runtime.setUninstallURL("https://junookyo.gitbook.io/j2team-cookies/consider-reinstalling")})(chrome);

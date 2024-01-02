@@ -1,0 +1,24 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "./icons/chat128.png",
+      "default_popup": "popup.html"
+   },
+   "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'",
+   "description": "A chrome extension creates an overlay to show Youtube live chat when in full screen",
+   "icons": {
+      "128": "./icons/chat128.png",
+      "16": "./icons/chat16.png",
+      "48": "./icons/chat48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqH1To4NKKowfN9edjxL3N562mbN7E/2tqIlNKYLzX+6L61f+gtDVgwzh17nYGlCfLr7cmoSr9hzaBrsNcOyQVFYF7Pht58oyMntzpfH85cTqIo2wvMpXSItRmB/U2+crAENLFEdB31eEW6Y943QCGQK/k/sARa9RreETHEyrBev1CbSd2dPIaT+Blw2ZECFIn7UBEXYwunTOxqsgVo+iaDGaQfqqv9zFwTKh1YUZiT+yVCFrrD7U38QGQn2fo6fVo4bGQ0eiolzA1YcuQoMMRYzzveK7vV8L69k5oIwa5vRMyNcdgIGtH37MBjh0ZbNYl9aGFQygSjcx9MDTcEY4gwIDAQAB",
+   "manifest_version": 2,
+   "name": "Youtube Chat in Fullscreen",
+   "permissions": [ "storage", "activeTab", "webRequest", "*://*.youtube.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.4",
+   "web_accessible_resources": [ "pageInject.js", "css/NativeChatFilter.css" ]
+}

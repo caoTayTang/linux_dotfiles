@@ -1,0 +1,278 @@
+{
+   "about": {
+      "message": "Über uns"
+   },
+   "accountType": {
+      "message": "Kontotyp"
+   },
+   "actions": {
+      "message": "Aktionen"
+   },
+   "antiClickjacking": {
+      "message": "Anti-Clickjacking"
+   },
+   "appDescription": {
+      "message": "J2TEAM Security hilft bei der Abwehr von Phishing-Angriffen."
+   },
+   "appName": {
+      "message": "J2TEAM Security"
+   },
+   "blockList": {
+      "message": "Block-Liste"
+   },
+   "blockMalwareFileNotify": {
+      "message": "Der Download-Vorgang wurde aufgrund der Erkennung von gefährlichen Dateien blockiert"
+   },
+   "blockPageHeading": {
+      "message": "Die Website enthält schädliche Programme"
+   },
+   "blockPageP1": {
+      "message": "Angreifer auf"
+   },
+   "blockPageP2": {
+      "message": "der Seite, auf die Sie gerade geklickt haben"
+   },
+   "blockPageP3": {
+      "message": "können versuchen, Sie dazu zu bringen, Programme zu installieren, die Ihre Browser-Erfahrung beeinträchtigen (z. B. indem Ihre Homepage geändert wird oder zusätzliche Anzeigen auf von Ihnen besuchten Websites angezeigt werden)."
+   },
+   "blockPageP4": {
+      "message": "Da Sie"
+   },
+   "blockPageP5": {
+      "message": "verwenden, wurde diese Seite aus Sicherheitsgründen blockiert!"
+   },
+   "blockPageTitle": {
+      "message": "Sicherheitsfehler"
+   },
+   "block_facebook_pixel": {
+      "message": "Blockieren Sie Facebook Pixel (Tracking-Skript)"
+   },
+   "block_seen_chat": {
+      "message": "Blockieren Sie die Funktion \"Gesehen\" im Chat"
+   },
+   "block_seen_story_facebook": {
+      "message": "Blockieren Sie die Funktion \"Gesehen\" in Facebook Stories"
+   },
+   "block_seen_story_instagram": {
+      "message": "Blockieren Sie die Funktion \"Gesehen\" in Instagram Stories"
+   },
+   "block_typing_chat": {
+      "message": "Blockieren Sie den Schreibindikator im Chat"
+   },
+   "block_typing_comment": {
+      "message": "Blockieren Sie den Schreibindikator in Kommentaren"
+   },
+   "blockedUrl": {
+      "message": "Blockierte URL: "
+   },
+   "btnSeeOnMyProfile": {
+      "message": "Auf meinem Profil ansehen"
+   },
+   "clear": {
+      "message": "Leeren"
+   },
+   "context_menu_change_hotkey": {
+      "message": "Tastenkürzel ändern"
+   },
+   "context_menu_change_language": {
+      "message": "Sprache ändern"
+   },
+   "context_menu_changelog": {
+      "message": "Änderungsprotokoll anzeigen"
+   },
+   "context_menu_donate": {
+      "message": "Spenden"
+   },
+   "context_menu_faq": {
+      "message": "Häufig gestellte Fragen"
+   },
+   "context_menu_help": {
+      "message": "Hilfe"
+   },
+   "context_menu_rate_me": {
+      "message": "Bewerten Sie J2TEAM Security im Chrome Store"
+   },
+   "context_menu_report_abuse": {
+      "message": "Missbrauch melden..."
+   },
+   "context_menu_report_badware": {
+      "message": "Schadsoftware"
+   },
+   "context_menu_report_phishing": {
+      "message": "Phishing"
+   },
+   "context_menu_report_suggest": {
+      "message": "Melden oder Vorschlagen"
+   },
+   "context_menu_report_webspam": {
+      "message": "Webspam"
+   },
+   "conversations": {
+      "message": "Gespräche"
+   },
+   "cryptocurrencyMining": {
+      "message": "Blockieren Sie Cryptocurrency-Mining-Skripte"
+   },
+   "customBlockList": {
+      "message": "Benutzerdefinierte Block-Liste"
+   },
+   "customBlockListLegend": {
+      "message": "Blockiert alle Websites auf dieser Liste"
+   },
+   "customCssDarkTheme": {
+      "message": "Benutzerdefiniertes CSS für dunkle Themes"
+   },
+   "darkThemeEditor": {
+      "message": "Editor für dunkle Themes"
+   },
+   "error": {
+      "message": "Fehler"
+   },
+   "extraFeatures": {
+      "message": "Zusätzliche Funktionen"
+   },
+   "facebookKount": {
+      "message": "Facebook Kount"
+   },
+   "facebookLoginError": {
+      "message": "Sie sind nicht bei Facebook angemeldet"
+   },
+   "facebookSecurityTester": {
+      "message": "Facebook-Sicherheitstester"
+   },
+   "facebook_messenger_history": {
+      "message": "Facebook-Messenger-Verlauf"
+   },
+   "facebook_time_counter": {
+      "message": "Facebook-Nutzungsdauer anzeigen"
+   },
+   "female": {
+      "message": "Weiblich"
+   },
+   "followMe": {
+      "message": "Folgen Sie mir"
+   },
+   "freeTools": {
+      "message": "Kostenlose Tools"
+   },
+   "gender": {
+      "message": "Geschlecht"
+   },
+   "help": {
+      "message": "Hilfe"
+   },
+   "hintClickjacking": {
+      "message": "Blockiert versteckte \"Gefällt mir\"-Buttons auf allen Websites"
+   },
+   "hint_block_facebook_pixel": {
+      "message": "Das Facebook-Pixel ist ein JavaScript-Code für Websites, mit dem Webmaster Messungen durchführen, optimieren und Zielgruppen für Werbekampagnen aufbauen können"
+   },
+   "hint_block_seen_chat": {
+      "message": "Ihre Freunde werden nicht wissen, dass Sie ihre Nachricht gelesen haben"
+   },
+   "hint_block_typing_chat": {
+      "message": "Ihre Freunde werden nicht wissen, wenn Sie eine Nachricht schreiben"
+   },
+   "hint_block_typing_comment": {
+      "message": "Ihre Freunde werden nicht wissen, wenn Sie einen Kommentar schreiben"
+   },
+   "hint_facebook_time_counter": {
+      "message": "Zeigt eine Uhr an, um zu sehen, wie viel Zeit Sie auf Facebook verbringen"
+   },
+   "hint_stop_facebook_timeline": {
+      "message": "Ihr News Feed lädt keine neuen Inhalte mehr und Sie können sich besser auf Ihre Arbeit konzentrieren"
+   },
+   "joinUs": {
+      "message": "Treten Sie uns bei"
+   },
+   "load": {
+      "message": "Laden"
+   },
+   "loadFromUrl": {
+      "message": "Von URL laden"
+   },
+   "male": {
+      "message": "Männlich"
+   },
+   "message": {
+      "message": "Nachricht"
+   },
+   "name": {
+      "message": "Name"
+   },
+   "notificationCryptocurrencyMining": {
+      "message": "Ein Cryptocurrency-Mining-Skript wurde gefunden. Die Anfrage wurde blockiert!"
+   },
+   "notificationUpgradeButton": {
+      "message": "Neue Funktionen anzeigen"
+   },
+   "notificationUpgradeMessage": {
+      "message": "Funktionen in der Premium-Version: Video/Reel herunterladen, Top-Interaktionen, Freundesliste sichern, etc."
+   },
+   "notificationUpgradeTitle": {
+      "message": "J2TEAM Security: Möchten Sie mehr Funktionen nutzen?"
+   },
+   "options": {
+      "message": "Optionen"
+   },
+   "premium_dashboard": {
+      "message": "Premium-Dashboard"
+   },
+   "privacy": {
+      "message": "Facebook-Datenschutz"
+   },
+   "rank": {
+      "message": "Rang"
+   },
+   "rateMe": {
+      "message": "Bitte bewerten Sie J2TEAM Security im Chrome Store"
+   },
+   "realtime": {
+      "message": "Echtzeit-Schutz"
+   },
+   "remove_fbclid": {
+      "message": "Entfernen Sie den Facebook Click Identifier (fbclid)-Parameter aus Links"
+   },
+   "save": {
+      "message": "Speichern"
+   },
+   "security": {
+      "message": "Sicherheit"
+   },
+   "settings": {
+      "message": "Einstellungen"
+   },
+   "showUpdateNotification": {
+      "message": "Update-Benachrichtigung anzeigen"
+   },
+   "status": {
+      "message": "Status"
+   },
+   "stop_facebook_timeline": {
+      "message": "Facebook-Zeitleiste (News Feed) stoppen"
+   },
+   "toggle_block_seen_chat": {
+      "message": "Aktivieren/Deaktivieren Sie die Funktion \"Gesehen\""
+   },
+   "toggle_block_typing_chat": {
+      "message": "Aktivieren/Deaktivieren Sie den Schreibindikator"
+   },
+   "tools": {
+      "message": "Werkzeuge"
+   },
+   "type": {
+      "message": "Typ"
+   },
+   "updateMessage": {
+      "message": "{appName} wurde gerade auf Version {appVersion} aktualisiert. Klicken Sie hier, um die Änderungen in dieser Version zu sehen!"
+   },
+   "upgradeToPremium": {
+      "message": "Upgrade auf Premium"
+   },
+   "userInfo": {
+      "message": "Benutzerinformationen"
+   },
+   "website": {
+      "message": "Website"
+   }
+}

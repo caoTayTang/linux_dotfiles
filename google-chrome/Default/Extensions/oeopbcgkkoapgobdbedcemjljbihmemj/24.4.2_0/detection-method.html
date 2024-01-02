@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+   	<title>Detection mode</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<script type="module" src="js/polymer-css.js" async></script>
+	
+	<script src="js/common.js"></script>
+    <script src="js/extensionCommon.js"></script>
+
+    <script defer src="js/checkerPlusForGmail.js"></script>
+    
+    <script defer src="js/account.js"></script>
+    <script defer src="js/mail.js"></script>
+
+	<script defer src="js/detection-method.js"></script>
+
+    <style>
+        body {
+            font-size: large;
+        }
+
+        :link, :visited {
+		    color: #03a9f4;
+		    outline: 0;
+		    text-decoration: none;
+		}
+
+        [main-title] a {color:white}
+
+        button {
+            font-size: large;
+            cursor: pointer;
+            color: white;
+            padding: 10px;
+            background-color: #4285f4;
+            border-radius: 5px;
+            border: 1px solid white;
+        }
+    </style>
+</head>
+
+<body class="fullbleed" unresolved unresolved2>
+	<paper-spinner id="processing" active></paper-spinner>
+	<app-header-layout>
+		<app-header slot="header" fixed post-effects="waterfall">
+			<app-toolbar>
+				<div main-title class="layout horizontal center">
+					<img src="images/icons/icon_48_white.png" style="vertical-align: middle">
+		  			<div><a class="titleLink" href="https://jasonsavard.com?ref=GmailGrantAccessTitle">Jason Savard Extension</a></div>
+				</div>
+    	  		<paper-button id="help" msg="help">Help</paper-button>
+			</app-toolbar>
+		</app-header>
+		<div class="layout vertical center" style="margin-top:30px">
+            <div>Gmail has made some changes that affect the auto-detect method in Checker Plus for Gmail and requires signing in again.</div>
+            <br>
+            <form id="auto-detect-form" method="post" style="display: inline;">
+                <input id="at" type="hidden" name="at">
+                <button type="submit" msg="autoDetectAccountsStaySignedIn">Continue with auto-detect</button>
+            </form>
+    
+            <div style="margin:10px"><span msg="or">or</span></div>
+    
+            <a class="inherit" href="options.html?highlight=addAccount#accounts"><button msg="addAccountsStaySignedIn">Add accounts and stay signed in</button></a>
+		</div>
+	</app-header-layout>
+
+    <paper-toast id="message"><paper-button class="toastLink"></paper-button> <paper-icon-button class="closeToast" icon="close"></paper-icon-button></paper-toast>
+</body>
+
+</html>

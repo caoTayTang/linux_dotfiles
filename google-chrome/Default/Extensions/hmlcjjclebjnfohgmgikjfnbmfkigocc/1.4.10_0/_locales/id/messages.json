@@ -1,0 +1,278 @@
+{
+   "about": {
+      "message": "Tentang"
+   },
+   "accountType": {
+      "message": "Jenis Akun"
+   },
+   "actions": {
+      "message": "Tindakan"
+   },
+   "antiClickjacking": {
+      "message": "Anti-Clickjacking"
+   },
+   "appDescription": {
+      "message": "J2TEAM Security membantu melindungi dari serangan phishing."
+   },
+   "appName": {
+      "message": "J2TEAM Security"
+   },
+   "blockList": {
+      "message": "Daftar blokir"
+   },
+   "blockMalwareFileNotify": {
+      "message": "Proses unduhan telah diblokir karena terdeteksi file berbahaya"
+   },
+   "blockPageHeading": {
+      "message": "Situs ini berisi program berbahaya"
+   },
+   "blockPageP1": {
+      "message": "Penyerang pada"
+   },
+   "blockPageP2": {
+      "message": "halaman yang baru saja Anda klik"
+   },
+   "blockPageP3": {
+      "message": "mungkin mencoba menipu Anda agar menginstal program yang merugikan pengalaman browsing Anda (misalnya, dengan mengubah halaman beranda atau menampilkan iklan tambahan di situs yang Anda kunjungi)."
+   },
+   "blockPageP4": {
+      "message": "Karena Anda menggunakan"
+   },
+   "blockPageP5": {
+      "message": ", situs ini telah diblokir untuk menjaga keamanan Anda!"
+   },
+   "blockPageTitle": {
+      "message": "Kesalahan keamanan"
+   },
+   "block_facebook_pixel": {
+      "message": "Blokir Facebook Pixel (script pelacakan)"
+   },
+   "block_seen_chat": {
+      "message": "Blokir fitur \"dilihat\" pada obrolan"
+   },
+   "block_seen_story_facebook": {
+      "message": "Blokir fitur \"dilihat\" pada cerita Facebook"
+   },
+   "block_seen_story_instagram": {
+      "message": "Blokir fitur \"dilihat\" pada cerita Instagram"
+   },
+   "block_typing_chat": {
+      "message": "Blokir indikator ketikan pada obrolan"
+   },
+   "block_typing_comment": {
+      "message": "Blokir indikator ketikan pada komentar"
+   },
+   "blockedUrl": {
+      "message": "URL diblokir: "
+   },
+   "btnSeeOnMyProfile": {
+      "message": "Lihat di Profil Saya"
+   },
+   "clear": {
+      "message": "Hapus"
+   },
+   "context_menu_change_hotkey": {
+      "message": "Ubah hotkey"
+   },
+   "context_menu_change_language": {
+      "message": "Ubah bahasa"
+   },
+   "context_menu_changelog": {
+      "message": "Lihat perubahan"
+   },
+   "context_menu_donate": {
+      "message": "Donasi"
+   },
+   "context_menu_faq": {
+      "message": "Pertanyaan yang Sering Diajukan"
+   },
+   "context_menu_help": {
+      "message": "Bantuan"
+   },
+   "context_menu_rate_me": {
+      "message": "Beri peringkat J2TEAM Security di Chrome Store"
+   },
+   "context_menu_report_abuse": {
+      "message": "Laporkan penyalahgunaan..."
+   },
+   "context_menu_report_badware": {
+      "message": "Program berbahaya"
+   },
+   "context_menu_report_phishing": {
+      "message": "Phishing"
+   },
+   "context_menu_report_suggest": {
+      "message": "Laporkan atau sarankan"
+   },
+   "context_menu_report_webspam": {
+      "message": "Spam web"
+   },
+   "conversations": {
+      "message": "Percakapan"
+   },
+   "cryptocurrencyMining": {
+      "message": "Blokir skrip pertambangan cryptocurrency"
+   },
+   "customBlockList": {
+      "message": "Daftar blokir kustom"
+   },
+   "customBlockListLegend": {
+      "message": "akan memblokir semua situs web dalam daftar ini"
+   },
+   "customCssDarkTheme": {
+      "message": "CSS Kustom untuk Tema Gelap"
+   },
+   "darkThemeEditor": {
+      "message": "Editor Tema Gelap"
+   },
+   "error": {
+      "message": "Kesalahan"
+   },
+   "extraFeatures": {
+      "message": "Fitur tambahan"
+   },
+   "facebookKount": {
+      "message": "Facebook Kount"
+   },
+   "facebookLoginError": {
+      "message": "Anda tidak masuk ke Facebook"
+   },
+   "facebookSecurityTester": {
+      "message": "Penguji keamanan Facebook"
+   },
+   "facebook_messenger_history": {
+      "message": "Riwayat Facebook Messenger"
+   },
+   "facebook_time_counter": {
+      "message": "Tampilkan penghitung penggunaan Facebook"
+   },
+   "female": {
+      "message": "Perempuan"
+   },
+   "followMe": {
+      "message": "Ikuti saya"
+   },
+   "freeTools": {
+      "message": "Alat Gratis"
+   },
+   "gender": {
+      "message": "Jenis Kelamin"
+   },
+   "help": {
+      "message": "Bantuan"
+   },
+   "hintClickjacking": {
+      "message": "Blokir tombol suka tersembunyi di situs web mana pun"
+   },
+   "hint_block_facebook_pixel": {
+      "message": "Facebook Pixel adalah potongan kode JavaScript untuk situs web yang memungkinkan pemilik situs web mengukur, mengoptimalkan, dan membangun audiens untuk kampanye iklan"
+   },
+   "hint_block_seen_chat": {
+      "message": "Teman Anda tidak akan tahu bahwa Anda telah membaca pesan mereka"
+   },
+   "hint_block_typing_chat": {
+      "message": "Teman Anda tidak akan tahu kapan Anda mengetik pesan"
+   },
+   "hint_block_typing_comment": {
+      "message": "Teman Anda tidak akan tahu kapan Anda mengetik komentar"
+   },
+   "hint_facebook_time_counter": {
+      "message": "Tampilkan jam untuk melihat berapa lama Anda menghabiskan waktu di Facebook"
+   },
+   "hint_stop_facebook_timeline": {
+      "message": "Feed Berita Anda akan berhenti memuat konten baru, memungkinkan Anda untuk fokus pada pekerjaan Anda"
+   },
+   "joinUs": {
+      "message": "Gabung dengan Kami"
+   },
+   "load": {
+      "message": "Muat"
+   },
+   "loadFromUrl": {
+      "message": "Muat dari URL"
+   },
+   "male": {
+      "message": "Laki-laki"
+   },
+   "message": {
+      "message": "Pesan"
+   },
+   "name": {
+      "message": "Nama"
+   },
+   "notificationCryptocurrencyMining": {
+      "message": "Skrip pertambangan cryptocurrency ditemukan. Permintaan telah diblokir!"
+   },
+   "notificationUpgradeButton": {
+      "message": "Lihat fitur baru"
+   },
+   "notificationUpgradeMessage": {
+      "message": "Fitur dalam versi Premium: Unduh Video/Reel, Interaksi Teratas, Cadangan Daftar Teman, dll."
+   },
+   "notificationUpgradeTitle": {
+      "message": "J2TEAM Security: Apakah Anda ingin menggunakan lebih banyak fitur?"
+   },
+   "options": {
+      "message": "Opsi"
+   },
+   "premium_dashboard": {
+      "message": "Dasbor Premium"
+   },
+   "privacy": {
+      "message": "Privasi Facebook"
+   },
+   "rank": {
+      "message": "Peringkat"
+   },
+   "rateMe": {
+      "message": "Silakan beri peringkat J2TEAM Security di Chrome Store"
+   },
+   "realtime": {
+      "message": "Proteksi real-time"
+   },
+   "remove_fbclid": {
+      "message": "Hapus parameter Identitas Klik Facebook (fbclid) dari tautan"
+   },
+   "save": {
+      "message": "Simpan"
+   },
+   "security": {
+      "message": "Keamanan"
+   },
+   "settings": {
+      "message": "Pengaturan"
+   },
+   "showUpdateNotification": {
+      "message": "Tampilkan pemberitahuan pembaruan"
+   },
+   "status": {
+      "message": "Status"
+   },
+   "stop_facebook_timeline": {
+      "message": "Hentikan Timeline Facebook (Feed Berita)"
+   },
+   "toggle_block_seen_chat": {
+      "message": "Alihkan fitur \"dilihat\""
+   },
+   "toggle_block_typing_chat": {
+      "message": "Alihkan indikator ketikan"
+   },
+   "tools": {
+      "message": "Alat"
+   },
+   "type": {
+      "message": "Jenis"
+   },
+   "updateMessage": {
+      "message": "{appName} baru saja diperbarui ke versi {appVersion}. Klik di sini untuk melihat perubahan pada rilis ini!"
+   },
+   "upgradeToPremium": {
+      "message": "Upgrade ke Premium"
+   },
+   "userInfo": {
+      "message": "Informasi Pengguna"
+   },
+   "website": {
+      "message": "Situs web"
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "action": {
+      "default_icon": "img/logo-48.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_appName__"
+   },
+   "author": "JUNO_OKYO",
+   "background": {
+      "service_worker": "service-worker-loader.js",
+      "type": "module"
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "homepage_url": "https://www.junookyo.com/2017/07/j2team-cookies-chrome-extension.html?utm_source=extension&utm_medium=j2team_cookies",
+   "host_permissions": [ "http://*/*", "https://*/*" ],
+   "icons": {
+      "128": "img/logo-128.png",
+      "16": "img/logo-16.png",
+      "32": "img/logo-34.png",
+      "48": "img/logo-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuBbQU73B0+AFt+qbDA6wZE3bLyFbIPqPAjsEvLwb3cXXXXL/Bc8pzBxbfsqVWtEGpjQ8PD0CbDAsmyuAxFSR12IMA2h/TA4MzbrcBecjKoE71UXGosOIlEpkVi7W//x0W669CX26BTBE0kSdDQojaa03osHcRxRYyK66KGP9Qkt92PRzDLeOMLuLc+9KCD1A6KlylvMGKO0lg1I+U+2Crh/YfbWN3JqwMyXbDIOIl7EVlwv3qMob01i4OU9FdkPbUboNDK5FYv1DSunX617MEN8bOOCb730V3OMCSjt6MpJZ1BP9O4vMtHnlbc9fNua8kKMMmSJBW4UX5dBlnBiGfwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "offline_enabled": true,
+   "permissions": [ "cookies", "storage", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.4"
+}
