@@ -175,5 +175,7 @@
     117
   ],
   "DefaultInputMode": 3,
-  "InputModeMapping": {}
+  "InputModeMapping": {
+    "google-chrome:Google-chrome": 3
+  }
 }

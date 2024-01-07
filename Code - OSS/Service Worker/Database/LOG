@@ -1,2 +1,3 @@
-2024/01/02-00:13:58.103 2a75 Creating DB /home/kaios/.config/Code - OSS/Service Worker/Database since it was missing.
-2024/01/02-00:13:58.111 2a75 Reusing MANIFEST /home/kaios/.config/Code - OSS/Service Worker/Database/MANIFEST-000001
+2024/01/07-16:50:48.193 523e Reusing MANIFEST /home/kaios/.config/Code - OSS/Service Worker/Database/MANIFEST-000001
+2024/01/07-16:50:48.194 523e Recovering log #3
+2024/01/07-16:50:48.195 523e Reusing old log /home/kaios/.config/Code - OSS/Service Worker/Database/000003.log 

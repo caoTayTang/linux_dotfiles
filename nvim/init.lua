@@ -87,13 +87,22 @@ require('lazy').setup({
       end,
     },
   },
-
   {
-    "catppuccin/nvim",
+    "folke/tokyonight.nvim",
     priority = 1000,
     opts = {},
     config = function()
-      vim.cmd.colorscheme('catppuccin-mocha')
+      vim.cmd.colorscheme('tokyonight-night')
+    end,
+
+  },
+
+  {
+    "catppuccin/nvim",
+    -- priority = 1000,
+    opts = {},
+    config = function()
+      --   vim.cmd.colorscheme('catppuccin-mocha')
     end,
   },
 
@@ -145,6 +154,10 @@ require('lazy').setup({
     },
     build = ':TSUpdate',
   },
+
+  -- {
+  --   "mhartington/formatter.nvim",
+  -- },
 
   {
     "nvim-neo-tree/neo-tree.nvim",
@@ -292,12 +305,28 @@ require('lazy').setup({
     end
   },
 
+
+  {
+    "windwp/nvim-ts-autotag",
+    config = function()
+      require 'nvim-treesitter.configs'.setup {
+        autotag = {
+          enable = true,
+        }
+      }
+    end
+  },
   { "folke/zen-mode.nvim", },
 
   {
+    "mattn/emmet-vim",
+  },
+  {
     "lukas-reineke/indent-blankline.nvim",
     main = 'ibl',
-    opts = {},
+    opts = {
+      exclude = { filetypes = { 'dashboard' }, },
+    },
   },
 
   {
@@ -498,11 +527,18 @@ end
 --  Add any additional override configuration in the following tables. They will be passed to
 --  the `settings` field of the server config. You must look up that documentation yourself.
 local servers = {
-  clangd = {},
-  pyright = {},
-  tsserver = {},
+  clangd   = {},
+  pyright  = {},
+  eslint   = {},
+  -- tsserver = { filetypes = { "html", "javascript", "typescript" } },
+  -- html     = { filetypes = { 'html', 'twig', 'hbs' } },
+  -- cssls    = { filetypes = { "html", "css", "scss" } },
 
-  lua_ls = {
+  tsserver = {},
+  html     = {},
+  cssls    = {},
+
+  lua_ls   = {
     Lua = {
       workspace = { checkThirdParty = false },
       telemetry = { enable = false },
@@ -510,12 +546,15 @@ local servers = {
   },
 }
 
+
+
 -- Setup neovim lua configuration
 require('neodev').setup()
 
 -- nvim-cmp supports additional completion capabilities, so broadcast that to servers
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
+-- capabilities.textDocument.completion.completionItem.snippetSupport = true
 
 -- Ensure the servers above are installed
 local mason_lspconfig = require 'mason-lspconfig'
@@ -530,6 +569,7 @@ mason_lspconfig.setup_handlers {
       capabilities = capabilities,
       on_attach = on_attach,
       settings = servers[server_name],
+      filetypes = (servers[server_name] or {}).filetypes,
     }
   end,
 }

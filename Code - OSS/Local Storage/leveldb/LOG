@@ -1,2 +1,3 @@
-2024/01/02-00:13:54.554 2a74 Creating DB /home/kaios/.config/Code - OSS/Local Storage/leveldb since it was missing.
-2024/01/02-00:13:54.563 2a74 Reusing MANIFEST /home/kaios/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
+2024/01/07-16:50:48.171 523e Reusing MANIFEST /home/kaios/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
+2024/01/07-16:50:48.172 523e Recovering log #3
+2024/01/07-16:50:48.172 523e Reusing old log /home/kaios/.config/Code - OSS/Local Storage/leveldb/000003.log 
