@@ -8,7 +8,7 @@ brightness="$(brightnessctl g)"
 brightnessctl set "$@" > /dev/null
 
 dunstify -a "changeBrightness" -u low -i audio-volume-high -h string:x-dunst-stack-tag:$msgTag \
-        -h int:value:"$brightness" "Brightness: $((brightness*100/255))%"
+        -h int:value:"$((brightness*100/255))" "Brightness: $((brightness*100/255))%"
 
 # Play the volume changed sound
 canberra-gtk-play -i audio-volume-change -d "changeBrightness"

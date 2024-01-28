@@ -1,0 +1,6 @@
+2024/01/28-21:05:45.050 2b35 Creating DB /home/kaios/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb since it was missing.
+2024/01/28-21:05:45.059 2b35 Reusing MANIFEST /home/kaios/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/28-21:19:35.539 2b36 Level-0 table #5: started
+2024/01/28-21:19:35.548 2b36 Level-0 table #5: 256296 bytes OK
+2024/01/28-21:19:35.552 2b36 Delete type=0 #3
+2024/01/28-21:19:35.553 2b36 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

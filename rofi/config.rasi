@@ -1,9 +1,10 @@
 configuration {
-  display-drun: "> ";
+  display-drun: "Applications > ";
   display-window: "Windows:";
   drun-display-format: "{icon} {name}";
   font: "JetBrainsMono Nerd Font Medium 18";
-  modi: "window,run,drun";
+  modi: "window,run,drun,file-browser-extended";
+  display-file-browser-extended: "Files > ";
   show-icons:  true;
   icon-theme: "Papirus";
 }

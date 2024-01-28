@@ -1,5 +1,6 @@
 -- A
 require "vimg"
+require "keymap"
 
 --    :help lazy.nvim.txt for more info
 local lazypath = vim.fn.stdpath 'data' .. '/lazy/lazy.nvim'
@@ -128,6 +129,13 @@ require('lazy').setup({
 
   },
 
+  {
+    "romgrk/barbar.nvim",
+    config = function()
+      require 'barbar'.setup {}
+    end,
+  },
+
   -- {
   --   "gpanders/nvim-parinfer",
   -- },
@@ -158,6 +166,38 @@ require('lazy').setup({
   -- {
   --   "mhartington/formatter.nvim",
   -- },
+  {
+    "vonheikemen/fine-cmdline.nvim",
+    dependencies = {
+      'MunifTanjim/nui.nvim',
+    },
+    config = function()
+      require('fine-cmdline').setup({
+        cmdline = {
+          enable_keymaps = true,
+          smart_history = true,
+          prompt = ': '
+        },
+        popup = {
+          position = {
+            row = '10%',
+            col = '50%',
+          },
+          size = {
+            width = '60%',
+          },
+          border = {
+            style = 'rounded',
+          },
+          win_options = {
+            winhighlight = 'Normal:Normal,FloatBorder:FloatBorder',
+          },
+        },
+        hooks = {
+        }
+      })
+    end
+  },
 
   {
     "nvim-neo-tree/neo-tree.nvim",
@@ -228,16 +268,11 @@ require('lazy').setup({
       require('dashboard').setup {
         config = {
           header = {
-            "                                                                       ",
-            "  ██████   █████                   █████   █████  ███                  ",
-            " ░░██████ ░░███                   ░░███   ░░███  ░░░                   ",
-            "  ░███░███ ░███   ██████   ██████  ░███    ░███  ████  █████████████   ",
-            "  ░███░░███░███  ███░░███ ███░░███ ░███    ░███ ░░███ ░░███░░███░░███  ",
-            "  ░███ ░░██████ ░███████ ░███ ░███ ░░███   ███   ░███  ░███ ░███ ░███  ",
-            "  ░███  ░░█████ ░███░░░  ░███ ░███  ░░░█████░    ░███  ░███ ░███ ░███  ",
-            "  █████  ░░█████░░██████ ░░██████     ░░███      █████ █████░███ █████ ",
-            " ░░░░░    ░░░░░  ░░░░░░   ░░░░░░       ░░░      ░░░░░ ░░░░░ ░░░ ░░░░░  ",
-            "                                                                       ",
+            "    _/    _/            _/                      ",
+            "   _/  _/      _/_/_/        _/_/      _/_/_/   ",
+            "  _/_/      _/    _/  _/  _/    _/  _/_/        ",
+            " _/  _/    _/    _/  _/  _/    _/      _/_/     ",
+            "_/    _/    _/_/_/  _/    _/_/    _/_/_/        "
           },
           -- week_header = {
           --   enable = true,
@@ -341,8 +376,9 @@ require('lazy').setup({
   },
 
   {
-    "tpope/vim-repeat",
+    "pocco81/auto-save.nvim",
   },
+
 
   require 'kickstart.plugins.autoformat',
   require 'kickstart.plugins.debug',
@@ -579,6 +615,7 @@ mason_lspconfig.setup_handlers {
 local cmp = require 'cmp'
 local luasnip = require 'luasnip'
 require('luasnip.loaders.from_vscode').lazy_load()
+require('my-snippets')
 luasnip.config.setup {}
 
 cmp.setup {
@@ -627,79 +664,3 @@ cmp.setup {
 --
 -- notification plugin
 vim.notify = require("notify")
-
--- custom mapping
--- Diagnostic keymaps
-vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous diagnostic message' })
-vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnostic message' })
-vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { desc = 'Open floating diagnostic message' })
-vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostics list' })
--- vim.keymap.set('n', '<C-d>', '<C-d>zz', { desc = "Scroll down" })
--- vim.keymap.set('n', '<C-u>', '<C-u>zz', { desc = "Scroll up" })
-
-local my_nmap = function(keys, func, desc)
-  vim.keymap.set('n', keys, func, { desc = desc })
-end
-
-
--- my mapping
-my_nmap('<C-c>', "<cmd> %y+ <CR> ", "Yank whole file")
-my_nmap('<M-h>', function() require("nvterm.terminal").toggle('horizontal') end, "Toggle horizontal nvterm")
-my_nmap('<M-v>', function() require("nvterm.terminal").toggle('vertical') end, "Toggle nvertical vterm")
-my_nmap('<M-i>', function() require("nvterm.terminal").toggle('float') end, "Toggle floating nvterm ")
-
-my_nmap('<C-s>', "<cmd>:w<cr>", "Save file")
-my_nmap('<leader>cd', ':cd %:p:h<CR>:pwd<CR>', "change dir to the current file")
-my_nmap('<Esc>', '<cmd>:noh<cr>', 'No highlight')
-
--- code runner
-vim.keymap.set('n', '<leader>r', ':RunCode<CR>', { noremap = true, silent = false })
-
--- DEPRECATED NVCHAD
--- vim.keymap.set('t', '<Esc>', '<C-\\><C-n>', { desc = 'Exit terminal' })
---
--- vim.keymap.set('t', '<Esc>', '<C-\\><C-n>', { desc = 'Exit terminal' })
--- vim.keymap.set('t', '<leader>x', function() require("nvterm.terminal").toggle_all_terms() end,
---   { desc = 'Delete terminal' })
--- vim.keymap.set('n', '<leader>rc',
---   function()
---     require('nvterm.terminal').send("clear && g++ -o out " .. vim.fn.expand "%" .. " && ./out", "vertical")
---   end,
---   { desc = 'Run CPP code' })
-
-my_nmap('<Esc>', '<cmd>:noh<cr>', 'No highlight')
--- neo tree mapping
-vim.keymap.set('n', '<leader>nl', '<cmd>Neotree left toggle %:p:h:h<cr>', { silent = true, desc = 'Toggle neo tree' })
-vim.keymap.set('n', '<leader>nr', '<cmd>Neotree right toggle %:p:h:h<cr>', { silent = true, desc = 'Toggle neo tree' })
-vim.keymap.set('n', '<leader>n', '<cmd>Neotree float toggle %:p:h:h<cr>', { silent = true, desc = 'Toggle neo tree' })
--- mapping
--- vim.keymap.set('n', '<tab>', '<cmd>BufferLineCycleNext<cr>', { desc = 'Buffline Next' })
--- vim.keymap.set('n', '<S-tab>', '<cmd>BufferLineCyclePrev<cr>', { desc = 'Buffline Prev' })
--- vim.keymap.set('n', '<leader>x', '<cmd>BufferLinePickClose<cr>', { desc = 'Buffline Close' })
-
-vim.keymap.set('n', 'x', '"_x')
-
--- Increment/decrement
-vim.keymap.set('n', '+', '<C-a>')
-vim.keymap.set('n', '-', '<C-x>')
-
--- Delete a word backwards
-vim.keymap.set('n', 'db', 'vb"_d')
-
--- Select all
-vim.keymap.set('n', '<C-a>', 'gg<S-v>G')
--- Resize window
-vim.keymap.set('n', '<C-w><left>', '<C-w><')
-vim.keymap.set('n', '<C-w><right>', '<C-w>>')
-vim.keymap.set('n', '<C-w><up>', '<C-w>+')
-vim.keymap.set('n', '<C-w><down>', '<C-w>-')
--- vim tmux navigation
-vim.keymap.set('n', '<C-h>', '<cmd> TmuxNavigateLeft<CR>', { desc = 'tmux navigate left' })
-vim.keymap.set('n', '<C-l>', '<cmd> TmuxNavigateRight<CR>', { desc = 'tmux navigate right' })
-vim.keymap.set('n', '<C-k>', '<cmd> TmuxNavigateUp<CR>', { desc = 'tmux navigate up' })
-vim.keymap.set('n', '<C-j>', '<cmd> TmuxNavigateDown<CR>', { desc = 'tmux navigate down' })
-vim.keymap.set('n', ';', ':')
-
--- sync arch clipboard
-vim.keymap.set('n', 'y', '"+y')
---vim.keymap.set('n', 'p', '"+p')

@@ -22,13 +22,13 @@ fi
 amixer sset Master "$temp" > /dev/null
 
 # Query amixer for the current volume and whether or not the speaker is muted
-if [[ $volume == 0 || "$temp" == "mute" ]]; then
+if [[ $volume == 0 || "$temp" == "off" ]]; then
     # Show the sound muted notification
-    dunstify -a "changeVolume" -u low -i audio-volume-muted -h string:x-dunst-stack-tag:$msgTag "Volume muted" 
+    dunstify -a "changeVolume" -u low -i audio-volume-muted -h string:x-dunst-stack-tag:$msgTag -h int:value:"0" "Volume muted" 
 else
     # Show the volume notification
     dunstify -a "changeVolume" -u low -i audio-volume-high -h string:x-dunst-stack-tag:$msgTag \
-        -h int:value:"$volume" "Volume: $((volume*100/65536))%"
+        -h int:value:"$((volume*100/65546))" "Volume: $((volume*100/65536))%"
 fi
 
 # Play the volume changed sound

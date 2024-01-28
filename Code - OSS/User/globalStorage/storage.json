@@ -474,7 +474,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -503,12 +504,12 @@
                                         "items": [
                                             {
                                                 "id": "workbench.action.activityBarLocation.side",
-                                                "label": "&&Side"
+                                                "label": "&&Side",
+                                                "checked": true
                                             },
                                             {
                                                 "id": "workbench.action.activityBarLocation.hide",
-                                                "label": "&&Hidden",
-                                                "checked": true
+                                                "label": "&&Hidden"
                                             }
                                         ]
                                     }
@@ -782,8 +783,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -792,8 +792,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1463,9 +1462,8 @@
                 "userSettingsLabel": "ctrl+shift+f"
             },
             "workbench.view.scm": {
-                "label": "Ctrl+Shift+G G",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+shift+g g"
+                "label": "Ctrl+Shift+G",
+                "userSettingsLabel": "ctrl+shift+g"
             },
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
@@ -1671,27 +1669,26 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1a1b26",
+    "themeBackground": "#24292e",
     "windowSplash": {
         "zoomLevel": 3,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#787c99",
-            "background": "#1a1b26",
-            "editorBackground": "#1a1b26",
-            "titleBarBackground": "#16161e",
-            "activityBarBackground": "#16161e",
-            "sideBarBackground": "#16161e",
+            "foreground": "#d1d5da",
+            "background": "#24292e",
+            "editorBackground": "#24292e",
+            "titleBarBackground": "#24292e",
+            "activityBarBackground": "#24292e",
+            "sideBarBackground": "#1f2428",
             "statusBarBackground": "#2458d1",
-            "statusBarNoFolderBackground": "#2458d1",
-            "windowBorder": "#0d0f17"
+            "statusBarNoFolderBackground": "#2458d1"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
-            "activityBarWidth": 0,
-            "sideBarWidth": 0,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }
