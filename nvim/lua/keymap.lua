@@ -65,6 +65,8 @@ my_nmap('<C-c>', "<cmd> %y+ <CR> ", "Yank whole file")
 my_nmap('<M-h>', function() require("nvterm.terminal").toggle('horizontal') end, "Toggle horizontal nvterm")
 my_nmap('<M-v>', function() require("nvterm.terminal").toggle('vertical') end, "Toggle nvertical vterm")
 my_nmap('<M-i>', function() require("nvterm.terminal").toggle('float') end, "Toggle floating nvterm ")
+vim.keymap.set('t', '<leader>x', function() require("nvterm.terminal").toggle_all_terms() end,
+  { desc = 'Delete terminal' })
 
 my_nmap('<C-s>', "<cmd>:w<cr>", "Save file")
 my_nmap('<leader>cd', ':cd %:p:h<CR>:pwd<CR>', "change dir to the current file")
