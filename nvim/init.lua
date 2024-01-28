@@ -376,9 +376,24 @@ require('lazy').setup({
   },
 
   {
-    "pocco81/auto-save.nvim",
+    "0x00-ketsu/autosave.nvim",
+    events = { 'InsertLeave', 'TextChanged' },
+    config = function()
+      require 'autosave'.setup({
+        enable = false,
+      })
+    end
   },
-
+  {
+    "f-person/git-blame.nvim",
+    config = function()
+      require('gitblame').setup {
+        --Note how the `gitblame_` prefix is omitted in `setup`
+        enabled = true,
+        message_template = '<author> • <summary> • <date>'
+      }
+    end
+  },
 
   require 'kickstart.plugins.autoformat',
   require 'kickstart.plugins.debug',

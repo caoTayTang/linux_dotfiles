@@ -41,3 +41,5 @@ vim.o.cursorline = true
 vim.o.relativenumber = true
 
 vim.g.user_emmet_leader_key = '<tab>'
+
+vim.g.GIT_LENS_ENABLED = true
