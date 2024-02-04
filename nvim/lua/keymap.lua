@@ -89,9 +89,12 @@ vim.keymap.set('n', '<leader>r', ':RunCode<CR>', { noremap = true, silent = fals
 
 my_nmap('<Esc>', '<cmd>:noh<cr>', 'No highlight')
 -- neo tree mapping
-vim.keymap.set('n', '<leader>nl', '<cmd>Neotree left toggle %:p:h:h<cr>', { silent = true, desc = 'Toggle neo tree' })
-vim.keymap.set('n', '<leader>nr', '<cmd>Neotree right toggle %:p:h:h<cr>', { silent = true, desc = 'Toggle neo tree' })
-vim.keymap.set('n', '<leader>n', '<cmd>Neotree float toggle %:p:h:h<cr>', { silent = true, desc = 'Toggle neo tree' })
+vim.keymap.set('n', '<leader>nl', "<cmd>Neotree position=current dir=%:p:h:h reveal_force_cwd left toggle<cr>",
+  { silent = true, desc = 'Toggle neo tree' })
+vim.keymap.set('n', '<leader>nr', '<cmd>Neotree position=current dir=%:p:h:h reveal_force_cwd right toggle<cr>',
+  { silent = true, desc = 'Toggle neo tree' })
+vim.keymap.set('n', '<leader>n', '<cmd>Neotree position=current dir=%:p:h:h reveal_force_cwd float toggle<cr>',
+  { silent = true, desc = 'Toggle neo tree' })
 -- mapping
 -- vim.keymap.set('n', '<tab>', '<cmd>BufferLineCycleNext<cr>', { desc = 'Buffline Next' })
 -- vim.keymap.set('n', '<S-tab>', '<cmd>BufferLineCyclePrev<cr>', { desc = 'Buffline Prev' })

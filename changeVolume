@@ -30,6 +30,3 @@ else
     dunstify -a "changeVolume" -u low -i audio-volume-high -h string:x-dunst-stack-tag:$msgTag \
         -h int:value:"$((volume*100/65546))" "Volume: $((volume*100/65536))%"
 fi
-
-# Play the volume changed sound
-canberra-gtk-play -i audio-volume-change -d "changeVolume"

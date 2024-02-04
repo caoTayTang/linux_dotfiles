@@ -2,7 +2,8 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/kaios/myFile/courses/F8_react": "-3febf7dd"
+            "file:///home/kaios/myFile/courses/F8_react": "-3febf7dd",
+            "file:///home/kaios/myFile/courses/F8_react/recap/The_Band": "-3febf7dd"
         },
         "emptyWindows": {}
     },
@@ -14,20 +15,23 @@
         "folders": [
             {
                 "folderUri": "file:///home/kaios/myFile/courses/F8_react"
+            },
+            {
+                "folderUri": "file:///home/kaios/myFile/courses/F8_react/recap/The_Band"
             }
         ],
         "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/kaios/myFile/courses/F8_react",
-            "backupPath": "/home/kaios/.config/Code - OSS/Backups/8a8abf3944000b8fd632bca76f3336e0",
+            "folder": "file:///home/kaios/myFile/courses/F8_react/recap/The_Band",
+            "backupPath": "/home/kaios/.config/Code - OSS/Backups/98fb0466e72f8b63c0787d550c334a78",
             "uiState": {
                 "mode": 1,
                 "x": 0,
-                "y": 35,
+                "y": 34,
                 "width": 1920,
-                "height": 1045
+                "height": 1046
             }
         },
         "openedWindows": []
@@ -70,11 +74,21 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kaios/myFile/courses/F8_react/recap/The_Band",
+                                        "path": "/home/kaios/myFile/courses/F8_react/recap/The_Band",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/myFile/courses/F8_react/recap/The_Band"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -86,6 +100,20 @@
                                     },
                                     "enabled": true,
                                     "label": "~/myFile/courses/F8_react"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kaios/myFile/courses/F8_react/recap/The_Band/index.html",
+                                        "path": "/home/kaios/myFile/courses/F8_react/recap/The_Band/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/myFile/courses/F8_react/recap/The_Band/index.html"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -132,7 +160,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -158,7 +187,8 @@
                     },
                     {
                         "id": "workbench.action.toggleAutoSave",
-                        "label": "A&&uto Save"
+                        "label": "A&&uto Save",
+                        "checked": true
                     },
                     {
                         "id": "submenuitem.MenubarPreferencesMenu",
@@ -861,54 +891,45 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3",
-                                    "enabled": false
+                                    "label": "Group &&3"
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4",
-                                    "enabled": false
+                                    "label": "Group &&4"
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5",
-                                    "enabled": false
+                                    "label": "Group &&5"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group",
-                                    "enabled": false
+                                    "label": "&&Next Group"
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group",
-                                    "enabled": false
+                                    "label": "&&Previous Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left",
-                                    "enabled": false
+                                    "label": "Group &&Left"
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right",
-                                    "enabled": false
+                                    "label": "Group &&Right"
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above",
-                                    "enabled": false
+                                    "label": "Group &&Above"
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below",
-                                    "enabled": false
+                                    "label": "Group &&Below"
                                 }
                             ]
                         }
