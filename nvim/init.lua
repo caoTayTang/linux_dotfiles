@@ -685,3 +685,5 @@ cmp.setup {
 --
 -- notification plugin
 vim.notify = require("notify")
+vim.bo.tabstop = 2
+vim.bo.shiftwidth = 2
