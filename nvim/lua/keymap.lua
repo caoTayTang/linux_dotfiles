@@ -126,7 +126,6 @@ vim.keymap.set('n', ';', ':')
 -- sync arch clipboard
 vim.keymap.set('n', 'y', '"+y')
 --vim.keymap.set('n', 'p', '"+p')
-vim.keymap.set('n', ':', '<cmd>FineCmdline<CR>', { noremap = true })
 
 --local notify = require('nvim-notify')
 --vim.keymap.set('n', 'Esc', notify.dismiss(), { desc = 'dismiss notify' })

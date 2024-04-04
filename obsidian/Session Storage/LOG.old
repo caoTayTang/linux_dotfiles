@@ -1,2 +1,3 @@
-2024/01/28-21:05:43.888 2b35 Creating DB /home/kaios/.config/obsidian/Session Storage since it was missing.
-2024/01/28-21:05:43.896 2b35 Reusing MANIFEST /home/kaios/.config/obsidian/Session Storage/MANIFEST-000001
+2024/01/28-21:43:35.254 190d Reusing MANIFEST /home/kaios/.config/obsidian/Session Storage/MANIFEST-000001
+2024/01/28-21:43:35.254 190d Recovering log #3
+2024/01/28-21:43:35.254 190d Reusing old log /home/kaios/.config/obsidian/Session Storage/000003.log 
