@@ -390,12 +390,9 @@ require('lazy').setup({
       telescope.load_extension('themes')
     end
   },
-  -- {
-  --   "kevinhwang91/nvim-ufo",
-  --   dependencies = {
-  --     'kevinhwang91/promise-async',
-  --   }
-  -- },
+  {
+    "nvim-treesitter/nvim-treesitter-context",
+  },
 
   require 'kickstart.plugins.autoformat',
   require 'kickstart.plugins.debug',

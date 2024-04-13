@@ -35,7 +35,7 @@ vim.g.neo_tree_remove_legacy_commands = 1
 vim.g.scrolloff = 999
 vim.g.spell = true
 vim.g.spelllang = { 'en_us', 'vn' }
-vim.o.relativenumber = true
+vim.o.relativenumber = false
 vim.o.cursorline = true
 
 vim.o.relativenumber = true
