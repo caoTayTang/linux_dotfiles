@@ -19,3 +19,24 @@ ls.add_snippets("javascript", {
         text({ "console.log(" }), insert(1, ""), text({ ")" }), insert(0)
     }),
 })
+
+ls.add_snippets("cpp", {
+    snip({
+        trig = "cp",
+        namr = "Competitive shorthands",
+        dscr = "include and macros",
+    }, {
+        text({
+            "#include <bits/stdc++.h>", "#define el cout << '\\n'", "#define f0(i, n) for (int i = 0; i < n; ++i)",
+            "#define f1(i, n) for (int i = 1; i <=n; ++i)", "#define fi first", "#define se second",
+            "#define maxn 2e5", "using namespace std;", "typedef long long i64;", "typedef vector<int> vi;",
+            "typedef pair<int, int> pii;", "",
+            "void solution() {", "\t" }),
+        insert(
+            2,
+            ""), text({ "", "}", "int main() {", "\tios_base::sync_with_stdio(0);", "\tcin.tie(0);", "",
+        "\tint t;", "\tcin >> t;",
+        "\twhile(t--) {", "\t\tsolution();", "\t}", "\treturn 0;" }),
+        text({ "", "}" })
+    }),
+})
