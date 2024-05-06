@@ -101,9 +101,9 @@ require('lazy').setup({
     "Mofiqul/vscode.nvim",
     priority = 9000,
     opts = {},
-    config = function()
-      vim.cmd.colorscheme('vscode')
-    end,
+    -- config = function()
+    --   vim.cmd.colorscheme('vscode')
+    -- end,
   },
 
   {
@@ -402,6 +402,17 @@ require('lazy').setup({
     end,
     ft = { "markdown" },
   },
+
+  { "rebelot/kanagawa.nvim" },
+  { 'rmehri01/onenord.nvim' },
+  { "AlexvZyl/nordic.nvim" },
+  {
+    "Shatur/neovim-ayu",
+    config = function()
+      vim.cmd.colorscheme('ayu-dark')
+    end,
+  },
+
 
   require 'kickstart.plugins.autoformat',
   require 'kickstart.plugins.debug',
