@@ -28,7 +28,7 @@ require('lazy').setup({
   'tpope/vim-rhubarb',
 
   -- Detect tabstop and shiftwidth automatically
-  'tpope/vim-sleuth',
+  -- 'tpope/vim-sleuth',
 
   -- NOTE: This is where your plugins related to LSP can be installed.
   --  The configuration is done below. Search for lspconfig to find it below.
@@ -83,8 +83,10 @@ require('lazy').setup({
       on_attach = function(bufnr)
         vim.keymap.set('n', '<leader>gp', require('gitsigns').prev_hunk,
           { buffer = bufnr, desc = '[G]o to [P]revious Hunk' })
-        vim.keymap.set('n', '<leader>gn', require('gitsigns').next_hunk, { buffer = bufnr, desc = '[G]o to [N]ext Hunk' })
-        vim.keymap.set('n', '<leader>ph', require('gitsigns').preview_hunk, { buffer = bufnr, desc = '[P]review [H]unk' })
+        vim.keymap.set('n', '<leader>gn', require('gitsigns').next_hunk,
+          { buffer = bufnr, desc = '[G]o to [N]ext Hunk' })
+        vim.keymap.set('n', '<leader>ph', require('gitsigns').preview_hunk,
+          { buffer = bufnr, desc = '[P]review [H]unk' })
       end,
     },
   },
@@ -185,6 +187,7 @@ require('lazy').setup({
     },
     config = function()
       require("neo-tree").setup({
+        --sort_case_insensitive = true,
         close_if_last_window = true,
         mappings = {
           ["<o>"] = {
@@ -353,6 +356,7 @@ require('lazy').setup({
 
   {
     "0x00-ketsu/autosave.nvim",
+    lazy = "VeryLazy",
     events = { 'InsertLeave', 'TextChanged' },
     config = function()
       require 'autosave'.setup({
@@ -409,10 +413,9 @@ require('lazy').setup({
   {
     "Shatur/neovim-ayu",
     config = function()
-      vim.cmd.colorscheme('ayu-dark')
+      vim.cmd.colorscheme('ayu-mirage')
     end,
   },
-
 
   require 'kickstart.plugins.autoformat',
   require 'kickstart.plugins.debug',
@@ -698,5 +701,3 @@ cmp.setup {
 --
 -- notification plugin
 vim.notify = require("notify")
-vim.bo.tabstop = 2
-vim.bo.shiftwidth = 2

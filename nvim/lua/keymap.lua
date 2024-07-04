@@ -6,9 +6,10 @@ local opts = { noremap = true, silent = true }
 -- Move to previous/next
 map('n', '<A-,>', '<Cmd>BufferPrevious<CR>', opts)
 map('n', '<A-Tab>', '<Cmd>BufferNext<CR>', opts)
+map('n', '<A-S-Tab>', '<Cmd>BufferPrevious<CR>', opts)
 -- Re-order to previous/next
-map('n', '<A-<>', '<Cmd>BufferMovePrevious<CR>', opts)
-map('n', '<A->>', '<Cmd>BufferMoveNext<CR>', opts)
+map('n', '<A->', '<Cmd>BufferMovePrevious<CR>', opts)
+map('n', '<A->', '<Cmd>BufferMoveNext<CR>', opts)
 -- Goto buffer in position...
 map('n', '<A-1>', '<Cmd>BufferGoto 1<CR>', opts)
 map('n', '<A-2>', '<Cmd>BufferGoto 2<CR>', opts)
@@ -103,8 +104,8 @@ vim.keymap.set('n', '<leader>n', '<cmd>Neotree position=current dir=%:p:h:h reve
 vim.keymap.set('n', 'x', '"_x')
 
 -- Increment/decrement
-vim.keymap.set('n', '+', '<C-a>')
-vim.keymap.set('n', '-', '<C-x>')
+vim.keymap.set('n', '<Nop>', '<C-a>')
+vim.keymap.set('n', "<Nop>", '<C-x>')
 
 -- Delete a word backwards
 vim.keymap.set('n', 'db', 'vb"_d')
