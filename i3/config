@@ -230,6 +230,8 @@ exec_always picom -b
 exec_always --no-startup-id clipster -d
 # shortcut to selection widget (primary). Use /dev/null to false the [[ -t 0 ]]  check
 bindsym $mod+v exec --no-startup-id "roficlip < /dev/null"
+bindsym F7 exec --no-startup-id flameshot gui
+
 
 #launch ibus-deamon if it not lauch
 exec ibus-daemon -drx

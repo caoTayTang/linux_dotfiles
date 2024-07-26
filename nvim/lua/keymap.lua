@@ -69,6 +69,8 @@ my_nmap('<M-i>', function() require("nvterm.terminal").toggle('float') end, "Tog
 vim.keymap.set('t', '<leader>x', function() require("nvterm.terminal").toggle_all_terms() end,
   { desc = 'Delete terminal' })
 
+vim.keymap.set('t', '<C-x>', '<C-\\><C-n>', { desc = 'Switch to normal mode in the editor' })
+
 my_nmap('<C-s>', "<cmd>:w<cr>", "Save file")
 my_nmap('<leader>cd', ':cd %:p:h<CR>:pwd<CR>', "change dir to the current file")
 my_nmap('<Esc>', '<cmd>:noh<cr>', 'No highlight')
