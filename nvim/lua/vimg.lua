@@ -39,3 +39,4 @@ vim.o.tabstop = 8
 vim.o.softtabstop = 4
 vim.o.shiftwidth = 4
 vim.o.encoding = 'utf-8'
+-- vim.o.keymap="vietnamese-vni_utf-8"

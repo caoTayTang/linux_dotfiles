@@ -66,7 +66,7 @@ require('lazy').setup({
     },
 
     -- Useful plugin to show you pending keybinds.
-    { 'folke/which-key.nvim',      opts = {} },
+    { 'folke/which-key.nvim',    opts = {} },
     {
         -- Adds git releated signs to the gutter, as well as utilities for managing changes
         'lewis6991/gitsigns.nvim',
@@ -96,13 +96,22 @@ require('lazy').setup({
     { "ellisonleao/gruvbox.nvim" },
     { "gbprod/nord.nvim" },
     { "rmehri01/onenord.nvim" },
-    { "loctvl842/monokai-pro.nvim" },
+    { "Shatur/neovim-ayu", },
+    {
+        "scottmckendry/cyberdream.nvim",
+        config = function()
+            require("cyberdream").setup({
+                -- Enable italics comments
+                italic_comments = true,
+            })
+        end,
+    },
 
     {
         'nvim-lualine/lualine.nvim',
         opts = {
             options = {
-                theme = "monokai",
+                theme = "auto",
             },
         },
         config = function()
@@ -169,7 +178,25 @@ require('lazy').setup({
     {
         "NvChad/nvterm",
         config = function()
-            require("nvterm").setup()
+            local scale_factor = 2
+            local width = 0.5 * scale_factor
+            local height = 0.4 * scale_factor
+            local row = (1 - height) / 2
+            local col = (1 - width) / 2
+
+            require("nvterm").setup({
+                terminals = {
+                    type_opts = {
+                        float = {
+                            width = width,
+                            height = height,
+                            col = col,
+                            row = row,
+                            border = "rounded",
+                        },
+                    }
+                },
+            })
         end,
     },
 
@@ -343,8 +370,19 @@ require('lazy').setup({
         ft = { "markdown" },
     },
 
-    { "Shatur/neovim-ayu", },
     { 'nvim-java/nvim-java' },
+    {
+        "OXY2DEV/markview.nvim",
+        ft = "markdown",
+
+        dependencies = {
+            -- You may not need this if you don't lazy load
+            -- Or if the parsers are in your $RUNTIMEPATH
+            "nvim-treesitter/nvim-treesitter",
+
+            "nvim-tree/nvim-web-devicons"
+        },
+    },
 
     require 'kickstart.plugins.autoformat',
     require 'kickstart.plugins.debug',
@@ -525,10 +563,6 @@ local on_attach = function(client, bufnr)
 
 
     vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostics list' })
-
-
-
-
     -- Create a command `:Format` local to the LSP buffer
     vim.api.nvim_buf_create_user_command(bufnr, 'Format', function(_)
         vim.lsp.buf.format()
@@ -660,5 +694,6 @@ cmp.setup {
 --
 -- notification plugin
 vim.notify = require("notify")
+
 require("breadcrumb").init()
-require("current-theme")
+require 'current-theme'

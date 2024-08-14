@@ -1,6 +1,6 @@
-import = [
-"~/.config/alacritty/themes/ayu-dark.toml"
-]
+# import = [
+# "~/.config/alacritty/themes/ayu-dark.toml"
+# ]
 
 
 live_config_reload = true
@@ -9,7 +9,7 @@ live_config_reload = true
 shape = "Block"
 
 [font]
-size = 12
+size = 20
 
 [font.bold]
 family = "JetBrains Mono Nerd Font"
@@ -47,7 +47,7 @@ save_to_clipboard = true
 decorations = "Full"
 dynamic_padding = true
 dynamic_title = true
-opacity = 0.9
+opacity = 1
 resize_increments = true
 startup_mode = "Windowed"
 title = "Alacritty"
